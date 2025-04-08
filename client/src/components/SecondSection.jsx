@@ -82,34 +82,34 @@ export default function BeyondOrdinary() {
         <p className="text-gray-700 mb-8 max-w-5xl ">
           Our programs are designed to equip students with the skills and knowledge needed to excel in today’s rapidly changing technological landscape.
         </p>
-        <button className="bg-orange-500 text-white px-6 py-3 rounded font-semibold flex items-center gap-2 mb-12 hover:bg-white hover:text-orange-500 transition cursor-pointer">
-          Learn More About SIDDHARATHA
-          <FaArrowUpRightFromSquare className="text-sm" />
-        </button>
+        <button className="bg-orange-500 text-white hover:!text-orange-500 hover:!bg-white px-6 py-3 rounded font-semibold flex items-center gap-2 mb-12 transition duration-300 ease-in-out cursor-pointer">
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5">
-          {cards.map((card, index) => (
-           <div
-           key={index}
-           className={`${card.bg} p-6 h-100 flex flex-col justify-between transition-all duration-[300ms] ease-in-out hover:scale-110 hover:bg-amber-400`}
-         >
-         
-         
-         
-              <div className="flex flex-col gap-4">
-                <div className="border-t-2 border-white w-10 mb-2" />
-                <div className="text-white">{card.icon}</div>
-                <h3 className="font-bold text-lg">{card.title}</h3>
-                <p className="text-sm text-inherit">{card.description}</p>
-              </div>
-              <div className="mt-4">
-                <a href="#" className="flex items-center gap-2 font-semibold underline">
-                  Explore <FaArrowUpRightFromSquare className="text-xs" />
-                </a>
-              </div>
-            </div>
-          ))}
-        </div>
+  Learn More About SIDDHARATHA
+  <FaArrowUpRightFromSquare className="text-sm" />
+</button>
+
+
+<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 mt-8">
+  {cards.map((card, index) => (
+    <div
+      key={index}
+      className={`${card.bg} p-6 h-100 flex flex-col justify-between transition-all duration-[300ms] ease-in-out hover:scale-110 hover:!bg-amber-400`}
+    >
+      <div className="flex flex-col gap-4">
+        <div className="border-t-2 border-white w-10 mb-2" />
+        <div className="text-white">{card.icon}</div>
+        <h3 className="font-bold text-lg">{card.title}</h3>
+        <p className="text-sm text-inherit">{card.description}</p>
+      </div>
+      <div className="mt-4">
+        <a href="#" className="flex items-center gap-2 font-semibold underline text-shadow-indigo">
+          Explore <FaArrowUpRightFromSquare className="text-xs" />
+        </a>
+      </div>
+    </div>
+  ))}
+</div>
+
       </div>
     </section>
   );
