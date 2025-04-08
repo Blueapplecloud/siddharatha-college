@@ -11,16 +11,16 @@ const ResearchSection = () => {
 
   return (
     <div ref={ref} className="bg-[#fdf4e7] py-12 px-6 lg:px-24 flex flex-col lg:flex-row items-center gap-10">
-      {/* Left Image */}
+  
       <div className="flex-1 rounded-lg overflow-hidden">
         <img
-          src="/research-image.jpg" // Replace with your image path
+          src="/research-image.jpg" 
           alt="Research at SIDDHARATHA"
           className="rounded-lg w-full h-auto object-cover"
         />
       </div>
 
-      {/* Right Content */}
+     
       <div className="flex-1">
         <h2 className="text-3xl lg:text-4xl font-bold text-[#14352E] mb-4">
           Research at SIDDHARATHA
@@ -32,7 +32,7 @@ const ResearchSection = () => {
           research ecosystem, aligned with the goals of NEP 2020.
         </p>
 
-        {/* Stats */}
+       
         <div className="grid grid-cols-2 md:grid-cols-3 gap-6 mb-6 items-center">
   {[
     { value: 1902, label: "Publications" },

@@ -20,17 +20,5 @@ export default function App() {
       <ResearchSection/>
       <Footer/>
     </div>
-    // <Router>
-    //   <div className="flex flex-col min-h-screen">
-    //     <Navbar />
-    //     <main className="flex-grow container mx-auto">
-    //       <Routes>
-    //         <Route path="/" element={<Home />} />
-    //         <Route path="/about" element={<About />} />
-    //       </Routes>
-    //     </main>
-    //     <Footer />
-    //   </div>
-    // </Router>
   );
 }
