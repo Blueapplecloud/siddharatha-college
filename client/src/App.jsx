@@ -1,3 +1,7 @@
+// to install react-icons  use the command
+//npm install react-icons
+//to install react bootstrap use the command
+//npm install react-bootstrap bootstrap
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";

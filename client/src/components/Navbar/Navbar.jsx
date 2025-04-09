@@ -1,3 +1,7 @@
+//used react-bootstrap for the navbar
+//to install react-bootstrap, run the following command in your terminal:
+//npm install react-bootstrap bootstrap
+
 import React from "react";
 import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";

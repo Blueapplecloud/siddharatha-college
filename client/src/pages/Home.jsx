@@ -4,6 +4,7 @@ import About from "./HomePageComponents/About";
 import Research from "./HomePageComponents/Research";
 import Programs from "./HomePageComponents/Programs";
 import Alumni from "./HomePageComponents/Alumni";
+import PlacementsBanner from "./HomePageComponents/placementBanner/PlacementsBanner";
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
       <Programs />
       <Research />
       <Alumni />
-      {/* <Footer /> */}
+      <PlacementsBanner />
     </div>
   );
 }

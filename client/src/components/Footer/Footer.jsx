@@ -1,3 +1,7 @@
+//used react icons for the social media icons
+//to install react-icons, run the following command in your terminal:
+//npm install react-icons
+
 import React from "react";
 import "./Footer.css";
 import {
