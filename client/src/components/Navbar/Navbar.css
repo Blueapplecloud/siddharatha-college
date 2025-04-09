@@ -2,7 +2,7 @@
 
 /* TOP NAVBAR BACKGROUND */
 .custom-navbar {
-  background-color: rgba(3, 70, 59, 0.99) !important; /* GNITS green */
+  background-color: rgba(3, 70, 59, 0.99) !important;
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
 }
@@ -11,37 +11,100 @@
 .nav-brand {
   font-weight: bold;
   color: white !important;
-  font-size: 1.5rem;
+  font-size: 1.2rem; /* reduced */
 }
 
-/* MAIN NAV TEXT */
-.navbar-nav .nav-link,
-.custom-dropdown .dropdown-item {
-  color: black !important;
+/* TOP-LEVEL NAV LINKS */
+.custom-navbar .navbar-nav .nav-link,
+.custom-navbar .navbar-nav .dropdown-toggle {
+  color: white !important;
   font-weight: 500;
-  font-size: 0.95rem;
+  font-size: 0.8rem; /* reduced */
 }
 
-/* HOVER EFFECT */
+/* DROPDOWN MENU BACKGROUND */
+.dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+  border: none;
+  min-width: 220px;
+  animation: dropdownFade 0.3s ease-in-out;
+  color: white;
+}
+
+/* FIRST-LEVEL DROPDOWN ITEMS */
+.custom-dropdown .dropdown-menu .dropdown-item {
+  color: white !important;
+  font-size: 0.75rem; /* reduced */
+  padding: 0.5rem 1rem;
+  min-width: 220px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* NESTED DROPDOWN TOGGLES (second-level) */
+.custom-dropdown .dropdown-menu .dropdown-toggle {
+  color: white !important;
+  font-size: 0.75rem; /* reduced */
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* NESTED DROPDOWN MENU (third-level) */
+.dropdown-menu .dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+  left: 100% !important;
+  top: 0 !important;
+  margin-left: 0.2rem;
+}
+
+.dropdown-menu .dropdown-menu .dropdown-item {
+  color: white !important;
+  font-size: 0.75rem; /* reduced */
+  padding: 0.5rem 1rem;
+  min-width: 220px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* HOVER EFFECTS */
 .navbar-nav .nav-link:hover,
-.custom-dropdown .dropdown-item:hover {
+.dropdown-item:hover,
+.dropdown-toggle:hover {
   color: orange !important;
   background-color: transparent !important;
 }
 
+/* ACTIVE STATES */
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: #f8f9fa !important;
+  color: orange !important;
+}
+
+/* FOCUS STATES */
+.navbar-nav .nav-link:focus,
+.dropdown-item:focus {
+  color: orange !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
 /* SUB NAVBAR (BOTTOM NAV) */
 .sub-navbar {
-  background-color: #e2f4e5 !important; /* light green shade */
+  background-color: #e2f4e5 !important;
   border-top: 1px solid #ccc;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
 }
 
-/* BOTTOM NAV TEXT */
 .sub-navbar .nav-link {
   color: black !important;
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: 0.8rem; /* reduced */
 }
 
 .sub-navbar .nav-link:hover {
@@ -54,32 +117,63 @@
   border: none;
 }
 
-/* ALIGN EVERYTHING TO RIGHT (EXCEPT BRAND) */
+/* RIGHT ALIGNMENT */
 .align-right {
   margin-left: auto !important;
 }
 
-/* DROPDOWN MENU COLORS */
-.dropdown-menu {
-  background-color: #ffffff !important;
-}
-
-/* DROPDOWN ITEM ACTIVE STATE */
-.dropdown-item.active,
-.dropdown-item:active {
-  background-color: #f8f9fa !important;
-  color: orange !important;
-}
-
-/* TO PREVENT BLUR EFFECT ON CLICK */
-.navbar-nav .nav-link:focus,
-.dropdown-item:focus {
-  color: orange !important;
-  background-color: transparent !important;
-  box-shadow: none !important;
-}
+/* SMALL TEXT SIZING */
 .small-text .nav-link,
 .small-text .dropdown-item,
 .small-text .dropdown-toggle {
-  font-size: 0.7rem;
+  font-size: 0.65rem; /* reduced */
+}
+
+/* RESPONSIVE MENU BACKGROUND */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 300px;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 1rem;
+    text-align: right;
+    z-index: 999;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(0);
+  }
+
+  .navbar-collapse.collapsing,
+  .navbar-collapse.show {
+    display: block !important;
+  }
+
+  .navbar-collapse .nav-link,
+  .navbar-collapse .dropdown-item,
+  .navbar-collapse .dropdown-toggle {
+    color: white !important;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.85) !important;
+    color: white !important;
+  }
+}
+
+/* DROPDOWN ANIMATION */
+@keyframes dropdownFade {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

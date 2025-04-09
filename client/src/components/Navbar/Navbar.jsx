@@ -6,8 +6,7 @@ import "./Navbar.css";
 const NavBarComponent = () => {
   return (
     <>
-      {/* Top Navigation Bar */}
-      <Navbar expand="lg" sticky="top" className="custom-navbar">
+      <Navbar expand="lg" className="custom-navbar">
         <Container>
           <Navbar.Brand href="#home" className="nav-brand">
             SIDHARTHA
@@ -18,7 +17,7 @@ const NavBarComponent = () => {
               <NavDropdown
                 title="ABOUT"
                 id="about-dropdown"
-                className="custom-dropdown"
+                className="custom-dropdown white-text"
               >
                 <NavDropdown.Item href="#about">About</NavDropdown.Item>
                 <NavDropdown.Item href="#legacy">Legacy</NavDropdown.Item>
