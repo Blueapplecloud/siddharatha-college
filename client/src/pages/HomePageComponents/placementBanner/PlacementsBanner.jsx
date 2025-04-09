@@ -24,7 +24,7 @@ const PlacementsBanner = () => {
         <div className="text-section">
           <h2>Placements</h2>
           <p>
-            At GNITS, the commitment to fostering career-ready graduates is
+            At Siddhartha the commitment to fostering career-ready graduates is
             evident through its robust placement program. The institution boasts
             a proactive Training and Placement Cell that coordinates with
             leading companies across various sectors.
