@@ -1,13 +1,20 @@
 import { motion } from "framer-motion";
-import videoFile from "../Media/sits-video.mp4"; 
+import videoFile from "../../Media/sits-video.mp4";
 
-const words = ["Creating", "Future", "Leaders", "Through", "Innovation", "and", "Excellence"];
+const words = [
+  "Creating",
+  "Future",
+  "Leaders",
+  "Through",
+  "Innovation",
+  "and",
+  "Excellence",
+];
 
-export function AnimatedText() {
+export function Banner() {
   return (
     <div className="bg-black text-white p-10 flex gap-10 justify-between items-center">
-
-<div className="w-[355px] flex flex-wrap gap-x-4 gap-y-4 text-4xl font-bold">
+      <div className="w-[355px] flex flex-wrap gap-x-4 gap-y-4 text-4xl font-bold">
         {words.map((word, index) => (
           <motion.span
             key={index}

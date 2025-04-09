@@ -1,9 +1,23 @@
+import Footer from "../components/Footer";
+import NavBarComponent from "../components/Navbar/Navbar";
+import { Banner } from "./HomePageComponents/Banner";
+import News from "./HomePageComponents/News";
+import About from "./HomePageComponents/About";
+import Research from "./HomePageComponents/Research";
+import Programs from "./HomePageComponents/Programs";
+import Alumni from "./HomePageComponents/Alumni";
+
 export default function Home() {
-    return (
-      <div className="p-6">
-        <h2 className="text-3xl font-bold mb-4">Welcome to Siddhartha College</h2>
-        <p className="text-gray-700">This is the homepage of the college website. Explore departments, events, and more.</p>
-      </div>
-    );
-  }
-  
+  return (
+    <div className="font-sans">
+      <NavBarComponent />
+      <Banner />
+      <News />
+      <About />
+      <Programs />
+      <Research />
+      <Alumni />
+      <Footer />
+    </div>
+  );
+}
