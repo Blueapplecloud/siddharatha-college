@@ -1,5 +1,3 @@
-import Footer from "../components/Footer";
-import NavBarComponent from "../components/Navbar/Navbar";
 import { Banner } from "./HomePageComponents/Banner";
 import News from "./HomePageComponents/News";
 import About from "./HomePageComponents/About";
@@ -10,14 +8,13 @@ import Alumni from "./HomePageComponents/Alumni";
 export default function Home() {
   return (
     <div className="font-sans">
-      <NavBarComponent />
       <Banner />
       <News />
       <About />
       <Programs />
       <Research />
       <Alumni />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

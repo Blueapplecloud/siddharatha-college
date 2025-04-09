@@ -39,7 +39,7 @@ const NavBarComponent = () => {
                 <NavDropdown.Item href="#accreditations">
                   Accreditations
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#why">Why GNITS</NavDropdown.Item>
+                <NavDropdown.Item href="#why">Why Sidharatha</NavDropdown.Item>
                 <NavDropdown title="Governance" drop="end">
                   <NavDropdown.Item href="#council">
                     Governing Council Members
