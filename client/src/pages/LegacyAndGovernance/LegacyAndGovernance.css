@@ -1,0 +1,359 @@
+/* ChairmanSection.css */
+
+.chairman-section {
+  padding: 4rem 3rem;
+  background-color: #fff;
+}
+
+.chairman-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.chairman-text {
+  flex: 1.2;
+  font-family: "Poppins", sans-serif;
+}
+
+.chairman-text h2 {
+  font-size: 2rem;
+  color: #004b3f;
+  margin-bottom: 1rem;
+}
+
+.chairman-text p {
+  font-size: 0.85rem;
+  color: #1d1d1f;
+  line-height: 1.7;
+  margin-bottom: 1.2rem;
+}
+
+.chairman-image {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.chairman-image img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.chairman-image h3 {
+  font-size: 1rem;
+  margin-top: 1rem;
+  color: #003c32;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.chairman-image p {
+  font-size: 0.95rem;
+  color: #444;
+  margin-top: 0.25rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Vice Chairperson Section */
+
+.vice-chairperson-section {
+  background-color: #e1e8ed;
+  padding: 4rem 2rem;
+}
+
+.vice-chairperson-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.vice-chairperson-image {
+  flex: 1;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100px;
+  text-align: center;
+}
+
+.vice-chairperson-image img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: auto;
+}
+
+.vice-chairperson-image h3 {
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  color: #003c32;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  display: inline-block;
+}
+
+.vice-chairperson-image p {
+  font-size: 0.85rem;
+  color: #444;
+  margin-top: 0.25rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.vice-chairperson-text {
+  flex: 1.5;
+  font-family: "Poppins", sans-serif;
+}
+
+.vice-chairperson-text h2 {
+  font-size: 1.9rem;
+  color: #004b3f;
+  margin-bottom: 1rem;
+  /* text-align: center; */
+  font-weight: 600;
+}
+
+.vice-chairperson-text p,
+.vice-chairperson-text li {
+  font-size: 0.85rem;
+  color: #1d1d1f;
+  /* line-height: 1.6; */
+  margin-bottom: 0.8rem;
+}
+
+.vice-chairperson-text ul {
+  padding-left: 1.5rem;
+  list-style-type: disc;
+}
+
+@media (max-width: 768px) {
+  .chairman-content,
+  .vice-chairperson-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .chairman-text,
+  .chairman-image,
+  .vice-chairperson-text,
+  .vice-chairperson-image {
+    text-align: center;
+  }
+
+  .vice-chairperson-image {
+    position: static;
+  }
+}
+/* Trust Management Section */
+
+.trust-management-section {
+  padding: 4rem 2rem;
+  /* background-color: black; */
+  text-align: center;
+}
+
+.trust-management-section h2 {
+  font-size: 2rem;
+  color: #004b3f;
+  margin-bottom: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.trust-cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.trust-card {
+  max-width: 280px;
+  width: 100%;
+  /* background-color: #f9f9f9; */
+  border-radius: 12px;
+  overflow: hidden;
+  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.trust-card img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.trust-card h3 {
+  font-size: 1rem;
+  margin-top: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.trust-card p {
+  font-size: 0.65rem;
+  color: #666;
+  font-family: "Poppins", sans-serif;
+  margin-top: 0.3rem;
+  text-transform: uppercase;
+  font-weight: 550;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .trust-management-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .trust-card h3 {
+    font-size: 0.95rem;
+  }
+
+  .trust-card p {
+    font-size: 0.75rem;
+  }
+}
+
+.governance-section {
+  padding: 4rem 2rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.governance-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 4rem;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+  /* background-color: blue; */
+}
+
+.governance-text,
+.governance-image {
+  flex: 1;
+  min-width: 280px;
+  max-width: 400px;
+  /* text-align: center; */
+  font-family: "Poppins", sans-serif;
+}
+.governance-text {
+  /* background-color: #f9f9f9; */
+  margin-top: 2rem;
+  max-width: 350px;
+}
+.governance-text h2 {
+  font-size: 2rem;
+  color: #004b3f;
+  margin-bottom: 1rem;
+  text-align: left;
+  font-weight: 600;
+}
+
+.governance-text p {
+  font-size: 0.75rem;
+  color: #1d1d1f;
+  line-height: 1.7;
+  text-align: left;
+  font-weight: 550;
+}
+
+.governance-image img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.governance-image h3 {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  color: #1d1d1f;
+  font-weight: 600;
+}
+
+.governance-image p {
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 0.25rem;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .governance-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .governance-text,
+  .governance-image {
+    text-align: center;
+  }
+}
+
+.governance-cards {
+  padding: 3rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  /* background-color: blue; */
+}
+
+.governance-card {
+  width: 200px;
+  background: #fff;
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
+
+.governance-card img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+.governance-card h3 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #111;
+  margin-bottom: 0.4rem;
+}
+
+.governance-card p {
+  font-size: 0.95rem;
+  color: #777;
+  margin-bottom: 0.6rem;
+}
+.governance-card a {
+  text-decoration: none;
+  color: #004b3f;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+}
