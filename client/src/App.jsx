@@ -8,6 +8,7 @@ import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home";
 // import About from "./pages/About";
 import "bootstrap/dist/css/bootstrap.min.css";
+import LegacyAndGovernance from "./pages/LegacyAndGovernance/LegacyAndGovernance";
 
 export default function App() {
   return (
@@ -19,6 +20,10 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             {/* <Route path="/about" element={<About />} /> */}
+            <Route
+              path="/leadership-and-governance"
+              element={<LegacyAndGovernance />}
+            />
           </Routes>
         </main>
         <Footer />

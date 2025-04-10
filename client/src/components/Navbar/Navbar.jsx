@@ -6,14 +6,15 @@ import React from "react";
 import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 const NavBarComponent = () => {
   return (
     <>
       <Navbar expand="lg" className="custom-navbar">
         <Container>
-          <Navbar.Brand href="#home" className="nav-brand">
-            SIDHARTHA
+          <Navbar.Brand href="/" className="nav-brand">
+            SIDDHARTHA
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -25,8 +26,8 @@ const NavBarComponent = () => {
               >
                 <NavDropdown.Item href="#about">About</NavDropdown.Item>
                 <NavDropdown.Item href="#legacy">Legacy</NavDropdown.Item>
-                <NavDropdown.Item href="#leadership">
-                  Leadership & Governance
+                <NavDropdown.Item href="/leadership-and-governance">
+                  Leadership and Governance
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#strategic">
                   Strategic Plan

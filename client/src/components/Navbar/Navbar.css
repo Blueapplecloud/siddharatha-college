@@ -52,8 +52,18 @@
   align-items: center;
 }
 
-/* NESTED DROPDOWN MENU (third-level) */
-.dropdown-menu .dropdown-menu {
+.dropdown-links {
+  text-decoration: none !important;
+  color: white !important;
+}
+.dropdown-links:visited {
+  background-color: transparent !important;
+  color: white !important;
+}
+.dropdown-links:
+
+/* NESTED DROPDOWN MENU (third-level) */ .dropdown-menu
+  .dropdown-menu {
   background-color: rgba(0, 0, 0, 0.85) !important;
   left: 100% !important;
   top: 0 !important;
