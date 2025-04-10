@@ -1,6 +1,7 @@
 import React from "react";
 import "./LegacyAndGovernance.css";
 import { FaLinkedin } from "react-icons/fa";
+import AboutHeader from "../../ResuableComponents/AboutHeading";
 function LegacyAndGovernance() {
   const trustees = [
     {
@@ -48,6 +49,7 @@ function LegacyAndGovernance() {
   ];
   return (
     <div className="legacy-and-governance">
+      <AboutHeader title={"Leadership"} image={"/images/clgimg.jpeg"} />
       <div className="chairman-section">
         <div className="chairman-content">
           <div className="chairman-text">
