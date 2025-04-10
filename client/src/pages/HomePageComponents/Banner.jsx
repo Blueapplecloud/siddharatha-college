@@ -13,8 +13,8 @@ const words = [
 
 export function Banner() {
   return (
-    <div className="bg-black text-white p-10 flex gap-10 justify-between items-center">
-      <div className="w-[355px] flex flex-wrap gap-x-4 gap-y-4 text-4xl font-bold">
+    <div className="bg-black text-white p-4 flex flex-col md:flex-row gap-6 md:gap-10 justify-between items-center">
+      <div className="w-full md:w-[355px] flex flex-wrap gap-x-4 gap-y-4 text-2xl sm:text-3xl md:text-4xl font-bold justify-center md:justify-start">
         {words.map((word, index) => (
           <motion.span
             key={index}
@@ -29,7 +29,7 @@ export function Banner() {
       </div>
 
       <video
-        className="flex-1 rounded-lg object-cover max-h-[400px]"
+        className="w-full md:flex-1 rounded-lg object-cover max-h-[250px] sm:max-h-[300px] md:max-h-[400px]"
         autoPlay
         muted
         loop
