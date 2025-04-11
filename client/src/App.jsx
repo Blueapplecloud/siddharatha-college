@@ -6,9 +6,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home";
-// import { AboutHeader } from "./pages/AboutPageComponents/About";
 import { ScrollFeatureStrip } from "./pages/AboutPageComponents/About";
-// import About from "./pages/About";
+import Organogram from "./pages/AboutPageComponents/Organogram";
 import "bootstrap/dist/css/bootstrap.min.css";
 import LegacyAndGovernance from "./pages/LegacyAndGovernance/LegacyAndGovernance";
 
@@ -21,12 +20,11 @@ export default function App() {
         <main className="flex-grow container mx-auto">
           <Routes>
             <Route path="/" element={<Home />} />
-
-            {/* <Route path="/about" element={<About />} /> */}
             <Route
               path="/leadership-and-governance"
               element={<LegacyAndGovernance />}
             />
+            <Route path="/organogram" element={<Organogram />} />
             <Route path="/about" element={<ScrollFeatureStrip />} />
           </Routes>
         </main>
