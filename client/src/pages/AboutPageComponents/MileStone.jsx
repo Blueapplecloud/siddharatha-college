@@ -1,6 +1,7 @@
 import React from "react";
 import { FaBullseye, FaBookOpen, FaLightbulb } from "react-icons/fa";
 import AnimatedTitle from "../../ResuableComponents/AnimatedTitle";
+import TimelineCarousel from "./Timeline";
 
 const Milestones = () => {
   const cards = [
@@ -35,7 +36,7 @@ const Milestones = () => {
 
   
       {/* Milestones Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {cards.map((card, index) => (
           <div
             key={index}
@@ -57,7 +58,9 @@ const Milestones = () => {
           </div>
         ))}
       </div>
-      <AnimatedTitle title="SIDDHARTHA MILESTONES" />
+      <AnimatedTitle title="SIDDHARTHA MILESTONES" /> 
+      <TimelineCarousel/>
+
 
     </div>
   );

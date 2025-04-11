@@ -12,6 +12,10 @@ import { ScrollFeatureStrip } from "./pages/AboutPageComponents/About";
 import "bootstrap/dist/css/bootstrap.min.css";
 import LegacyAndGovernance from "./pages/LegacyAndGovernance/LegacyAndGovernance";
 import AlumniHeader from "./pages/CampusComponents/AboutAlumni";
+import CSE from "./pages/AcademicsComponents/BachelorPrograms/CSE";
+import CST from "./pages/AcademicsComponents/BachelorPrograms/CST";
+import IT from "./pages/AcademicsComponents/BachelorPrograms/IT";
+import Mech from "./pages/AcademicsComponents/BachelorPrograms/Mech";
 
 export default function App() {
   return (
@@ -29,7 +33,13 @@ export default function App() {
               element={<LegacyAndGovernance />}
             />
             <Route path="/about" element={<ScrollFeatureStrip />} />
+            {/* Route for View All Alumni Section */}
             <Route path="/alumni" element={<AlumniHeader />} />
+            {/* Routes for Departments Section */}
+            <Route path="/ComputerScience&Engg" element={<CSE />} />
+            <Route path="/ComputerScience&Tech" element={<CST />} />
+            <Route path="/IT" element={<IT />} />
+            <Route path="/MechanicalEngg" element={<Mech />} />
           </Routes>
         </main>
         <Footer />
