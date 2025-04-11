@@ -74,7 +74,7 @@ const Programs = () => {
               </p>
               <a
                 href="#"
-                className="text-yellow-400 hover:text-yellow-300 font-semibold inline-flex items-center transition duration-200"
+                className="!text-yellow-400 hover:!text-yellow-300 font-semibold inline-flex items-center transition duration-200"
               >
                 Explore Programs
                 <span className="ml-2">→</span>
@@ -107,7 +107,7 @@ const Programs = () => {
               </p>
               <a
                 href="#"
-                className="text-yellow-400 hover:text-yellow-300 font-semibold inline-flex items-center transition duration-200"
+                className="!text-yellow-400 hover:!text-yellow-300 font-semibold inline-flex items-center transition duration-200"
               >
                 Explore Programs
                 <span className="ml-2">→</span>
@@ -141,7 +141,7 @@ const Programs = () => {
 
               <a
                 href="#"
-                className="text-yellow-400 hover:text-yellow-300 font-semibold inline-flex items-center transition duration-200"
+                className="!text-yellow-400 hover:!text-yellow-300 font-semibold inline-flex items-center transition duration-200"
               >
                 Explore Programs
                 <span className="ml-2">→</span>

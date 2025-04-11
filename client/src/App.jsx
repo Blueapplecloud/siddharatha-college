@@ -11,6 +11,7 @@ import { ScrollFeatureStrip } from "./pages/AboutPageComponents/About";
 // import About from "./pages/About";
 import "bootstrap/dist/css/bootstrap.min.css";
 import LegacyAndGovernance from "./pages/LegacyAndGovernance/LegacyAndGovernance";
+import AlumniHeader from "./pages/CampusComponents/AboutAlumni";
 
 export default function App() {
   return (
@@ -28,6 +29,7 @@ export default function App() {
               element={<LegacyAndGovernance />}
             />
             <Route path="/about" element={<ScrollFeatureStrip />} />
+            <Route path="/alumni" element={<AlumniHeader />} />
           </Routes>
         </main>
         <Footer />

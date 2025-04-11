@@ -5,6 +5,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation, Autoplay } from "swiper/modules";
 import { motion } from "framer-motion";
+import { Link, useNavigate } from "react-router-dom";
 
 // Sample alumni data
 const alumniData = [
@@ -61,6 +62,8 @@ const Alumni = () => {
   const heading = "People who made it to the top";
   const words = heading.split(" ");
 
+  let navigate = useNavigate();
+
   return (
     <section className="bg-white py-12 px-6 md:px-24">
       <div className="max-w-7xl mx-auto">
@@ -84,10 +87,13 @@ const Alumni = () => {
           decisively, and inspire those around you to achieve great things.
         </p>
 
-        <button className="mt-8 bg-[#D6820B] text-white px-6 py-4 text-base font-semibold rounded-none flex items-center gap-2 hover:bg-[#bb6f07] transition">
+        <Link
+          to="/alumni"
+          className="mt-8 inline-flex bg-[#D6820B] text-white px-6 py-4 text-base font-semibold rounded-none items-center gap-2 hover:bg-[#bb6f07] transition"
+        >
           View All Alumni
           <ArrowUpRight className="w-5 h-5" />
-        </button>
+        </Link>
 
         <div className="mt-12">
           <div className="relative">
