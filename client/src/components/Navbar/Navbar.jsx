@@ -30,7 +30,7 @@ const NavBarComponent = () => {
                 <NavDropdown.Item href="/leadership-and-governance">
                   Leadership and Governance
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#strategic">
+                <NavDropdown.Item href="/strategic">
                   Strategic Plan
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#organogram">

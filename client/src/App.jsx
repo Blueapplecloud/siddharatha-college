@@ -16,6 +16,7 @@ import CSE from "./pages/AcademicsComponents/BachelorPrograms/CSE";
 import CST from "./pages/AcademicsComponents/BachelorPrograms/CST";
 import IT from "./pages/AcademicsComponents/BachelorPrograms/IT";
 import Mech from "./pages/AcademicsComponents/BachelorPrograms/Mech";
+import Strategicplan from "./pages/StrategicPlan/strategicplan";
 
 export default function App() {
   return (
@@ -23,7 +24,7 @@ export default function App() {
       <div className="flex flex-col min-h-screen">
         <Navbar />
 
-        <main className="flex-grow container mx-auto">
+        <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
 
@@ -35,6 +36,7 @@ export default function App() {
             <Route path="/about" element={<ScrollFeatureStrip />} />
             {/* Route for View All Alumni Section */}
             <Route path="/alumni" element={<AlumniHeader />} />
+            <Route path="/strategic" element={<Strategicplan />} />
             {/* Routes for Departments Section */}
             <Route path="/ComputerScience&Engg" element={<CSE />} />
             <Route path="/ComputerScience&Tech" element={<CST />} />
