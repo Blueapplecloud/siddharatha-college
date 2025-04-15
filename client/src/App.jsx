@@ -17,7 +17,7 @@ export default function App() {
       <div className="flex flex-col min-h-screen">
         <Navbar />
 
-        <main className="flex-grow container mx-auto">
+        <main className="flex-grow ">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route
