@@ -3,78 +3,8 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { motion } from "framer-motion";
 import AboutHeader from "../../ResuableComponents/AboutHeading";
-import { FaRegCommentDots } from "react-icons/fa";
-import {
-  FaTools,
-  FaUserGraduate,
-  FaUsers,
-  FaRegNewspaper,
-} from "react-icons/fa";
-import { MdOutlineSupportAgent } from "react-icons/md";
-import { GiNetworkBars } from "react-icons/gi";
-import { HiOutlineAcademicCap } from "react-icons/hi";
-import { BsPencilSquare } from "react-icons/bs";
-import StudentCorner from "./StudentCorner";
 
 const LifeAtSiddhartha = () => {
-  const cardData = [
-    {
-      title: "Skill Enhancement",
-      description:
-        "GNITS fosters a supportive and inclusive environment that empowers women to thrive in technology and engineering, providing the confidence and skills needed for leadership and success.",
-      icon: <FaTools />,
-      // bgImage: "url('images/student/img1.jpeg')",
-    },
-    {
-      title: "Student Counseling",
-      description:
-        "GNITS offers state-of-the-art labs and research centers, giving students the opportunity to engage in hands-on learning and innovate in emerging fields like AI, VLSI, and more.",
-      icon: <MdOutlineSupportAgent />,
-      // bgImage: "url('images/student/img2.jpeg')",
-    },
-    {
-      title: "Student Chapters",
-      description:
-        "Our curriculum is developed with direct industry input, ensuring students gain cutting-edge, relevant skills that prepare them for dynamic and successful global careers.",
-      icon: <FaUsers />,
-      // bgImage: "url('images/student/img3.jpeg')",
-    },
-    {
-      title: "EDC Cell",
-      description:
-        "Our dedicated placement cell works to connect students with top employers, offering career guidance and ensuring excellent job opportunities in prestigious companies worldwide.",
-      icon: <GiNetworkBars />,
-      // bgImage: "url('images/student/img4.jpeg')",
-    },
-    {
-      title: "NPTEL",
-      description:
-        "GNITS encourages students to grow beyond academics through leadership programs, extracurricular activities, and skill-building workshops, fostering well-rounded personal and professional development.",
-      icon: <HiOutlineAcademicCap />,
-      // bgImage: "url('images/student/img5.jpeg')",
-    },
-    {
-      title: "EC Council Academia",
-      description:
-        "GNITS encourages students to grow beyond academics through leadership programs, extracurricular activities, and skill-building workshops, fostering well-rounded personal and professional development.",
-      icon: <FaUserGraduate />,
-      // bgImage: "url('images/student/img6.jpeg')",
-    },
-    {
-      title: "Newsletter",
-      description:
-        "GNITS offers state-of-the-art labs and research centers, giving students the opportunity to engage in hands-on learning and innovate in emerging fields like AI, VLSI, and more.",
-      icon: <FaRegNewspaper />,
-      // bgImage: "url('images/student/img7.jpeg')",
-    },
-    {
-      title: "Student Blog",
-      description:
-        "GNITS encourages students to grow beyond academics through leadership programs, extracurricular activities, and skill-building workshops, fostering well-rounded personal and professional development.",
-      icon: <BsPencilSquare />,
-      // bgImage: "url('images/student/img8.jpeg')",
-    },
-  ];
   return (
     <>
       <AboutHeader
@@ -139,7 +69,6 @@ const LifeAtSiddhartha = () => {
             </Carousel>
           </div>
         </div>
-        <StudentCorner />
       </div>
     </>
   );
