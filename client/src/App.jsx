@@ -17,6 +17,7 @@ import CST from "./pages/AcademicsComponents/BachelorPrograms/CST";
 import IT from "./pages/AcademicsComponents/BachelorPrograms/IT";
 import Mech from "./pages/AcademicsComponents/BachelorPrograms/Mech";
 import Strategicplan from "./pages/StrategicPlan/strategicplan";
+import LifeAtSiddhartha from "./pages/CampusComponents/LifeAtSiddharatha";
 
 export default function App() {
   return (
@@ -42,6 +43,8 @@ export default function App() {
             <Route path="/ComputerScience&Tech" element={<CST />} />
             <Route path="/IT" element={<IT />} />
             <Route path="/MechanicalEngg" element={<Mech />} />
+            {/* Routes for Campus Life at siddharatha */}
+            <Route path="/CampusLife" element={<LifeAtSiddhartha/>}/>
           </Routes>
         </main>
         <Footer />

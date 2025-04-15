@@ -159,7 +159,7 @@ const NavBarComponent = () => {
                 id="academics-dropdown"
                 className="custom-dropdown"
               >
-                <NavDropdown.Item href="#life-at-sidhartha">
+                <NavDropdown.Item href="/CampusLife">
                   Life At Sidhartha
                 </NavDropdown.Item>
                 <NavDropdown title="Facilities" drop="end">
