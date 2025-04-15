@@ -42,7 +42,7 @@ export default function App() {
             <Route path="/IT" element={<IT />} />
             <Route path="/MechanicalEngg" element={<Mech />} />
             {/* Routes for Campus Life at siddharatha */}
-            <Route path="/CampusLife" element={<LifeAtSiddhartha/>}/>
+            <Route path="/CampusLife" element={<LifeAtSiddhartha />} />
           </Routes>
         </main>
         <Footer />
