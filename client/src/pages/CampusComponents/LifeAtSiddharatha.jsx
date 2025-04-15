@@ -4,6 +4,10 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { motion } from "framer-motion";
 import AboutHeader from "../../ResuableComponents/AboutHeading";
 
+import FacilitiesAtSiddharatha from "./FacilitiesAtSiddharatha";
+import TransportRoutes from "./TransportRoutes";
+ 
+
 const LifeAtSiddhartha = () => {
   return (
     <>
@@ -11,18 +15,22 @@ const LifeAtSiddhartha = () => {
         title="Campus Life"
         image="https://universityinnovation.org/images/4/4f/Depvr.JPG"
       />
-      <div className="px-4 md:px-10 py-10 md:py-20 bg-gray-100">
-        <div className="bg-white rounded-2xl shadow-2xl p-6 md:p-12 flex flex-col md:flex-row justify-between items-center gap-10">
+
+      <div className="px-4 md:px-10 py-10 bg-gray-100">
+        <div className="bg-white rounded-2xl shadow-2xl p-6 md:p-10 flex flex-col md:flex-row justify-between items-center gap-10">
+          {/* Content Section */}
           {/* Content Section */}
           <div className="md:w-1/2">
             <motion.h2
-              className="text-5xl font-serif font-semibold text-[#003f3c] mb-6"
-              initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: 0 }}
+              className="text-3xl md:text-4xl font-bold mb-4 pt-2"
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, ease: "easeOut" }}
+              viewport={{ once: true, amount: 0.6 }}
             >
               Life At <span className="text-[#005f57]">SIDDHARTHA</span>
             </motion.h2>
+
             <p className="text-lg leading-relaxed text-gray-700">
               Life at SIDDHARTHA is dynamic and inspiring, designed to empower
               students with a rich learning environment and holistic
@@ -70,6 +78,12 @@ const LifeAtSiddhartha = () => {
           </div>
         </div>
       </div>
+
+
+
+      <FacilitiesAtSiddharatha />
+      <TransportRoutes />
+
     </>
   );
 };
