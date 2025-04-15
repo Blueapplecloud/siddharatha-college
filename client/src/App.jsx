@@ -10,6 +10,13 @@ import { ScrollFeatureStrip } from "./pages/AboutPageComponents/About";
 import Organogram from "./pages/AboutPageComponents/Organogram";
 import "bootstrap/dist/css/bootstrap.min.css";
 import LegacyAndGovernance from "./pages/LegacyAndGovernance/LegacyAndGovernance";
+import AlumniHeader from "./pages/CampusComponents/AboutAlumni";
+import CSE from "./pages/AcademicsComponents/BachelorPrograms/CSE";
+import CST from "./pages/AcademicsComponents/BachelorPrograms/CST";
+import IT from "./pages/AcademicsComponents/BachelorPrograms/IT";
+import Mech from "./pages/AcademicsComponents/BachelorPrograms/Mech";
+import Strategicplan from "./pages/StrategicPlan/strategicplan";
+import LifeAtSiddhartha from "./pages/CampusComponents/LifeAtSiddharatha";
 
 export default function App() {
   return (
@@ -17,7 +24,7 @@ export default function App() {
       <div className="flex flex-col min-h-screen">
         <Navbar />
 
-        <main className="flex-grow container mx-auto">
+        <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route
@@ -26,6 +33,16 @@ export default function App() {
             />
             <Route path="/organogram" element={<Organogram />} />
             <Route path="/about" element={<ScrollFeatureStrip />} />
+            {/* Route for View All Alumni Section */}
+            <Route path="/alumni" element={<AlumniHeader />} />
+            <Route path="/strategic" element={<Strategicplan />} />
+            {/* Routes for Departments Section */}
+            <Route path="/ComputerScience&Engg" element={<CSE />} />
+            <Route path="/ComputerScience&Tech" element={<CST />} />
+            <Route path="/IT" element={<IT />} />
+            <Route path="/MechanicalEngg" element={<Mech />} />
+            {/* Routes for Campus Life at siddharatha */}
+            <Route path="/CampusLife" element={<LifeAtSiddhartha/>}/>
           </Routes>
         </main>
         <Footer />

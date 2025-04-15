@@ -31,7 +31,7 @@ const NavBarComponent = () => {
                 <NavDropdown.Item href="/leadership-and-governance">
                   Leadership and Governance
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#strategic">
+                <NavDropdown.Item href="/strategic">
                   Strategic Plan
                 </NavDropdown.Item>
                 <NavDropdown.Item href="/organogram">
@@ -87,18 +87,21 @@ const NavBarComponent = () => {
                 </NavDropdown>
 
                 <NavDropdown title="Bachelors Programs" drop="end">
-                  <NavDropdown.Item>
+                  <NavDropdown.Item href="/ComputerScience&Engg">
                     Computer Science Engineering
                   </NavDropdown.Item>
-                  <NavDropdown.Item>Information Technology</NavDropdown.Item>
+                  <NavDropdown.Item href="/ComputerScience&Tech">
+                    Computer Science and Technology
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="/IT">Information Technology</NavDropdown.Item>
+                  <NavDropdown.Item href="/MechanicalEngg">
+                    Mechanical Engineering
+                  </NavDropdown.Item>
                   <NavDropdown.Item>
                     Computer Science & Engineering (AI & ML)
                   </NavDropdown.Item>
                   <NavDropdown.Item>
                     Computer Science – Data science
-                  </NavDropdown.Item>
-                  <NavDropdown.Item>
-                    Computer Science and Technology
                   </NavDropdown.Item>
                   <NavDropdown.Item>
                     Electronics and Communication Engineering
@@ -157,7 +160,7 @@ const NavBarComponent = () => {
                 id="academics-dropdown"
                 className="custom-dropdown"
               >
-                <NavDropdown.Item href="#life-at-sidhartha">
+                <NavDropdown.Item href="/CampusLife">
                   Life At Sidhartha
                 </NavDropdown.Item>
                 <NavDropdown title="Facilities" drop="end">
