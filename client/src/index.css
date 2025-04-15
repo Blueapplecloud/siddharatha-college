@@ -2,15 +2,15 @@
 @tailwind components;
 @tailwind utilities; */
 @import "tailwindcss";
-@tailwind utilities;
 
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
 .scrollbar-hide {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
 }
+
 
 /* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;

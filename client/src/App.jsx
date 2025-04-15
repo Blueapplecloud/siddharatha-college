@@ -24,7 +24,7 @@ export default function App() {
       <div className="flex flex-col min-h-screen">
         <Navbar />
 
-        <main className="flex-grow ">
+        <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route
@@ -42,7 +42,7 @@ export default function App() {
             <Route path="/IT" element={<IT />} />
             <Route path="/MechanicalEngg" element={<Mech />} />
             {/* Routes for Campus Life at siddharatha */}
-            <Route path="/CampusLife" element={<LifeAtSiddhartha />} />
+            <Route path="/CampusLife" element={<LifeAtSiddhartha/>}/>
           </Routes>
         </main>
         <Footer />
