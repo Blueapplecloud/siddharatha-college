@@ -10,6 +10,13 @@ import { ScrollFeatureStrip } from "./pages/AboutPageComponents/About";
 import Organogram from "./pages/AboutPageComponents/Organogram";
 import "bootstrap/dist/css/bootstrap.min.css";
 import LegacyAndGovernance from "./pages/LegacyAndGovernance/LegacyAndGovernance";
+import AlumniHeader from "./pages/CampusComponents/AboutAlumni";
+import CSE from "./pages/AcademicsComponents/BachelorPrograms/CSE";
+import CST from "./pages/AcademicsComponents/BachelorPrograms/CST";
+import IT from "./pages/AcademicsComponents/BachelorPrograms/IT";
+import Mech from "./pages/AcademicsComponents/BachelorPrograms/Mech";
+import Strategicplan from "./pages/StrategicPlan/strategicplan";
+import LifeAtSiddhartha from "./pages/CampusComponents/LifeAtSiddharatha";
 
 export default function App() {
   return (
