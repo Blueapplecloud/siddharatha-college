@@ -6,9 +6,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home";
-// import { AboutHeader } from "./pages/AboutPageComponents/About";
 import { ScrollFeatureStrip } from "./pages/AboutPageComponents/About";
-// import About from "./pages/About";
+import Organogram from "./pages/AboutPageComponents/Organogram";
 import "bootstrap/dist/css/bootstrap.min.css";
 import LegacyAndGovernance from "./pages/LegacyAndGovernance/LegacyAndGovernance";
 import AlumniHeader from "./pages/CampusComponents/AboutAlumni";
@@ -17,6 +16,7 @@ import CST from "./pages/AcademicsComponents/BachelorPrograms/CST";
 import IT from "./pages/AcademicsComponents/BachelorPrograms/IT";
 import Mech from "./pages/AcademicsComponents/BachelorPrograms/Mech";
 import Strategicplan from "./pages/StrategicPlan/strategicplan";
+import LifeAtSiddhartha from "./pages/CampusComponents/LifeAtSiddharatha";
 
 export default function App() {
   return (
@@ -24,15 +24,14 @@ export default function App() {
       <div className="flex flex-col min-h-screen">
         <Navbar />
 
-        <main className="flex-grow">
+        <main className="flex-grow ">
           <Routes>
             <Route path="/" element={<Home />} />
-
-            {/* <Route path="/about" element={<About />} /> */}
             <Route
               path="/leadership-and-governance"
               element={<LegacyAndGovernance />}
             />
+            <Route path="/organogram" element={<Organogram />} />
             <Route path="/about" element={<ScrollFeatureStrip />} />
             {/* Route for View All Alumni Section */}
             <Route path="/alumni" element={<AlumniHeader />} />
@@ -42,6 +41,8 @@ export default function App() {
             <Route path="/ComputerScience&Tech" element={<CST />} />
             <Route path="/IT" element={<IT />} />
             <Route path="/MechanicalEngg" element={<Mech />} />
+            {/* Routes for Campus Life at siddharatha */}
+            <Route path="/CampusLife" element={<LifeAtSiddhartha />} />
           </Routes>
         </main>
         <Footer />
