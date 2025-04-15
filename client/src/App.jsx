@@ -26,6 +26,16 @@ export default function App() {
             />
             <Route path="/organogram" element={<Organogram />} />
             <Route path="/about" element={<ScrollFeatureStrip />} />
+            {/* Route for View All Alumni Section */}
+            <Route path="/alumni" element={<AlumniHeader />} />
+            <Route path="/strategic" element={<Strategicplan />} />
+            {/* Routes for Departments Section */}
+            <Route path="/ComputerScience&Engg" element={<CSE />} />
+            <Route path="/ComputerScience&Tech" element={<CST />} />
+            <Route path="/IT" element={<IT />} />
+            <Route path="/MechanicalEngg" element={<Mech />} />
+            {/* Routes for Campus Life at siddharatha */}
+            <Route path="/CampusLife" element={<LifeAtSiddhartha/>}/>
           </Routes>
         </main>
         <Footer />
