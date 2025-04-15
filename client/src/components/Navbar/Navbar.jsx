@@ -9,7 +9,6 @@ import "./Navbar.css";
 import { Link } from "react-router-dom";
 
 const NavBarComponent = () => {
-
   return (
     <>
       <Navbar expand="lg" className="custom-navbar">
@@ -25,7 +24,9 @@ const NavBarComponent = () => {
                 id="about-dropdown"
                 className="custom-dropdown white-text"
               >
-               <NavDropdown.Item as={Link} to="/about">About</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/about">
+                  About
+                </NavDropdown.Item>
                 <NavDropdown.Item href="#legacy">Legacy</NavDropdown.Item>
                 <NavDropdown.Item href="/leadership-and-governance">
                   Leadership and Governance
@@ -33,7 +34,7 @@ const NavBarComponent = () => {
                 <NavDropdown.Item href="/strategic">
                   Strategic Plan
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#organogram">
+                <NavDropdown.Item href="/organogram">
                   Organogram
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#committees">
