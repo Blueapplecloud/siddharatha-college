@@ -39,7 +39,7 @@ const NavBarComponent = () => {
                 <NavDropdown.Item href="#committees">
                   Academic & Administrative Committees
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#awards">
+                <NavDropdown.Item href="/Awards">
                   Awards & Recognitions
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#accreditations">

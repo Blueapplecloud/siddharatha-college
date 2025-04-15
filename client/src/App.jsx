@@ -17,6 +17,7 @@ import CST from "./pages/AcademicsComponents/BachelorPrograms/CST";
 import IT from "./pages/AcademicsComponents/BachelorPrograms/IT";
 import Mech from "./pages/AcademicsComponents/BachelorPrograms/Mech";
 import Strategicplan from "./pages/StrategicPlan/strategicplan";
+import AwardsandRecognitions from "./pages/Awards and Recognitions/AwardsandRecognitions";
 
 export default function App() {
   return (
@@ -37,6 +38,7 @@ export default function App() {
             {/* Route for View All Alumni Section */}
             <Route path="/alumni" element={<AlumniHeader />} />
             <Route path="/strategic" element={<Strategicplan />} />
+            <Route path="/Awards" element={<AwardsandRecognitions />} />
             {/* Routes for Departments Section */}
             <Route path="/ComputerScience&Engg" element={<CSE />} />
             <Route path="/ComputerScience&Tech" element={<CST />} />
