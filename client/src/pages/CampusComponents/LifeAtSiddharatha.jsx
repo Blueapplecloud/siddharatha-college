@@ -6,6 +6,7 @@ import AboutHeader from "../../ResuableComponents/AboutHeading";
 
 import FacilitiesAtSiddharatha from "./FacilitiesAtSiddharatha";
 import TransportRoutes from "./TransportRoutes";
+import StudentCorner from "./StudentCorner";
  
 
 const LifeAtSiddhartha = () => {
@@ -83,6 +84,7 @@ const LifeAtSiddhartha = () => {
 
       <FacilitiesAtSiddharatha />
       <TransportRoutes />
+      <StudentCorner />
 
     </>
   );
