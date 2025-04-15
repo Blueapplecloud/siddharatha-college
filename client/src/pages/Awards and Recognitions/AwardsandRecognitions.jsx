@@ -230,7 +230,7 @@ const AwardsandRecognitions = ({ title, image }) => {
       }
 
       .slick-dots li button:before {
-        font-size: 30px;
+        font-size: 10px;
         color: #ccc;
         opacity: 1;
       }
