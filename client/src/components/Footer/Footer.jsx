@@ -27,15 +27,15 @@ const Footer = () => {
           </div>
           <h4>Reach us</h4>
           <p>
-            sidharatha Institute of technology
+            Siddahartha Institute of Engineering and Technology
             <br />
-            Autonomous, Shaikpet, Hyderabad – 500104
+            Autonomous, Vinobhanagar , Ibrahimpatnam RR Dist– 501506
           </p>
           <p>
-            <a href="tel:+9104029565856">+91-040-29565856</a>
+            <a href="tel:+9104029565856">+91 78937 44445</a>
           </p>
           <p>
-            <a href="mailto:Principal@gnits.ac.in">Principal@gnits.ac.in</a>
+            <a href="info@siddhartha.ac.in">info@siddhartha.ac.in</a>
           </p>
         </div>
 
