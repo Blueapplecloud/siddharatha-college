@@ -27,7 +27,7 @@ const NavBarComponent = () => {
                 <NavDropdown.Item as={Link} to="/about">
                   About
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#legacy">Legacy</NavDropdown.Item>
+                <NavDropdown.Item href="/legacy">Legacy</NavDropdown.Item>
                 <NavDropdown.Item href="/leadership-and-governance">
                   Leadership and Governance
                 </NavDropdown.Item>
