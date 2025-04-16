@@ -20,7 +20,6 @@ import AwardsandRecognitions from "./pages/Awards and Recognitions/AwardsandReco
 
 import LifeAtSiddhartha from "./pages/CampusComponents/LifeAtSiddhartha";
 
-import LifeAtSiddhartha from "./pages/CampusComponents/LifeAtSiddharatha";
 import Legacy from "./pages/LegacyPageComponents/Legacy";
 
 import TimeTableExam from "./pages/StudentCorner/TimeTable";
@@ -59,10 +58,7 @@ export default function App() {
             <Route path="/Placements" element={<Placements />} />
             {/* Routes for Campus Life at siddharatha */}
 
-            <Route path="/CampusLife" element={<LifeAtSiddhartha/>}/>
             <Route path="/ExamCell" element={<TimeTableExam/>}/>
-
-            <Route path="/CampusLife" element={<LifeAtSiddhartha />} />
 
             {/* Routes for Research */}
             <Route path="/overview" element={<Overview />} />
