@@ -20,7 +20,7 @@ const AboutHeader = ({ title, image }) => {
 
   return (
     <div
-      className="relative h-[40vh] md:h-[45vh] bg-contain bg-center flex items-center"
+      className="relative h-[40vh] md:h-[45vh] bg-cover bg-center flex items-center"
       style={{ backgroundImage: `url(${image || defaultImage})` }}
       ref={ref}
     >
@@ -45,7 +45,10 @@ const AboutHeader = ({ title, image }) => {
             animate="visible"
             custom={2}
           >
-            <Link to="/" className="text-white hover:!text-yellow-300 !no-underline">
+            <Link
+              to="/"
+              className="text-white hover:!text-yellow-300 !no-underline"
+            >
               Home
             </Link>{" "}
             /{" "}

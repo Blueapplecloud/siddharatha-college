@@ -15,7 +15,7 @@ import {
   Users,
 } from "lucide-react";
 
-const FacilitiesAtSiddharatha = () => {
+const FacilitiesAtSiddhartha = () => {
   const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.2 });
 
   const facilities = [
@@ -75,7 +75,7 @@ const FacilitiesAtSiddharatha = () => {
         <div>
           <img
             src="https://th.bing.com/th/id/OIP.9zZO2CWuujmWTtEYrufC6wHaEK?w=293&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" // Replace with actual image path
-            alt="Facilities at Siddharatha"
+            alt="Facilities at Siddhartha"
             className="rounded-lg shadow-md w-full object-cover mt-25"
           />
         </div>
@@ -87,7 +87,7 @@ const FacilitiesAtSiddharatha = () => {
               transition={{ duration: 0.8, ease: "easeOut" }}
             >
               <h2 className="text-4xl font-bold text-green-900 mb-4">
-                Facilities at SIDDHARATHA
+                Facilities at SIDDHARTHA
               </h2>
             </motion.div>
           )}
@@ -97,7 +97,7 @@ const FacilitiesAtSiddharatha = () => {
             transition={{ delay: 0.2, duration: 0.6 }}
             className="text-gray-700 mb-8"
           >
-            At SIDDHARATHA, research is a cornerstone of our academic
+            At SIDDHARTHA, research is a cornerstone of our academic
             philosophy, driving innovation and technological advancements. Our
             Research and Development (R&D) Cell is a dynamic hub that fosters a
             strong research ecosystem, aligned with the goals of NEP 2020.
@@ -128,4 +128,4 @@ const FacilitiesAtSiddharatha = () => {
   );
 };
 
-export default FacilitiesAtSiddharatha;
+export default FacilitiesAtSiddhartha;

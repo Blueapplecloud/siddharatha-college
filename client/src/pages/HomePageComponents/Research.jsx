@@ -17,17 +17,17 @@ const Research = () => {
       <div className="flex-1 rounded-lg overflow-hidden">
         <img
           src="https://www.campusoption.com/images/colleges/gallery/13_09_17_050735_Clab.jpg"
-          alt="Research at SIDDHARATHA"
+          alt="Research at SIDDHARTHA"
           className="rounded-lg w-full h-auto object-cover"
         />
       </div>
 
       <div className="flex-1">
         <h2 className="text-3xl lg:text-4xl font-bold text-[#14352E] mb-4">
-          Research at SIDDHARATHA
+          Research at SIDDHARTHA
         </h2>
         <p className="text-[#14352E] mb-6 text-base lg:text-lg">
-          At SIDDHARATHA, research is a cornerstone of our academic philosophy,
+          At SIDDHARTHA, research is a cornerstone of our academic philosophy,
           driving innovation and technological advancements. Our Research and
           Development (R&D) Cell is a dynamic hub that fosters a strong research
           ecosystem, aligned with the goals of NEP 2020.

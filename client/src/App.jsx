@@ -12,12 +12,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import LegacyAndGovernance from "./pages/LegacyAndGovernance/LegacyAndGovernance";
 import AlumniHeader from "./pages/CampusComponents/AboutAlumni";
 import CSE from "./pages/AcademicsComponents/BachelorPrograms/CSE";
-import CST from "./pages/AcademicsComponents/BachelorPrograms/CST";
-import IT from "./pages/AcademicsComponents/BachelorPrograms/IT";
+import CSAIML from "./pages/AcademicsComponents/BachelorPrograms/CSAIML";
+import ECE from "./pages/AcademicsComponents/BachelorPrograms/ECE";
 import Mech from "./pages/AcademicsComponents/BachelorPrograms/Mech";
 import Strategicplan from "./pages/StrategicPlan/strategicplan";
 import AwardsandRecognitions from "./pages/Awards and Recognitions/AwardsandRecognitions";
-import LifeAtSiddhartha from "./pages/CampusComponents/LifeAtSiddharatha";
+
+import LifeAtSiddhartha from "./pages/CampusComponents/LifeAtSiddhartha";
+
 import Legacy from "./pages/LegacyPageComponents/Legacy";
 
 import TimeTableExam from "./pages/StudentCorner/TimeTable";
@@ -47,15 +49,16 @@ export default function App() {
             <Route path="/Awards" element={<AwardsandRecognitions />} />
             {/* Routes for Departments Section */}
             <Route path="/ComputerScience&Engg" element={<CSE />} />
-            <Route path="/ComputerScience&Tech" element={<CST />} />
-            <Route path="/IT" element={<IT />} />
+            <Route path="/ComputerScience&Engg(AI & ML)" element={<CSAIML />} />
+            <Route path="/ECE" element={<ECE />} />
             <Route path="/MechanicalEngg" element={<Mech />} />
+            {/* Routes for Campus Life at siddhartha */}
+            <Route path="/CampusLife" element={<LifeAtSiddhartha />} />
+            {/* Placements route */}
+            <Route path="/Placements" element={<Placements />} />
             {/* Routes for Campus Life at siddharatha */}
 
-            <Route path="/CampusLife" element={<LifeAtSiddhartha/>}/>
             <Route path="/ExamCell" element={<TimeTableExam/>}/>
-
-            <Route path="/CampusLife" element={<LifeAtSiddhartha />} />
 
             {/* Routes for Research */}
             <Route path="/overview" element={<Overview />} />

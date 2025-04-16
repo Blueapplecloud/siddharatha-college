@@ -3,8 +3,9 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { motion } from "framer-motion";
 import AboutHeader from "../../ResuableComponents/AboutHeading";
+import FacilitiesAtSiddhartha from "./FacilitiesAtSiddhartha";
 
-import FacilitiesAtSiddharatha from "./FacilitiesAtSiddharatha";
+import FacilitiesAtSiddhartha from "./FacilitiesAtSiddhartha";
 import TransportRoutes from "./TransportRoutes";
 import StudentCorner from "./StudentCorner";
  
@@ -80,9 +81,7 @@ const LifeAtSiddhartha = () => {
         </div>
       </div>
 
-
-
-      <FacilitiesAtSiddharatha />
+      <FacilitiesAtSiddhartha />
       <TransportRoutes />
       <StudentCorner />
 

@@ -5,20 +5,19 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 const bgImage =
-  "https://www.smitgp.edu.in/uploads/course/1628595966-Mechanical_Diploma.jpg";
+  "https://res.cloudinary.com/nsitcollege/image/upload/v1557564703/general/c-r.png";
 
-function Mech() {
+function CSAIML() {
   const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0.2,
   });
-
   return (
     <div className="px-4 md:px-10 bg-gray-50 py-10 rounded-lg shadow-md">
       {/* Department Banner */}
       <DepartmentBanner
         backgroundImage={bgImage}
-        text="Mechanical Engineering"
+        text="CSE – Artificial Intelligence and Machine Learning"
       />
 
       {/* Spacer */}
@@ -27,7 +26,7 @@ function Mech() {
           {/* Image Section */}
           <div className="w-full md:w-1/3 flex justify-center">
             <img
-              src="https://siddhartha.ac.in/img/faculty/mech/SLNReddy.jpg"
+              src="https://siddhartha.ac.in/img/faculty/cse/IMG_20240307_121549_2.jpg"
               alt="HOD Profile"
               className="w-64 h-64 object-cover rounded-xl shadow-lg transition-transform duration-500 hover:scale-105"
             />
@@ -45,34 +44,31 @@ function Mech() {
               HOD'S MESSAGE
             </motion.h2>
             <p className="mt-4 text-gray-600 leading-relaxed">
-              Mechanical Engineering is one of the oldest and broadest
-              Engineering Disciplines. It emerged as a field during the
-              Industrial Revolution and has continually evolved by incorporating
-              numerous technical advancements. First and foremost, one must have
-              a penchant for Mechanical components and machinery and how these
-              machines work.{" "}
+              Artificial Intelligence is a branch of Computer Science that
+              focuses on creating intelligent machines that work as human beings
+              and replicates intelligent behavior.{" "}
             </p>
             <p className="mt-2 text-gray-600 leading-relaxed">
-              Mechanical engineers today use core principles of Mechanics,
-              Thermodynamics and structural analysis with computer aided tools
-              to design and analyze manufacturing plants, industrial equipment,
-              heating and cooling systems, motorized vehicles, aircrafts,
-              robotics, medical devices and much more.
+              The department of Artificial Intelligence is enriched with the
+              existing strength of Machine learning, IOT (Internet of Things),
+              and Big Data Analytics laboratories. The SIET has a plan to
+              strengthen the infrastructure further for higher-end learning in
+              the areas of Robotics, Neural Networks, Intelligent Systems, Data
+              analytics, and Natural language processing.{" "}
             </p>
             <p className="mt-2 text-gray-600 leading-relaxed">
-              Demand for professionals in this conventional discipline can never
-              cease. Mechanical engineers today are pursuing developments in the
-              fields such as Composites, Mechatronics and Nano technology.
-              Mechanical Engineering overlaps with Aerospace , Civil ,
-              Electrical, Petroleum and Chemical Engineerings to varying
-              amounts. I wish all the students of Mechanical Engineering a great
-              future.{" "}
+              Computer laboratories are equipped with the most advanced systems
+              which includes 12 gen I7 processor systems. All the computer labs
+              are fully air conditioned with adequate centralized UPS backup. We
+              strive to be among the top Artificial Intelligence engineering
+              colleges in INDIA and hence look to offer students with
+              high-quality education and facilities.{" "}
             </p>
             <div className="mt-4">
               <p className="font-semibold text-gray-800 text-lg">
-                Mr.S.L.NARASIMHA REDDY
+                Prof. P.Raghu
               </p>
-              <p className="text-gray-600">M.Tech, Ph.D</p>
+              <p className="text-gray-600">M.Tech, Ph.D |Assoc. Prof, HOD</p>
             </div>
           </div>
         </div>
@@ -93,8 +89,8 @@ function Mech() {
               VISION OF THE DEPARTMENT
             </motion.h2>
             <p className="mt-4 text-gray-700 leading-relaxed">
-              To impart high standards and produce eminent mechanical engineers
-              who play a key role in the social upliftment.
+              To develop skilled AI&ML engineers through latest tools by
+              imparting quality education to serve the society.{" "}
             </p>
           </div>
 
@@ -111,12 +107,14 @@ function Mech() {
             </motion.h2>
             <ul className="mt-4 text-gray-700 leading-relaxed list-disc pl-5 space-y-2">
               <li>
-                To provide in-depth technical knowledge for skill development.
+                Enable students to gain knowledge on the concepts and
+                technologies of Artificial Intelligence and Machine Learning.
               </li>
-              <li>To give special focus on training and add-on programs.</li>
               <li>
-                To encourage creativity and develop entrepreneurial mindset.
+                Facilitate the students with innovative tools to face the
+                challenging future generation.
               </li>
+              <li>Associate with industry to explore latest technologies.</li>
             </ul>
           </div>
         </div>
@@ -144,25 +142,36 @@ function Mech() {
               className="mt-4 text-gray-700 leading-relaxed space-y-4"
             >
               <p>
-                The Department of Mechanical Engineering was established in the
-                year 2009 with an initial intake of 60 seats in UG programme.
-                Department also offer two post graduate programmes, M. Tech with
-                specialization in CAD/CAM and Thermal Engineering with 24 and 18
-                seats respectively. The Department has highly dedicated and
-                dynamic faculty who aim to work towards establishing an
-                excellent teaching, learning and research environment to match
-                with the advanced technologies in engineering.
+                AI & ML are two very hot buzzwords right now in the technology
+                domain. AI & ML is an emerging specialization of CSE course of
+                B.Tech. Artificial Intelligence (AI) is wide ranging branch of
+                computer science concerned with building smart machines callable
+                of performing tasks that typically require human intelligence.
+                Machine Learning (ML) is the study of computer algorithms that
+                allow computer programs to automatically improve through
+                experience.
               </p>
               <p>
-                The department has good infrastructure along with state of the
-                art laboratories. The labs are equipped with softwares like
-                AutoCAD, CATIA, Creo, ANSYS, MATLAB & CNC technology.
+                This 4 year under graduation of computer science & Engineering
+                with specialization in Artificial Intelligence & machine
+                Learning is designed to make the professional technically sound
+                in advanced learning systems that are based on algorithm of
+                Artificial Intelligence. This program developed the skills of
+                creating fastest working apps or solutions integrated with
+                analytical information ensuring 100% accuracy in the output. AI
+                makes is expected to grow from USD 21.46 Billion in 2018 to USD
+                190.61 billion by 2025.
               </p>
               <p>
-                The faculty actively participate and conduct various research
-                activities and have published a good number of technical papers
-                in various national and international conferences and
-                proceedings.
+                The students shall explore the practical components of
+                developing AI apps and platforms. Proficiency in mathematics
+                will thrive, as this degree requires strong problem-solving and
+                analytical skills. They shall be able to acquire the ability to
+                design intelligent solutions for various business problems in a
+                variety of domains and business applications. The students shall
+                be exploring fields such as neural networks, natural language
+                processing, robotics, deep learning, and computer vision,
+                reasoning and problem-solving.
               </p>
             </motion.div>
           </div>
@@ -194,9 +203,11 @@ function Mech() {
               </thead>
               <tbody>
                 <tr>
-                  <td className="border border-gray-300 p-2">B.Tech(Mech)</td>
+                  <td className="border border-gray-300 p-2">
+                    B.Tech(CSE-AI&ML)
+                  </td>
                   <td className="border border-gray-300 p-2">4 Years</td>
-                  <td className="border border-gray-300 p-2">60</td>
+                  <td className="border border-gray-300 p-2">180</td>
                 </tr>
               </tbody>
             </motion.table>
@@ -212,4 +223,4 @@ function Mech() {
   );
 }
 
-export default Mech;
+export default CSAIML;
