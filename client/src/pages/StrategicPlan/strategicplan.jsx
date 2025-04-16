@@ -57,7 +57,7 @@ const Strategicplan = ({ title, image }) => {
         </div>
       </div>
 
-      {/* Success Stories Section */}
+      {/* Strategic Plan Section */}
       <div className="bg-white py-16 px-6 lg:px-20">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Text Section */}
@@ -93,12 +93,14 @@ const Strategicplan = ({ title, image }) => {
           <Link
             to=""
             className="bg-[#D6820B] text-white px-6 py-3 text-base font-semibold rounded-none hover:bg-[#bb6f07] transition"
+            style={{ textDecoration: 'none' }}
           >
             2023–24 to 2027–28
           </Link>
           <Link
             to=""
             className="bg-[#D6820B] text-white px-6 py-3 text-base font-semibold rounded-none hover:bg-[#bb6f07] transition"
+            style={{ textDecoration: 'none' }}
           >
             2018–19 to 2022–23
           </Link>

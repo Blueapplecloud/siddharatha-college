@@ -9,7 +9,7 @@ const alumniData = [
     image:
       "https://www.the-sun.com/wp-content/uploads/sites/6/2024/03/AK_MUSK_OP.jpg?strip=all&quality=100&w=1920&h=1080&crop=1",
     about:
-      "At GNITS, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things.",
+      "At Siddhartha, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things.",
   },
   {
     name: "Ravi Teja",
@@ -17,7 +17,7 @@ const alumniData = [
     image:
       "https://www.americanbazaaronline.com/wp-content/uploads/2020/06/Sundar-Pichai.png",
     about:
-      "At GNITS, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things. At GNITS, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things. At GNITS, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things. At GNITS, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things.and inspire those around you to achieve great things. At GNITS, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things. At GNITS, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things. At GNITS, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things.",
+      "At Siddhartha, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things. At Siddhartha, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things. At Siddhartha, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things. At Siddhartha, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things.and inspire those around you to achieve great things. At Siddhartha, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things. At Siddhartha, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things. At Siddhartha, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things.",
   },
   {
     name: "Megha Reddy",
@@ -25,14 +25,14 @@ const alumniData = [
     image:
       "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2023/05/manufacturing-press-imec-keynote-blog-1920x1080.jpg",
     about:
-      "At GNITS, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things. At GNITS, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things.",
+      "At Siddhartha, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things. At Siddhartha, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things.",
   },
   {
     name: "Karthik Das",
     title: "CTO, StartupX",
     image: "https://api.time.com/wp-content/uploads/2014/01/bill-gates.jpg",
     about:
-      "At GNITS, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things. At GNITS, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things. At GNITS, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things.At GNITS, real-world leadership challenges come to life. ",
+      "At Siddhartha, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things. At Siddhartha, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things. At Siddhartha, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things.At Siddhartha, real-world leadership challenges come to life. ",
   },
   {
     name: "Ananya Rao",
@@ -40,7 +40,7 @@ const alumniData = [
     image:
       "https://www.the-sun.com/wp-content/uploads/sites/6/2024/03/AK_MUSK_OP.jpg?strip=all&quality=100&w=1920&h=1080&crop=1",
     about:
-      "At GNITS, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things.At GNITS, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things. At GNITS, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things.",
+      "At Siddhartha, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things.At Siddhartha, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things. At Siddhartha, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things.",
   },
   {
     name: "Ravi Teja",
@@ -48,7 +48,7 @@ const alumniData = [
     image:
       "https://www.americanbazaaronline.com/wp-content/uploads/2020/06/Sundar-Pichai.png",
     about:
-      "At GNITS, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things.  At GNITS, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things.  ",
+      "At Siddhartha, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things.  At Siddhartha, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things.  ",
   },
   {
     name: "Megha Reddy",
@@ -56,14 +56,14 @@ const alumniData = [
     image:
       "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2023/05/manufacturing-press-imec-keynote-blog-1920x1080.jpg",
     about:
-      "At GNITS, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things. ",
+      "At Siddhartha, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things. ",
   },
   {
     name: "Karthik Das",
     title: "CTO, StartupX",
     image: "https://api.time.com/wp-content/uploads/2014/01/bill-gates.jpg",
     about:
-      "At GNITS, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things.At GNITS, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things. At GNITS, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things.  learn how to think expansively, act decisively, and inspire those around you to achieve great things. At GNITS, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things. At GNITS, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things. At GNITS, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things.At GNITS, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things.",
+      "At Siddhartha, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things.At Siddhartha, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things. At Siddhartha, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things.  learn how to think expansively, act decisively, and inspire those around you to achieve great things. At Siddhartha, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things. At Siddhartha, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things. At Siddhartha, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things.At Siddhartha, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things.",
   },
   {
     name: "Ravi Teja",
@@ -71,14 +71,14 @@ const alumniData = [
     image:
       "https://www.americanbazaaronline.com/wp-content/uploads/2020/06/Sundar-Pichai.png",
     about:
-      "At GNITS, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things. At GNITS, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things.",
+      "At Siddhartha, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things. At Siddhartha, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things.",
   },
   {
     name: "Karthik Das",
     title: "CTO, StartupX",
     image: "https://api.time.com/wp-content/uploads/2014/01/bill-gates.jpg",
     about:
-      "At GNITS, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things.",
+      "At Siddhartha, real-world leadership challenges come to life. Our programs and courses will help you learn how to think expansively, act decisively, and inspire those around you to achieve great things.",
   },
 ];
 
@@ -152,11 +152,11 @@ const AlumniHeader = ({ title, image }) => {
             </h2>
             <p className="text-gray-700 text-lg mb-6 leading-relaxed">
               Our alumni are the true testament to the quality of education and
-              the holistic development offered at GNITS. They have gone on to
+              the holistic development offered at SIDDHARTHA. They have gone on to
               excel in various fields, making significant contributions not only
               in their professional careers but also in their communities. From
               leading successful tech startups to holding influential positions
-              in multinational companies, GNITS graduates have consistently
+              in multinational companies, SIDDHARTHA graduates have consistently
               demonstrated leadership, innovation, and a commitment to
               excellence.
             </p>
@@ -164,7 +164,7 @@ const AlumniHeader = ({ title, image }) => {
               In this section, we celebrate the achievements of our alumni by
               sharing their inspiring journeys. These stories highlight the
               diverse paths our graduates have taken, showcasing the impact of a
-              GNITS education on their personal and professional lives. Whether
+              SIDDHARTHA education on their personal and professional lives. Whether
               it’s breaking new ground in research, spearheading major projects
               in global organizations, or driving social change through
               entrepreneurial ventures, our alumni continue to make us proud.

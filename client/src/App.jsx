@@ -18,6 +18,8 @@ import Mech from "./pages/AcademicsComponents/BachelorPrograms/Mech";
 import Strategicplan from "./pages/StrategicPlan/strategicplan";
 import AwardsandRecognitions from "./pages/Awards and Recognitions/AwardsandRecognitions";
 import LifeAtSiddhartha from "./pages/CampusComponents/LifeAtSiddharatha";
+import TimeTableExam from "./pages/StudentCorner/TimeTable";
+
 
 export default function App() {
   return (
@@ -45,10 +47,12 @@ export default function App() {
             <Route path="/MechanicalEngg" element={<Mech />} />
             {/* Routes for Campus Life at siddharatha */}
             <Route path="/CampusLife" element={<LifeAtSiddhartha/>}/>
+            <Route path="/ExamCell" element={<TimeTableExam/>}/>
           </Routes>
         </main>
         <Footer />
       </div>
     </Router>
+   
   );
 }
