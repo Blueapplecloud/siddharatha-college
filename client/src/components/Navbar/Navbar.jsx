@@ -90,21 +90,21 @@ const NavBarComponent = () => {
                   <NavDropdown.Item href="/ComputerScience&Engg">
                     Computer Science Engineering
                   </NavDropdown.Item>
-                  <NavDropdown.Item href="/ComputerScience&Tech">
-                    Computer Science and Technology
+                  <NavDropdown.Item href="/ComputerScience&Engg(AI & ML)">
+                    Computer Science & Engineering (AI & ML)
                   </NavDropdown.Item>
-                  <NavDropdown.Item href="/IT">Information Technology</NavDropdown.Item>
                   <NavDropdown.Item href="/MechanicalEngg">
                     Mechanical Engineering
                   </NavDropdown.Item>
+                  <NavDropdown.Item href="/ECE">
+                    Electronics and Communication Engineering
+                  </NavDropdown.Item>
+                  <NavDropdown.Item>Information Technology</NavDropdown.Item>
                   <NavDropdown.Item>
-                    Computer Science & Engineering (AI & ML)
+                    Computer Science and Technology
                   </NavDropdown.Item>
                   <NavDropdown.Item>
                     Computer Science – Data science
-                  </NavDropdown.Item>
-                  <NavDropdown.Item>
-                    Electronics and Communication Engineering
                   </NavDropdown.Item>
                   <NavDropdown.Item>
                     Electrical and Electronics Engineering

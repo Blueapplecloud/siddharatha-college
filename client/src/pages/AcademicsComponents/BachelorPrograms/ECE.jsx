@@ -5,9 +5,9 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 const bgImage =
-  "https://www.smitgp.edu.in/uploads/course/1628595966-Mechanical_Diploma.jpg";
+  "https://th.bing.com/th/id/R.c4e60797561cf101e98e095fedb5330e?rik=vW%2f0J6j8g0ZNiw&riu=http%3a%2f%2ftecmoneragala.dtet.gov.lk%2fwp-content%2fuploads%2f2020%2f07%2fICT.jpg&ehk=VgBLjxmsK7XarB2sPzynFiDZnbYrnmE4HMfZOB839rw%3d&risl=&pid=ImgRaw&r=0";
 
-function Mech() {
+function ECE() {
   const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0.2,
@@ -18,7 +18,7 @@ function Mech() {
       {/* Department Banner */}
       <DepartmentBanner
         backgroundImage={bgImage}
-        text="Mechanical Engineering"
+        text="Electronics and Communication Engineering"
       />
 
       {/* Spacer */}
@@ -27,7 +27,7 @@ function Mech() {
           {/* Image Section */}
           <div className="w-full md:w-1/3 flex justify-center">
             <img
-              src="https://siddhartha.ac.in/img/faculty/mech/SLNReddy.jpg"
+              src="https://siddhartha.ac.in/img/faculty/ece/FARAANJUM.jpg"
               alt="HOD Profile"
               className="w-64 h-64 object-cover rounded-xl shadow-lg transition-transform duration-500 hover:scale-105"
             />
@@ -45,32 +45,48 @@ function Mech() {
               HOD'S MESSAGE
             </motion.h2>
             <p className="mt-4 text-gray-600 leading-relaxed">
-              Mechanical Engineering is one of the oldest and broadest
-              Engineering Disciplines. It emerged as a field during the
-              Industrial Revolution and has continually evolved by incorporating
-              numerous technical advancements. First and foremost, one must have
-              a penchant for Mechanical components and machinery and how these
-              machines work.{" "}
+              I congratulate all the students, who opted for Electronics and
+              Communication Engineering branch. It was established in the year
+              2008 the department now has two section of UG(ECE) program and one
+              PG(VLSI & Embedded Systems) program. It has the necessary
+              infrastructural facilities required for imparting high quality
+              education and the department is fully structured to meet the
+              contemporary needs of the industry.{" "}
             </p>
             <p className="mt-2 text-gray-600 leading-relaxed">
-              Mechanical engineers today use core principles of Mechanics,
-              Thermodynamics and structural analysis with computer aided tools
-              to design and analyze manufacturing plants, industrial equipment,
-              heating and cooling systems, motorized vehicles, aircrafts,
-              robotics, medical devices and much more.
+              Engineering is a human activity aimed at creating new artifacts,
+              algorithms, processes and systems that provide services to humans.
+              An Engineering seeks to create something that never existed. It is
+              a privilege in one's career to embark on engineering education.
+              The department has well-equipped state-of-art laboratories of
+              Electronic Devices & Circuits, Pulse, Digital & IC circuits, Basic
+              Simulation, Communications, Digital Signal Processing, Microwave &
+              Optical Communications and Microprocessors. Advanced research
+              laboratories include VLSI Center of Excellence, Embedded Systems
+              and Advanced Communications labs. Software available includes
+              latest versions of MATLAB with several tool boxes, CADENCE, Xilinx
+              and Co-design tools, to name a few.{" "}
             </p>
             <p className="mt-2 text-gray-600 leading-relaxed">
-              Demand for professionals in this conventional discipline can never
-              cease. Mechanical engineers today are pursuing developments in the
-              fields such as Composites, Mechatronics and Nano technology.
-              Mechanical Engineering overlaps with Aerospace , Civil ,
-              Electrical, Petroleum and Chemical Engineerings to varying
-              amounts. I wish all the students of Mechanical Engineering a great
-              future.{" "}
+              The strengths of the department are the specialized labs,
+              meritorious students, senior professors, dynamic & young associate
+              and assistant professors, industrious academic assistants and
+              staff. Some of the achievements of our students include securing
+              university ranks, admission to NITs, foreign universities,
+              placements in reputed companies - HCL Technologies, Wipro,
+              Mahindra Satyam, SITEL India etc.
+            </p>
+            <p>
+              Department has excellent labs with latest kits and unlimited
+              Internet facility so that the students can explore their knowledge
+              and skills to International industry standards. Above all the
+              project work gives an edge to the students to elaborate their
+              problem solving and programming skills to mould the application to
+              the industry standards.
             </p>
             <div className="mt-4">
               <p className="font-semibold text-gray-800 text-lg">
-                Mr.S.L.NARASIMHA REDDY
+                Dr. Farah Anjum
               </p>
               <p className="text-gray-600">M.Tech, Ph.D</p>
             </div>
@@ -93,8 +109,8 @@ function Mech() {
               VISION OF THE DEPARTMENT
             </motion.h2>
             <p className="mt-4 text-gray-700 leading-relaxed">
-              To impart high standards and produce eminent mechanical engineers
-              who play a key role in the social upliftment.
+              To provide valuable resources for industry and society through
+              excellence in technical education and research.{" "}
             </p>
           </div>
 
@@ -111,11 +127,16 @@ function Mech() {
             </motion.h2>
             <ul className="mt-4 text-gray-700 leading-relaxed list-disc pl-5 space-y-2">
               <li>
-                To provide in-depth technical knowledge for skill development.
+                To educate the students with the state of art, technologies to
+                meet the growing challenges of the industry.
               </li>
-              <li>To give special focus on training and add-on programs.</li>
               <li>
-                To encourage creativity and develop entrepreneurial mindset.
+                To carry out research through constant interaction with research
+                organization and industry.
+              </li>
+              <li>
+                To equip the students with strong foundations to enable them for
+                continuing education.
               </li>
             </ul>
           </div>
@@ -144,25 +165,28 @@ function Mech() {
               className="mt-4 text-gray-700 leading-relaxed space-y-4"
             >
               <p>
-                The Department of Mechanical Engineering was established in the
-                year 2009 with an initial intake of 60 seats in UG programme.
-                Department also offer two post graduate programmes, M. Tech with
-                specialization in CAD/CAM and Thermal Engineering with 24 and 18
-                seats respectively. The Department has highly dedicated and
-                dynamic faculty who aim to work towards establishing an
-                excellent teaching, learning and research environment to match
-                with the advanced technologies in engineering.
+                The department of ECE was established in the year 2008 at the
+                time of inception of the Institute. The department offers one
+                under graduate B.tech course and two post graduate programmes
+                (M.tech) with specialization in VLSI design and embedded system
+                and VLSI system design respectively. The ECE department in one
+                of the significant department of SIET in terms of student
+                strength and number of academic programmes. Highly dedicated and
+                dynamic faculty are the strength of the department. The faculty
+                aim to work towards establishing an excellent teaching and
+                learning environment with to be in pace with emerging trends and
+                technologies.
               </p>
               <p>
-                The department has good infrastructure along with state of the
-                art laboratories. The labs are equipped with softwares like
-                AutoCAD, CATIA, Creo, ANSYS, MATLAB & CNC technology.
+                The department had good infrastructure with advanced
+                laboratories. These is access to high end MATLAB, XILINX, MENTO
+                GRAPHICS, KIEL and Electromagnetic Simulators.
               </p>
               <p>
-                The faculty actively participate and conduct various research
-                activities and have published a good number of technical papers
-                in various national and international conferences and
-                proceedings.
+                The faculty have rich experience in teaching. They actively
+                participate and conduct various research activities and have
+                published a good number of technical publications in various
+                national and international conferences and proceedings.
               </p>
             </motion.div>
           </div>
@@ -194,9 +218,16 @@ function Mech() {
               </thead>
               <tbody>
                 <tr>
-                  <td className="border border-gray-300 p-2">B.Tech(Mech)</td>
+                  <td className="border border-gray-300 p-2">B.Tech(ECE)</td>
                   <td className="border border-gray-300 p-2">4 Years</td>
-                  <td className="border border-gray-300 p-2">60</td>
+                  <td className="border border-gray-300 p-2">120</td>
+                </tr>
+                <tr>
+                  <td className="border border-gray-300 p-2">
+                    M.Tech (Embedded systems & VLSI Design){" "}
+                  </td>
+                  <td className="border border-gray-300 p-2">2 Years</td>
+                  <td className="border border-gray-300 p-2">18</td>
                 </tr>
               </tbody>
             </motion.table>
@@ -212,4 +243,4 @@ function Mech() {
   );
 }
 
-export default Mech;
+export default ECE;

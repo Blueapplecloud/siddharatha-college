@@ -46,7 +46,7 @@ const cards = [
   },
 ];
 
-const words = ["SIDDHARATHA", "is", "Beyond", "Ordinary"];
+const words = ["SIDDHARTHA", "is", "Beyond", "Ordinary"];
 function AnimatedHeading() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
@@ -81,7 +81,7 @@ export default function About() {
           landscape.
         </p>
         <button className="bg-orange-500 text-white hover:!text-orange-500 hover:!bg-white px-6 py-3 rounded font-semibold flex items-center gap-2 mb-12 transition duration-300 ease-in-out cursor-pointer">
-          Learn More About SIDDHARATHA
+          Learn More About SIDDHARTHA
           <FaArrowUpRightFromSquare className="text-sm" />
         </button>
 
