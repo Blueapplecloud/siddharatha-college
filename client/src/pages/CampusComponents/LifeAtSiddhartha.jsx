@@ -4,8 +4,6 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { motion } from "framer-motion";
 import AboutHeader from "../../ResuableComponents/AboutHeading";
 import FacilitiesAtSiddhartha from "./FacilitiesAtSiddhartha";
-
-import FacilitiesAtSiddhartha from "./FacilitiesAtSiddhartha";
 import TransportRoutes from "./TransportRoutes";
 import StudentCorner from "./StudentCorner";
  

@@ -17,7 +17,7 @@ import ECE from "./pages/AcademicsComponents/BachelorPrograms/ECE";
 import Mech from "./pages/AcademicsComponents/BachelorPrograms/Mech";
 import Strategicplan from "./pages/StrategicPlan/strategicplan";
 import AwardsandRecognitions from "./pages/Awards and Recognitions/AwardsandRecognitions";
-
+import Placements from "./pages/PlacementsComponent/Placements";
 import LifeAtSiddhartha from "./pages/CampusComponents/LifeAtSiddhartha";
 
 import Legacy from "./pages/LegacyPageComponents/Legacy";
@@ -25,7 +25,6 @@ import Legacy from "./pages/LegacyPageComponents/Legacy";
 import TimeTableExam from "./pages/StudentCorner/TimeTable";
 
 import Overview from "./pages/Research/Overview";
-
 
 export default function App() {
   return (
