@@ -40,7 +40,7 @@ const NavBarComponent = () => {
                 <NavDropdown.Item href="#committees">
                   Academic & Administrative Committees
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#awards">
+                <NavDropdown.Item href="/Awards">
                   Awards & Recognitions
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#accreditations">
@@ -93,7 +93,9 @@ const NavBarComponent = () => {
                   <NavDropdown.Item href="/ComputerScience&Tech">
                     Computer Science and Technology
                   </NavDropdown.Item>
-                  <NavDropdown.Item href="/IT">Information Technology</NavDropdown.Item>
+                  <NavDropdown.Item href="/IT">
+                    Information Technology
+                  </NavDropdown.Item>
                   <NavDropdown.Item href="/MechanicalEngg">
                     Mechanical Engineering
                   </NavDropdown.Item>
@@ -186,10 +188,36 @@ const NavBarComponent = () => {
                   </NavDropdown.Item>
                 </NavDropdown>
               </NavDropdown>
+              <NavDropdown
+                title="RESEARCH"
+                id="academics-dropdown"
+                className="custom-dropdown"
+              >
+                <NavDropdown.Item href="/overview">Overview</NavDropdown.Item>
+                <NavDropdown.Item href="#academic-research">
+                  Academic Research
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#funded-reasearch-project">
+                  Funded Reasearch Projects
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#research-centers">
+                  Research Centers
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#policies">Policies</NavDropdown.Item>
+              </NavDropdown>
 
-              <Nav.Link href="#research">RESEARCH</Nav.Link>
               <Nav.Link href="#placements">PLACEMENTS</Nav.Link>
-              <Nav.Link href="#student-corner">STUDENT CORNER</Nav.Link>
+
+              <NavDropdown
+                title="STUDENT CORNER"
+                id="STUDENT-dropdown"
+                className="custom-dropdown white-text"
+              >
+                <NavDropdown.Item href="/ExamCell">
+                    Time Table
+                  </NavDropdown.Item>
+                 </NavDropdown>
+
               <Nav.Link href="#more">INCUBATION CELL</Nav.Link>
               <Nav.Link href="#more">EXAM CELL</Nav.Link>
             </Nav>
