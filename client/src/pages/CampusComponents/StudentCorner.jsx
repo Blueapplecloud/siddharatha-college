@@ -15,14 +15,14 @@ function StudentCorner() {
     {
       title: "Skill Enhancement",
       description:
-        "GNITS fosters a supportive and inclusive environment that empowers women to thrive in technology and engineering, providing the confidence and skills needed for leadership and success.",
+        "Siddhartha fosters a supportive and inclusive environment that empowers women to thrive in technology and engineering, providing the confidence and skills needed for leadership and success.",
       icon: <FaTools />,
       // bgImage: "url('images/student/img1.jpeg')",
     },
     {
       title: "Student Counseling",
       description:
-        "GNITS offers state-of-the-art labs and research centers, giving students the opportunity to engage in hands-on learning and innovate in emerging fields like AI, VLSI, and more.",
+        "Siddhartha offers state-of-the-art labs and research centers, giving students the opportunity to engage in hands-on learning and innovate in emerging fields like AI, VLSI, and more.",
       icon: <MdOutlineSupportAgent />,
       // bgImage: "url('images/student/img2.jpeg')",
     },
@@ -43,28 +43,28 @@ function StudentCorner() {
     {
       title: "NPTEL",
       description:
-        "GNITS encourages students to grow beyond academics through leadership programs, extracurricular activities, and skill-building workshops, fostering well-rounded personal and professional development.",
+        "Siddhartha encourages students to grow beyond academics through leadership programs, extracurricular activities, and skill-building workshops, fostering well-rounded personal and professional development.",
       icon: <HiOutlineAcademicCap />,
       // bgImage: "url('images/student/img5.jpeg')",
     },
     {
       title: "EC Council Academia",
       description:
-        "GNITS encourages students to grow beyond academics through leadership programs, extracurricular activities, and skill-building workshops, fostering well-rounded personal and professional development.",
+        "Siddhartha encourages students to grow beyond academics through leadership programs, extracurricular activities, and skill-building workshops, fostering well-rounded personal and professional development.",
       icon: <FaUserGraduate />,
       // bgImage: "url('images/student/img6.jpeg')",
     },
     {
       title: "Newsletter",
       description:
-        "GNITS offers state-of-the-art labs and research centers, giving students the opportunity to engage in hands-on learning and innovate in emerging fields like AI, VLSI, and more.",
+        "Siddhartha offers state-of-the-art labs and research centers, giving students the opportunity to engage in hands-on learning and innovate in emerging fields like AI, VLSI, and more.",
       icon: <FaRegNewspaper />,
       // bgImage: "url('images/student/img7.jpeg')",
     },
     {
       title: "Student Blog",
       description:
-        "GNITS encourages students to grow beyond academics through leadership programs, extracurricular activities, and skill-building workshops, fostering well-rounded personal and professional development.",
+        "Siddhartha encourages students to grow beyond academics through leadership programs, extracurricular activities, and skill-building workshops, fostering well-rounded personal and professional development.",
       icon: <BsPencilSquare />,
       // bgImage: "url('images/student/img8.jpeg')",
     },
@@ -80,10 +80,10 @@ function StudentCorner() {
               Holistic Grievance Redressal
             </h2>
             <p className="text-sm md:text-base font-medium leading-relaxed">
-              At GNITS, we are committed to fostering a supportive and inclusive
-              environment for our students, faculty, and staff. Our holistic
-              grievance redressal approach ensures that every concern is
-              addressed promptly and fairly, promoting a culture of mutual
+              At Siddhartha, we are committed to fostering a supportive and
+              inclusive environment for our students, faculty, and staff. Our
+              holistic grievance redressal approach ensures that every concern
+              is addressed promptly and fairly, promoting a culture of mutual
               respect and harmony. By integrating transparent processes and
               responsive measures, we aim to create an atmosphere where every
               member of our community feels valued and heard, thereby
@@ -109,10 +109,10 @@ function StudentCorner() {
         <div className="w-full max-w-7xl">
           <h1 className="text-3xl font-bold mb-4 ">Students Corner</h1>
           <p className=" mb-8 ">
-            GNITS empowers women to excel in technology through industry-aligned
-            education, advanced resources, holistic development, and strong
-            placement support. Unlock your potential and shape the future with
-            GNITS.
+            Siddhartha empowers women to excel in technology through
+            industry-aligned education, advanced resources, holistic
+            development, and strong placement support. Unlock your potential and
+            shape the future with Siddhartha.
           </p>
           <div
             className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 ${
