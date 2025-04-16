@@ -27,7 +27,7 @@ const NavBarComponent = () => {
                 <NavDropdown.Item as={Link} to="/about">
                   About
                 </NavDropdown.Item>
-                <NavDropdown.Item href="/legacy">Legacy</NavDropdown.Item>
+                <NavDropdown.Item href="#legacy">Legacy</NavDropdown.Item>
                 <NavDropdown.Item href="/leadership-and-governance">
                   Leadership and Governance
                 </NavDropdown.Item>
@@ -204,21 +204,8 @@ const NavBarComponent = () => {
                 <NavDropdown.Item href="#policies">Policies</NavDropdown.Item>
               </NavDropdown>
 
-              <Nav.Link href="#research">RESEARCH</Nav.Link>
               <Nav.Link href="/Placements">PLACEMENTS</Nav.Link>
               <Nav.Link href="#student-corner">STUDENT CORNER</Nav.Link>
-              <Nav.Link href="#placements">PLACEMENTS</Nav.Link>
-
-              <NavDropdown
-                title="STUDENT CORNER"
-                id="STUDENT-dropdown"
-                className="custom-dropdown white-text"
-              >
-                <NavDropdown.Item href="/ExamCell">
-                    Time Table
-                  </NavDropdown.Item>
-                 </NavDropdown>
-
               <Nav.Link href="#more">INCUBATION CELL</Nav.Link>
               <Nav.Link href="#more">EXAM CELL</Nav.Link>
             </Nav>
