@@ -188,7 +188,7 @@ const NavBarComponent = () => {
               </NavDropdown>
 
               <Nav.Link href="#research">RESEARCH</Nav.Link>
-              <Nav.Link href="#placements">PLACEMENTS</Nav.Link>
+              <Nav.Link href="/Placements">PLACEMENTS</Nav.Link>
               <Nav.Link href="#student-corner">STUDENT CORNER</Nav.Link>
               <Nav.Link href="#more">INCUBATION CELL</Nav.Link>
               <Nav.Link href="#more">EXAM CELL</Nav.Link>

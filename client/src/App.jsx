@@ -17,6 +17,7 @@ import ECE from "./pages/AcademicsComponents/BachelorPrograms/ECE";
 import Mech from "./pages/AcademicsComponents/BachelorPrograms/Mech";
 import Strategicplan from "./pages/StrategicPlan/strategicplan";
 import LifeAtSiddhartha from "./pages/CampusComponents/LifeAtSiddhartha";
+import Placements from "./pages/PlacementsComponent/Placements";
 
 export default function App() {
   return (
@@ -42,7 +43,9 @@ export default function App() {
             <Route path="/ECE" element={<ECE />} />
             <Route path="/MechanicalEngg" element={<Mech />} />
             {/* Routes for Campus Life at siddhartha */}
-            <Route path="/CampusLife" element={<LifeAtSiddhartha/>}/>
+            <Route path="/CampusLife" element={<LifeAtSiddhartha />} />
+            {/* Placements route */}
+            <Route path="/Placements" element={<Placements />} />
           </Routes>
         </main>
         <Footer />
