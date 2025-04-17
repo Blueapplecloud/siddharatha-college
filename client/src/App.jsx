@@ -18,6 +18,7 @@ import Mech from "./pages/AcademicsComponents/BachelorPrograms/Mech";
 import Strategicplan from "./pages/StrategicPlan/strategicplan";
 import AwardsandRecognitions from "./pages/Awards and Recognitions/AwardsandRecognitions";
 import LifeAtSiddhartha from "./pages/CampusComponents/LifeAtSiddharatha";
+import Legacy from "./pages/LegacyPageComponents/Legacy";
 
 import TimeTableExam from "./pages/StudentCorner/TimeTable";
 
@@ -33,6 +34,7 @@ export default function App() {
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/legacy" element={<Legacy />} />
             <Route
               path="/leadership-and-governance"
               element={<LegacyAndGovernance />}
