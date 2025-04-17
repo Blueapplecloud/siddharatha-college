@@ -25,6 +25,11 @@ import Legacy from "./pages/LegacyPageComponents/Legacy";
 import TimeTableExam from "./pages/StudentCorner/TimeTable";
 
 import Overview from "./pages/Research/Overview";
+import AdmissionPolicy from "./pages/AcademicsComponents/Admissions/AdmissionPolicy";
+import Civil from "./pages/AcademicsComponents/BachelorPrograms/Civil";
+import CSD from "./pages/AcademicsComponents/BachelorPrograms/CSD";
+import EEE from "./pages/AcademicsComponents/BachelorPrograms/EEE";
+import MBA from "./pages/AcademicsComponents/BachelorPrograms/MBA";
 
 export default function App() {
   return (
@@ -51,23 +56,28 @@ export default function App() {
             <Route path="/ComputerScience&Engg(AI & ML)" element={<CSAIML />} />
             <Route path="/ECE" element={<ECE />} />
             <Route path="/MechanicalEngg" element={<Mech />} />
+            <Route path="/Civil" element={<Civil />} />
+            <Route path="/CSD" element={<CSD />} />
+            <Route path="/EEE" element={<EEE />} />
+            <Route path="/MBA" element={<MBA />} />
             {/* Routes for Campus Life at siddhartha */}
             <Route path="/CampusLife" element={<LifeAtSiddhartha />} />
             {/* Placements route */}
             <Route path="/Placements" element={<Placements />} />
             {/* Routes for Campus Life at siddharatha */}
 
-            <Route path="/ExamCell" element={<TimeTableExam/>}/>
+            <Route path="/ExamCell" element={<TimeTableExam />} />
 
             {/* Routes for Research */}
             <Route path="/overview" element={<Overview />} />
             {/* Add more routes as needed */}
 
+            {/* Admission policy route */}
+            <Route path="/Admissions/Admission Policy" element={<AdmissionPolicy />} />
           </Routes>
         </main>
         <Footer />
       </div>
     </Router>
-   
   );
 }
