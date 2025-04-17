@@ -1,8 +1,10 @@
 import React from "react";
 import { FaCheckCircle } from "react-icons/fa";
+import AboutHeader from "../../ResuableComponents/AboutHeading";
 function HowToApply() {
   return (
     <div className="bg-white ">
+      <AboutHeader title={"How to Apply"} image={"images/clgimg.jpeg"} />
       {/* ug addmissions */}
       <div className="bg-white rounded-md shadow-sm p-4">
         <div className="flex flex-col md:flex-row bg-gray-50 p-8 ">
