@@ -67,11 +67,7 @@ export default function App() {
             {/* Placements route */}
             <Route path="/Placements" element={<Placements />} />
             {/* Routes for Campus Life at siddharatha */}
-
-            <Route path="/CampusLife" element={<LifeAtSiddhartha/>}/>
             <Route path="/ExamCell" element={<TimeTableExam/>}/>
-
-            <Route path="/CampusLife" element={<LifeAtSiddhartha />} />
             <Route path="/IncubationCell" element={<IncubationHeader />} />
             {/* Routes for Research */}
             <Route path="/overview" element={<Overview />} />
