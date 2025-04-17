@@ -5,6 +5,7 @@ import Research from "./HomePageComponents/Research";
 import Programs from "./HomePageComponents/Programs";
 import Alumni from "./HomePageComponents/Alumni";
 import PlacementsBanner from "./HomePageComponents/placementBanner/PlacementsBanner";
+import Innovations from "./HomePageComponents/Innovations";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Research />
       <Alumni />
       <PlacementsBanner />
+      <Innovations/>
     </div>
   );
 }
