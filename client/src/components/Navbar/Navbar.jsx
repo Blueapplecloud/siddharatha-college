@@ -78,7 +78,7 @@ const NavBarComponent = () => {
                   <NavDropdown.Item href="#how-to-apply">
                     How to Apply
                   </NavDropdown.Item>
-                  <NavDropdown.Item href="#policy">
+                  <NavDropdown.Item href="/Admissions/Admission Policy">
                     Admission Policy
                   </NavDropdown.Item>
                   <NavDropdown.Item href="#fees">
@@ -99,18 +99,15 @@ const NavBarComponent = () => {
                   <NavDropdown.Item href="/ECE">
                     Electronics and Communication Engineering
                   </NavDropdown.Item>
-                  <NavDropdown.Item>Information Technology</NavDropdown.Item>
-                  <NavDropdown.Item>
-                    Computer Science and Technology
-                  </NavDropdown.Item>
-                  <NavDropdown.Item>
+                  <NavDropdown.Item href="/Civil">Civil Engineering</NavDropdown.Item>
+                  <NavDropdown.Item href="/CSD">
                     Computer Science – Data science
                   </NavDropdown.Item>
-                  <NavDropdown.Item>
+                  <NavDropdown.Item href="/EEE">
                     Electrical and Electronics Engineering
                   </NavDropdown.Item>
-                  <NavDropdown.Item>
-                    Electronics and Telematics Engineering
+                  <NavDropdown.Item href="/MBA">
+                    MBA
                   </NavDropdown.Item>
                 </NavDropdown>
 
