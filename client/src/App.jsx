@@ -30,6 +30,8 @@ import Civil from "./pages/AcademicsComponents/BachelorPrograms/Civil";
 import CSD from "./pages/AcademicsComponents/BachelorPrograms/CSD";
 import EEE from "./pages/AcademicsComponents/BachelorPrograms/EEE";
 import MBA from "./pages/AcademicsComponents/BachelorPrograms/MBA";
+import IncubationHeader from "./pages/IncubationCell/IncubationCell";
+
 
 export default function App() {
   return (
@@ -66,8 +68,11 @@ export default function App() {
             <Route path="/Placements" element={<Placements />} />
             {/* Routes for Campus Life at siddharatha */}
 
-            <Route path="/ExamCell" element={<TimeTableExam />} />
+            <Route path="/CampusLife" element={<LifeAtSiddhartha/>}/>
+            <Route path="/ExamCell" element={<TimeTableExam/>}/>
 
+            <Route path="/CampusLife" element={<LifeAtSiddhartha />} />
+            <Route path="/IncubationCell" element={<IncubationHeader />} />
             {/* Routes for Research */}
             <Route path="/overview" element={<Overview />} />
             {/* Add more routes as needed */}

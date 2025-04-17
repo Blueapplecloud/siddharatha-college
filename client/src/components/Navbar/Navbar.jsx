@@ -202,8 +202,18 @@ const NavBarComponent = () => {
               </NavDropdown>
 
               <Nav.Link href="/Placements">PLACEMENTS</Nav.Link>
-              <Nav.Link href="#student-corner">STUDENT CORNER</Nav.Link>
-              <Nav.Link href="#more">INCUBATION CELL</Nav.Link>
+
+              <NavDropdown
+                title="STUDENT CORNER"
+                id="STUDENT-dropdown"
+                className="custom-dropdown white-text"
+              >
+                <NavDropdown.Item href="/ExamCell">
+                    Time Table
+                  </NavDropdown.Item>
+                 </NavDropdown>
+
+              <Nav.Link href="/IncubationCell">INCUBATION CELL</Nav.Link>
               <Nav.Link href="#more">EXAM CELL</Nav.Link>
             </Nav>
           </Navbar.Collapse>
