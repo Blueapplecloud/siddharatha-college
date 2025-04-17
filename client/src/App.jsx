@@ -22,6 +22,7 @@ import LifeAtSiddhartha from "./pages/CampusComponents/LifeAtSiddharatha";
 import TimeTableExam from "./pages/StudentCorner/TimeTable";
 
 import Overview from "./pages/Research/Overview";
+import IncubationHeader from "./pages/IncubationCell/IncubationCell";
 
 
 export default function App() {
@@ -54,7 +55,7 @@ export default function App() {
             <Route path="/ExamCell" element={<TimeTableExam/>}/>
 
             <Route path="/CampusLife" element={<LifeAtSiddhartha />} />
-
+            <Route path="/IncubationCell" element={<IncubationHeader />} />
             {/* Routes for Research */}
             <Route path="/overview" element={<Overview />} />
             {/* Add more routes as needed */}

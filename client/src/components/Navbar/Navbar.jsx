@@ -218,7 +218,7 @@ const NavBarComponent = () => {
                   </NavDropdown.Item>
                  </NavDropdown>
 
-              <Nav.Link href="#more">INCUBATION CELL</Nav.Link>
+              <Nav.Link href="/IncubationCell">INCUBATION CELL</Nav.Link>
               <Nav.Link href="#more">EXAM CELL</Nav.Link>
             </Nav>
           </Navbar.Collapse>
