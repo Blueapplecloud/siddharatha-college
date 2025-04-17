@@ -18,6 +18,7 @@ import Mech from "./pages/AcademicsComponents/BachelorPrograms/Mech";
 import Strategicplan from "./pages/StrategicPlan/strategicplan";
 import LifeAtSiddhartha from "./pages/CampusComponents/LifeAtSiddharatha";
 import Overview from "./pages/Research/Overview";
+import HowToApply from "./pages/Addmissions/HowToApply";
 
 export default function App() {
   return (
@@ -47,7 +48,8 @@ export default function App() {
 
             {/* Routes for Research */}
             <Route path="/overview" element={<Overview />} />
-            {/* Add more routes as needed */}
+            {/* Route for academics how to apply */}
+            <Route path="/how-to-apply" element={<HowToApply />} />
           </Routes>
         </main>
         <Footer />

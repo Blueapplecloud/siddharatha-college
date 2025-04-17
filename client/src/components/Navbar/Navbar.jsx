@@ -14,7 +14,7 @@ const NavBarComponent = () => {
       <Navbar expand="lg" className="custom-navbar">
         <Container>
           <Navbar.Brand href="/" className="nav-brand">
-            SIDDHARTHA
+            <img src="/logos/logo.png" alt="logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -75,13 +75,13 @@ const NavBarComponent = () => {
                 className="custom-dropdown"
               >
                 <NavDropdown title="Admissions" drop="end">
-                  <NavDropdown.Item href="#how-to-apply">
+                  <NavDropdown.Item href="/how-to-apply">
                     How to Apply
                   </NavDropdown.Item>
                   <NavDropdown.Item href="#policy">
                     Admission Policy
                   </NavDropdown.Item>
-                  <NavDropdown.Item href="#fees">
+                  <NavDropdown.Item href="how-to-apply#fee-structure">
                     Fee Structure
                   </NavDropdown.Item>
                 </NavDropdown>
