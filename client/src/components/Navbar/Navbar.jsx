@@ -40,7 +40,7 @@ const NavBarComponent = () => {
                 <NavDropdown.Item href="#committees">
                   Academic & Administrative Committees
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#awards">
+                <NavDropdown.Item href="/Awards">
                   Awards & Recognitions
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#accreditations">
@@ -78,7 +78,7 @@ const NavBarComponent = () => {
                   <NavDropdown.Item href="/how-to-apply">
                     How to Apply
                   </NavDropdown.Item>
-                  <NavDropdown.Item href="#policy">
+                  <NavDropdown.Item href="/Admissions/Admission Policy">
                     Admission Policy
                   </NavDropdown.Item>
                   <NavDropdown.Item href="how-to-apply#fee-structure">
@@ -90,29 +90,24 @@ const NavBarComponent = () => {
                   <NavDropdown.Item href="/ComputerScience&Engg">
                     Computer Science Engineering
                   </NavDropdown.Item>
-                  <NavDropdown.Item href="/ComputerScience&Tech">
-                    Computer Science and Technology
-                  </NavDropdown.Item>
-                  <NavDropdown.Item href="/IT">
-                    Information Technology
+                  <NavDropdown.Item href="/ComputerScience&Engg(AI & ML)">
+                    Computer Science & Engineering (AI & ML)
                   </NavDropdown.Item>
                   <NavDropdown.Item href="/MechanicalEngg">
                     Mechanical Engineering
                   </NavDropdown.Item>
-                  <NavDropdown.Item>
-                    Computer Science & Engineering (AI & ML)
-                  </NavDropdown.Item>
-                  <NavDropdown.Item>
-                    Computer Science – Data science
-                  </NavDropdown.Item>
-                  <NavDropdown.Item>
+                  <NavDropdown.Item href="/ECE">
                     Electronics and Communication Engineering
                   </NavDropdown.Item>
-                  <NavDropdown.Item>
+                  <NavDropdown.Item href="/Civil">Civil Engineering</NavDropdown.Item>
+                  <NavDropdown.Item href="/CSD">
+                    Computer Science – Data science
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="/EEE">
                     Electrical and Electronics Engineering
                   </NavDropdown.Item>
-                  <NavDropdown.Item>
-                    Electronics and Telematics Engineering
+                  <NavDropdown.Item href="/MBA">
+                    MBA
                   </NavDropdown.Item>
                 </NavDropdown>
 
@@ -206,9 +201,19 @@ const NavBarComponent = () => {
                 <NavDropdown.Item href="#policies">Policies</NavDropdown.Item>
               </NavDropdown>
 
-              <Nav.Link href="#placements">PLACEMENTS</Nav.Link>
-              <Nav.Link href="#student-corner">STUDENT CORNER</Nav.Link>
-              <Nav.Link href="#more">INCUBATION CELL</Nav.Link>
+              <Nav.Link href="/Placements">PLACEMENTS</Nav.Link>
+
+              <NavDropdown
+                title="STUDENT CORNER"
+                id="STUDENT-dropdown"
+                className="custom-dropdown white-text"
+              >
+                <NavDropdown.Item href="/ExamCell">
+                    Time Table
+                  </NavDropdown.Item>
+                 </NavDropdown>
+
+              <Nav.Link href="/IncubationCell">INCUBATION CELL</Nav.Link>
               <Nav.Link href="#more">EXAM CELL</Nav.Link>
             </Nav>
           </Navbar.Collapse>

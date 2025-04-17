@@ -11,9 +11,12 @@ import {
   FaInstagram,
   FaYoutube,
 } from "react-icons/fa";
+import Enroll from "./Enroll/Enroll";
 
 const Footer = () => {
   return (
+    <>
+      <Enroll />
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-column">
@@ -96,6 +99,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
+    </>
   );
 };
 

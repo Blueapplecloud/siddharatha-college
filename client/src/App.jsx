@@ -12,13 +12,30 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import LegacyAndGovernance from "./pages/LegacyAndGovernance/LegacyAndGovernance";
 import AlumniHeader from "./pages/CampusComponents/AboutAlumni";
 import CSE from "./pages/AcademicsComponents/BachelorPrograms/CSE";
-import CST from "./pages/AcademicsComponents/BachelorPrograms/CST";
-import IT from "./pages/AcademicsComponents/BachelorPrograms/IT";
+import CSAIML from "./pages/AcademicsComponents/BachelorPrograms/CSAIML";
+import ECE from "./pages/AcademicsComponents/BachelorPrograms/ECE";
 import Mech from "./pages/AcademicsComponents/BachelorPrograms/Mech";
 import Strategicplan from "./pages/StrategicPlan/strategicplan";
-import LifeAtSiddhartha from "./pages/CampusComponents/LifeAtSiddharatha";
+import AwardsandRecognitions from "./pages/Awards and Recognitions/AwardsandRecognitions";
+import Placements from "./pages/PlacementsComponent/Placements";
+import LifeAtSiddhartha from "./pages/CampusComponents/LifeAtSiddhartha";
+
+import Legacy from "./pages/LegacyPageComponents/Legacy";
+
+import TimeTableExam from "./pages/StudentCorner/TimeTable";
+
 import Overview from "./pages/Research/Overview";
+
 import HowToApply from "./pages/Addmissions/HowToApply";
+
+import AdmissionPolicy from "./pages/AcademicsComponents/Admissions/AdmissionPolicy";
+import Civil from "./pages/AcademicsComponents/BachelorPrograms/Civil";
+import CSD from "./pages/AcademicsComponents/BachelorPrograms/CSD";
+import EEE from "./pages/AcademicsComponents/BachelorPrograms/EEE";
+import MBA from "./pages/AcademicsComponents/BachelorPrograms/MBA";
+import IncubationHeader from "./pages/IncubationCell/IncubationCell";
+
+
 
 export default function App() {
   return (
@@ -29,6 +46,7 @@ export default function App() {
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/legacy" element={<Legacy />} />
             <Route
               path="/leadership-and-governance"
               element={<LegacyAndGovernance />}
@@ -38,18 +56,34 @@ export default function App() {
             {/* Route for View All Alumni Section */}
             <Route path="/alumni" element={<AlumniHeader />} />
             <Route path="/strategic" element={<Strategicplan />} />
+            <Route path="/Awards" element={<AwardsandRecognitions />} />
             {/* Routes for Departments Section */}
             <Route path="/ComputerScience&Engg" element={<CSE />} />
-            <Route path="/ComputerScience&Tech" element={<CST />} />
-            <Route path="/IT" element={<IT />} />
+            <Route path="/ComputerScience&Engg(AI & ML)" element={<CSAIML />} />
+            <Route path="/ECE" element={<ECE />} />
             <Route path="/MechanicalEngg" element={<Mech />} />
-            {/* Routes for Campus Life at siddharatha */}
+            <Route path="/Civil" element={<Civil />} />
+            <Route path="/CSD" element={<CSD />} />
+            <Route path="/EEE" element={<EEE />} />
+            <Route path="/MBA" element={<MBA />} />
+            {/* Routes for Campus Life at siddhartha */}
             <Route path="/CampusLife" element={<LifeAtSiddhartha />} />
-
+            {/* Placements route */}
+            <Route path="/Placements" element={<Placements />} />
+            {/* Routes for Campus Life at siddharatha */}
+            <Route path="/ExamCell" element={<TimeTableExam/>}/>
+            <Route path="/IncubationCell" element={<IncubationHeader />} />
             {/* Routes for Research */}
             <Route path="/overview" element={<Overview />} />
+
             {/* Route for academics how to apply */}
             <Route path="/how-to-apply" element={<HowToApply />} />
+
+            {/* Add more routes as needed */}
+
+            {/* Admission policy route */}
+            <Route path="/Admissions/Admission Policy" element={<AdmissionPolicy />} />
+
           </Routes>
         </main>
         <Footer />
