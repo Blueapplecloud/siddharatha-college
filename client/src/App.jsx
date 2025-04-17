@@ -25,12 +25,16 @@ import Legacy from "./pages/LegacyPageComponents/Legacy";
 import TimeTableExam from "./pages/StudentCorner/TimeTable";
 
 import Overview from "./pages/Research/Overview";
+
+import HowToApply from "./pages/Addmissions/HowToApply";
+
 import AdmissionPolicy from "./pages/AcademicsComponents/Admissions/AdmissionPolicy";
 import Civil from "./pages/AcademicsComponents/BachelorPrograms/Civil";
 import CSD from "./pages/AcademicsComponents/BachelorPrograms/CSD";
 import EEE from "./pages/AcademicsComponents/BachelorPrograms/EEE";
 import MBA from "./pages/AcademicsComponents/BachelorPrograms/MBA";
 import IncubationHeader from "./pages/IncubationCell/IncubationCell";
+
 
 
 export default function App() {
@@ -71,10 +75,15 @@ export default function App() {
             <Route path="/IncubationCell" element={<IncubationHeader />} />
             {/* Routes for Research */}
             <Route path="/overview" element={<Overview />} />
+
+            {/* Route for academics how to apply */}
+            <Route path="/how-to-apply" element={<HowToApply />} />
+
             {/* Add more routes as needed */}
 
             {/* Admission policy route */}
             <Route path="/Admissions/Admission Policy" element={<AdmissionPolicy />} />
+
           </Routes>
         </main>
         <Footer />

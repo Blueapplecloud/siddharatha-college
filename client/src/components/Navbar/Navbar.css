@@ -13,6 +13,11 @@
   color: white !important;
   font-size: 1.2rem; /* reduced */
 }
+.nav-brand img {
+  width: 180px; /* reduced */
+  height: 55px; /* reduced */
+  object-fit: cover;
+}
 
 /* TOP-LEVEL NAV LINKS */
 .custom-navbar .navbar-nav .nav-link,
