@@ -52,8 +52,10 @@ export default function App() {
             <Route path="/ComputerScience&Engg(AI & ML)" element={<CSAIML />} />
             <Route path="/ECE" element={<ECE />} />
             <Route path="/MechanicalEngg" element={<Mech />} />
+
             {/* Routes for Campus Life at siddhartha */}
             <Route path="/CampusLife" element={<LifeAtSiddhartha />} />
+
             {/* Placements route */}
             <Route path="/Placements" element={<Placements />} />
             {/* Routes for Campus Life at siddharatha */}
