@@ -14,10 +14,10 @@ export default function Home() {
       <News />
       <About />
       <Programs />
+      <Innovations/>
       <Research />
       <Alumni />
       <PlacementsBanner />
-      <Innovations/>
     </div>
   );
 }

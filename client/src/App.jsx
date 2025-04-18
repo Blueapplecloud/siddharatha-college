@@ -25,6 +25,7 @@ import Legacy from "./pages/LegacyPageComponents/Legacy";
 import TimeTableExam from "./pages/StudentCorner/TimeTable";
 
 import Overview from "./pages/Research/Overview";
+import FundedResearchProjects from "./pages/Research/FundedResearchProjects/FundedResearchProjects";
 
 import HowToApply from "./pages/Addmissions/HowToApply";
 
