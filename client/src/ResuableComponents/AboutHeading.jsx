@@ -47,7 +47,7 @@ const AboutHeader = ({ title, image }) => {
           >
             <Link
               to="/"
-              className="text-white hover:!text-yellow-300 !no-underline"
+              className="text-white hover:!text-yellow-300 !underline"
             >
               Home
             </Link>{" "}

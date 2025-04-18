@@ -25,6 +25,7 @@ import Legacy from "./pages/LegacyPageComponents/Legacy";
 import TimeTableExam from "./pages/StudentCorner/TimeTable";
 
 import Overview from "./pages/Research/Overview";
+import FundedResearchProjects from "./pages/Research/FundedResearchProjects/FundedResearchProjects";
 
 export default function App() {
   return (
@@ -61,7 +62,7 @@ export default function App() {
 
             {/* Routes for Research */}
             <Route path="/overview" element={<Overview />} />
-            {/* Add more routes as needed */}
+            <Route path="/funded-research-projects" element={<FundedResearchProjects />} />
 
           </Routes>
         </main>

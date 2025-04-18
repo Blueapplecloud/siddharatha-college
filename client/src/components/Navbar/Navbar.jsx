@@ -195,8 +195,8 @@ const NavBarComponent = () => {
                 <NavDropdown.Item href="#academic-research">
                   Academic Research
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#funded-reasearch-project">
-                  Funded Reasearch Projects
+                <NavDropdown.Item href="/funded-research-projects">
+                  Funded Research Projects
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#research-centers">
                   Research Centers
