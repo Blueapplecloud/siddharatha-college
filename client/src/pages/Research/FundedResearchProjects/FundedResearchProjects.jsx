@@ -7,7 +7,7 @@ const CountUp = ({ target }) => {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    const animationDuration = 2; // Shortened duration for faster animation
+    const animationDuration = 2;
     const totalFrames = animationDuration * 60;
     const increment = target / totalFrames;
     let animationFrameId;

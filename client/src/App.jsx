@@ -63,12 +63,14 @@ export default function App() {
             <Route path="/ComputerScience&Engg(AI & ML)" element={<CSAIML />} />
             <Route path="/ECE" element={<ECE />} />
             <Route path="/MechanicalEngg" element={<Mech />} />
+
             <Route path="/Civil" element={<Civil />} />
             <Route path="/CSD" element={<CSD />} />
             <Route path="/EEE" element={<EEE />} />
             <Route path="/MBA" element={<MBA />} />
             {/* Routes for Campus Life at siddhartha */}
             <Route path="/CampusLife" element={<LifeAtSiddhartha />} />
+
             {/* Placements route */}
             <Route path="/Placements" element={<Placements />} />
             {/* Routes for Campus Life at siddharatha */}
@@ -76,7 +78,7 @@ export default function App() {
             <Route path="/IncubationCell" element={<IncubationHeader />} />
             {/* Routes for Research */}
             <Route path="/overview" element={<Overview />} />
-
+            <Route path="/funded-research-projects" element={<FundedResearchProjects />} />
             {/* Route for academics how to apply */}
             <Route path="/how-to-apply" element={<HowToApply />} />
 
@@ -84,7 +86,7 @@ export default function App() {
 
             {/* Admission policy route */}
             <Route path="/Admissions/Admission Policy" element={<AdmissionPolicy />} />
-
+            
           </Routes>
         </main>
         <Footer />
