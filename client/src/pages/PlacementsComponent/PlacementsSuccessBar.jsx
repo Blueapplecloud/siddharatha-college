@@ -101,6 +101,11 @@ const PlacementsSuccessBar = () => {
       viewport={{ once: true }}
       transition={{ duration: 0.6 }}
     >
+      {/* Main Heading for Placements Statistics */}
+      <h2 className="text-3xl font-extrabold text-teal-900 mb-6">
+        Placement Success Statistics
+      </h2>
+<br />
       <div className="space-y-6">
         {stats.map((stat, index) => (
           <div key={index} className="space-y-2">
@@ -124,6 +129,7 @@ const PlacementsSuccessBar = () => {
         Statistics According to 2024 Placements.
       </p>
 
+      {/* Statistics buttons */}
       <div className="flex flex-wrap gap-4 mt-6">
         {[
           "2021-25 Placement Statistics",
