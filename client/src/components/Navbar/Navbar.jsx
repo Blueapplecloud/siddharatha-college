@@ -14,7 +14,7 @@ const NavBarComponent = () => {
       <Navbar expand="lg" className="custom-navbar">
         <Container>
           <Navbar.Brand href="/" className="nav-brand">
-            <img src="/logos/logo.png" alt="logo" />
+            <img src="/logos/logomain.png" alt="logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -99,16 +99,16 @@ const NavBarComponent = () => {
                   <NavDropdown.Item href="/ECE">
                     Electronics and Communication Engineering
                   </NavDropdown.Item>
-                  <NavDropdown.Item href="/Civil">Civil Engineering</NavDropdown.Item>
+                  <NavDropdown.Item href="/Civil">
+                    Civil Engineering
+                  </NavDropdown.Item>
                   <NavDropdown.Item href="/CSD">
                     Computer Science – Data science
                   </NavDropdown.Item>
                   <NavDropdown.Item href="/EEE">
                     Electrical and Electronics Engineering
                   </NavDropdown.Item>
-                  <NavDropdown.Item href="/MBA">
-                    MBA
-                  </NavDropdown.Item>
+                  <NavDropdown.Item href="/MBA">MBA</NavDropdown.Item>
                 </NavDropdown>
 
                 <NavDropdown title="Auxiliary Departments" drop="end">
@@ -208,10 +208,8 @@ const NavBarComponent = () => {
                 id="STUDENT-dropdown"
                 className="custom-dropdown white-text"
               >
-                <NavDropdown.Item href="/ExamCell">
-                    Time Table
-                  </NavDropdown.Item>
-                 </NavDropdown>
+                <NavDropdown.Item href="/ExamCell">Time Table</NavDropdown.Item>
+              </NavDropdown>
 
               <Nav.Link href="/IncubationCell">INCUBATION CELL</Nav.Link>
               <Nav.Link href="#more">EXAM CELL</Nav.Link>

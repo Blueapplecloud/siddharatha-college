@@ -2,7 +2,9 @@
 
 /* TOP NAVBAR BACKGROUND */
 .custom-navbar {
-  background-color: rgba(3, 70, 59, 0.99) !important;
+  /* background-color: rgba(3, 70, 59, 0.99) !important; */
+  background-color: white !important;
+  c
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
 }
@@ -14,7 +16,7 @@
   font-size: 1.2rem; /* reduced */
 }
 .nav-brand img {
-  width: 180px; /* reduced */
+  width: 250px; /* reduced */
   height: 55px; /* reduced */
   object-fit: cover;
 }
@@ -22,7 +24,7 @@
 /* TOP-LEVEL NAV LINKS */
 .custom-navbar .navbar-nav .nav-link,
 .custom-navbar .navbar-nav .dropdown-toggle {
-  color: white !important;
+  color: black !important;
   font-weight: 500;
   font-size: 0.8rem; /* reduced */
 }
