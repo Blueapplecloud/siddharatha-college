@@ -88,7 +88,7 @@ const PlacementHighlights = () => {
             <div className="absolute inset-0 bg-transparent group-hover:!bg-[#5e3d2c]/90 transition duration-300 z-10" />
 
             <div className="relative z-20 p-6 h-full flex flex-col justify-center text-left text-white">
-              <h3 className="text-xl font-semibold mb-3">{card.title}</h3>
+              <h3 className="text-2xl font-black mb-3">{card.title}</h3>
               <p className="text-sm">{card.description}</p>
             </div>
           </motion.div>

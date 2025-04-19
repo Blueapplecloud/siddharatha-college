@@ -32,7 +32,7 @@ const AdmissionPolicy = () => {
           <p className="text-gray-700 mb-10">
             Welcome to{" "}
             <strong>SIDDHARTHA Institute of Technology & Science</strong>{" "}
-            (Autonomous - For Women), Shaikpet, Hyderabad - 500104. At{" "}
+            , Ghatkesar, Hyderabad - 500104. At{" "}
             <strong>SIDDHARTHA Institute of Technology & Science</strong>, we
             offer a structured admission process designed to ensure that
             students with the potential to succeed are given the opportunity to
