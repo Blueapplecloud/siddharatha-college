@@ -39,36 +39,36 @@ const AboutHeader = ({ title, image }) => {
           </motion.h1>
 
           <motion.div
-  className="text-sm md:text-base mt-2"
-  variants={fadeIn}
-  initial="hidden"
-  animate="visible"
-  custom={2}
->
-  <Link
-    to="/"
-    className="text-white hover:!text-yellow-300 !no-underline"
-  >
-    Home
-  </Link>{" "}
-  /{" "}
-  {decodeURIComponent(location.pathname)
-    .slice(1)
-    .split("/")
-    .map((segment, index) => (
-      <span key={index} className="capitalize text-white">
-        {index > 0 && " / "}
-        {segment
-          .split("-")
-          .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-          .join(" ")}
-      </span>
-    ))}
-</motion.div>
+            className="text-sm md:text-base mt-2"
+            variants={fadeIn}
+            initial="hidden"
+            animate="visible"
+            custom={2}
+          >
+          <Link
+            to="/"
+            className="text-white hover:!text-yellow-300 !no-underline"
+          >
+            Home
+          </Link>{" "}
+          /{" "}
+          {decodeURIComponent(location.pathname)
+            .slice(1)
+            .split("/")
+            .map((segment, index) => (
+              <span key={index} className="capitalize text-white">
+                {index > 0 && " / "}
+                {segment
+                  .split("-")
+                  .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+                  .join(" ")}
+              </span>
+            ))}
+        </motion.div>
 
-        </div>
-      )}
-    </div>
+              </div>
+            )}
+          </div>
   );
 };
 
