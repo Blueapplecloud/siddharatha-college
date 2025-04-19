@@ -16,7 +16,7 @@ const Overview = () => {
           Research and Development (R&D)
         </h2>
         <p className="text-xs md:text-base text-gray-700 mb-8">
-          The Research and Development (R&D) cell at GNITS is dedicated to
+          The Research and Development (R&D) cell at Siddhartha is dedicated to
           fostering a robust research ecosystem aligned with the National
           Education Policy (NEP) 2020. The R&D cell promotes innovative
           thinking, collaboration, and the advancement of knowledge among
