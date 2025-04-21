@@ -175,7 +175,7 @@ const AlumniHeader = ({ title, image }) => {
           <div className="flex justify-center">
             <img
               src="https://gnits.ac.in/wp-content/uploads/2024/08/alumnae-1536x1152.jpeg"
-              alt="GNITS Alumni Event"
+              alt="SIDDHARTHA Alumni Event"
               className="rounded-xl w-full max-w-big object-cover shadow-lg"
             />
           </div>

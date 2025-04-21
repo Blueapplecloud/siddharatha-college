@@ -84,7 +84,7 @@ const Strategicplan = ({ title, image }) => {
           <div className="flex justify-center">
             <img
               src="https://gnits.ac.in/wp-content/uploads/2025/02/SDS_9835-1024x683.jpg"
-              alt="GNITS Alumni Event"
+              alt="GNISIDDHARTHA Alumni Event"
               className="rounded-xl w-full max-w-big object-cover shadow-lg"
             />
           </div>

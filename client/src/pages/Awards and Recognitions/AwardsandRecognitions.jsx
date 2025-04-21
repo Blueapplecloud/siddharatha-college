@@ -150,7 +150,7 @@ const AwardsandRecognitions = ({ title, image }) => {
           <div className="flex justify-center">
             <img
               src="https://gnits.ac.in/wp-content/uploads/2024/12/C1913T01-1-768x432.jpg"
-              alt="GNITS Alumni Event"
+              alt="SIDDHARTHA Alumni Event"
               className="rounded-xl w-full max-w-big object-cover shadow-lg"
             />
           </div>

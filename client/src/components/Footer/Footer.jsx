@@ -17,8 +17,8 @@ const Footer = () => {
   return (
     <>
       <Enroll />
-    <footer className="footer">
-      <div className="footer-container">
+    <footer className="footer ">
+      <div className="footer-container m-10">
         <div className="footer-column">
           <h4>Social Links</h4>
           <div className="social-icons">

@@ -158,7 +158,7 @@ const IncubationHeader = ({ title, image }) => {
           <div className="flex justify-center">
             <img
               src="https://i.pinimg.com/originals/09/b5/5b/09b55b317dc4b34820229af0c265b356.jpg"
-              alt="GNITS Alumni Event"
+              alt="SIDDHARTHA Alumni Event"
               className="rounded-xl w-68 h-70 object-cover"
             />
           </div>
@@ -223,7 +223,7 @@ const IncubationHeader = ({ title, image }) => {
           <div className="flex justify-center">
             <img
               src="https://gnits.ac.in/wp-content/uploads/2024/09/NITI-AIM-Logo.jpg-e1730809268267.png"
-              alt="GNITS Alumni Event"
+              alt="SIDDHARTHA Alumni Event"
               className="rounded-xl w-45 h-50 object-cover"
             />
           </div>

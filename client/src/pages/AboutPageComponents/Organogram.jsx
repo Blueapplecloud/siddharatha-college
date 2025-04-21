@@ -9,12 +9,12 @@ function Organogram() {
       <div className="organogram-data">
         <h1>Organization Chart</h1>
         <p>
-          Siddhartha Institute of Science and Technology (SIST) is, located in
+          Siddhartha Institute of Engineering & Technology (Siddhartha), located in
           Hyderabad, India, is a premier institution dedicated to providing
           world-class education in the fields of engineering, technology, and
-          management. This is a diagram depicting the structure of Siddhartha
-          and the relationships between the different people, departments, and
-          jobs at different levels within our institute.
+          management. This is a diagram depicting the structure of Siddhartha and the
+          relationships between the different people, departments, and jobs at
+          different levels within our institute.
         </p>
       </div>
       <div className="organogram-image">

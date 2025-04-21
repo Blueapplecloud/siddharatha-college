@@ -54,14 +54,14 @@ const TransportRoutes = () => {
           <SwiperSlide>
             <img
               src="https://pace.edu.in/img/facilities/transport/1.jpg"
-              alt="GNITS Bus 1"
+              alt="SIDDHARTHA Bus 1"
               className="w-full h-auto rounded-xl object-cover"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               src="https://silicon.ac.in/wp-content/uploads/2021/06/4-20.jpg"
-              alt="GNITS Bus 2"
+              alt="SIDDHARTHA Bus 2"
               className="w-full h-auto rounded-xl object-cover"
             />
           </SwiperSlide>
