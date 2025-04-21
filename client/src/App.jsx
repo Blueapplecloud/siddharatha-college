@@ -41,7 +41,8 @@ import Accreditations from "./pages/AboutPageComponents/Accreditations";
 import AnnualReports from "./pages/AnnualReports/AnnualReports";
 import MandatoryDisclosures from "./pages/MandatoryDisclosures/MandatoryDisclosures";
 import Policies from "./pages/PoliciesComponent/Policies";
-
+import WelfareMeasures from "./pages/WelfareMeasures/WelfareMeasures";
+import Governance from "./pages/Governance/Governance";
 
 
 
@@ -67,6 +68,9 @@ export default function App() {
             <Route path="/strategic" element={<Strategicplan />} />
             <Route path="/Awards" element={<AwardsandRecognitions />} />
             <Route path="/annual-reports" element={<AnnualReports />} />
+            <Route path="/welfare" element={<WelfareMeasures />}/>
+            <Route path="/governance" element={<Governance />}/>
+            {/* <Route path="/welfare" element={<WelfareMeasures />}/> */}
             <Route path="/mandatory-disclosures" element={<MandatoryDisclosures />}/>
             {/* Routes for Departments Section */}
             <Route path="/ComputerScience&Engg" element={<CSE />} />
