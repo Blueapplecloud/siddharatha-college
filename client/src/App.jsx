@@ -37,6 +37,7 @@ import MBA from "./pages/AcademicsComponents/BachelorPrograms/MBA";
 import IncubationHeader from "./pages/IncubationCell/IncubationCell";
 import AnnualReports from "./pages/AnnualReports/AnnualReports";
 import MandatoryDisclosures from "./pages/MandatoryDisclosures/MandatoryDisclosures";
+import WelfareMeasures from "./pages/WelfareMeasures/WelfareMeasures";
 
 
 
@@ -61,6 +62,7 @@ export default function App() {
             <Route path="/strategic" element={<Strategicplan />} />
             <Route path="/Awards" element={<AwardsandRecognitions />} />
             <Route path="/annual-reports" element={<AnnualReports />} />
+            <Route path="/welfare" element={<WelfareMeasures />}/>
             <Route path="/mandatory-disclosures" element={<MandatoryDisclosures />}/>
             {/* Routes for Departments Section */}
             <Route path="/ComputerScience&Engg" element={<CSE />} />
