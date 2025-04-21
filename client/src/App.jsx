@@ -39,6 +39,7 @@ import AnnualReports from "./pages/AnnualReports/AnnualReports";
 import MandatoryDisclosures from "./pages/MandatoryDisclosures/MandatoryDisclosures";
 import WelfareMeasures from "./pages/WelfareMeasures/WelfareMeasures";
 import Governance from "./pages/Governance/Governance";
+import AcademicTimetables from "./pages/AcademicsComponents/AcademicTimetables/AcademicTimetables";
 
 
 
@@ -77,6 +78,7 @@ export default function App() {
             <Route path="/CSD" element={<CSD />} />
             <Route path="/EEE" element={<EEE />} />
             <Route path="/MBA" element={<MBA />} />
+            <Route path="/academic-timetables" element={<AcademicTimetables />} />
             {/* Routes for Campus Life at siddhartha */}
             <Route path="/CampusLife" element={<LifeAtSiddhartha />} />
 
