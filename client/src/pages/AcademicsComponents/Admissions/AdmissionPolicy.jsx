@@ -28,7 +28,12 @@ const AdmissionPolicy = () => {
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
         >
-          <h2 className="text-4xl font-bold text-teal-900 mb-6">Overview</h2>
+          <h2
+            className="!text-[38px] !font-bold text-teal-900 mb-6"
+            style={{ fontFamily: "'Urbanist', sans-serif" }}
+          >
+            Overview
+          </h2>
           <p className="text-gray-700 mb-10">
             Welcome to{" "}
             <strong>SIDDHARTHA Institute of Technology & Science</strong>{" "}
@@ -42,7 +47,10 @@ const AdmissionPolicy = () => {
           </p>
           <div className="border-b border-amber-300 mb-10"></div>
 
-          <h3 className="text-3xl font-bold text-teal-900 mb-4">
+          <h3
+            className="!text-[35px] !font-bold text-teal-900 mb-4"
+            style={{ fontFamily: "'Urbanist', sans-serif" }}
+          >
             Admission Categories
           </h3>
           <ul className="list-disc pl-6 text-gray-700 mb-10">
@@ -58,7 +66,10 @@ const AdmissionPolicy = () => {
           </ul>
           <div className="border-b border-amber-300 mb-10"></div>
 
-          <h3 className="text-3xl font-bold text-teal-900 mb-4">
+          <h3
+            className="!text-[35px] !font-bold text-teal-900 mb-4"
+            style={{ fontFamily: "'Urbanist', sans-serif" }}
+          >
             Eligibility Criteria
           </h3>
           <ul className="list-disc pl-6 text-gray-700 mb-10">
@@ -78,7 +89,10 @@ const AdmissionPolicy = () => {
           </ul>
           <div className="border-b border-amber-300 mb-10"></div>
 
-          <h3 className="text-3xl font-bold text-teal-900 mb-4">
+          <h3
+            className="!text-[35px] !font-bold text-teal-900 mb-4"
+            style={{ fontFamily: "'Urbanist', sans-serif" }}
+          >
             Admission Process
           </h3>
           <ul className="list-disc pl-6 text-gray-700 mb-10">
@@ -98,7 +112,10 @@ const AdmissionPolicy = () => {
           </ul>
           <div className="border-b border-amber-300 mb-10"></div>
 
-          <h3 className="text-3xl font-bold text-teal-900 mb-4">
+          <h3
+            className="!text-[35px] !font-bold text-teal-900 mb-4"
+            style={{ fontFamily: "'Urbanist', sans-serif" }}
+          >
             Reservation Policies
           </h3>
           <ul className="list-disc pl-6 text-gray-700">
@@ -133,7 +150,10 @@ const AdmissionPolicy = () => {
           animate={inView ? "visible" : "hidden"}
         >
           <div className="bg-amber-300 p-6 rounded-lg shadow-lg border border-teal-400">
-            <h4 className="text-xl font-semibold mb-4 text-teal-800  text-center gap-2">
+            <h4
+              className="!text-[35px] !font-bold mb-4 text-teal-800 text-center gap-2"
+              style={{ fontFamily: "'Urbanist', sans-serif" }}
+            >
               Download Policy
             </h4>
             <a

@@ -41,8 +41,9 @@ const SiddharthaGlance = () => {
         variants={containerVariants}
       >
         <motion.h1
-          className="text-4xl font-bold text-[#003B2F] mb-4"
+          className="!text-[42px] !font-bold text-[#003B2F] mb-4"
           variants={itemVariants}
+          style={{ fontFamily: "'Urbanist', sans-serif" }}
         >
           SIDDHARTHA at a glance
         </motion.h1>

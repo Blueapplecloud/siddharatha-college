@@ -13,7 +13,8 @@ const TransportRoutes = () => {
       <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-10">
         <div className="lg:w-2/3">
           <motion.h2
-            className="text-3xl md:text-4xl font-bold mb-3 pt-2"
+            className="!text-[37px] !font-bold mb-3 pt-2"
+            style={{ fontFamily: "'Urbanist', sans-serif" }}
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
@@ -21,6 +22,7 @@ const TransportRoutes = () => {
           >
             Transport Routes
           </motion.h2>
+
           <p className="text-gray-800 text-lg leading-relaxed">
             Siddhartha Institute of Technology is committed to providing a safe
             and reliable transport system for students and staff. With a
@@ -48,7 +50,7 @@ const TransportRoutes = () => {
           modules={[Pagination]}
           loop={true}
           spaceBetween={20}
-          slidesPerView={2} 
+          slidesPerView={2}
           className="w-full h-full rounded-xl"
         >
           <SwiperSlide>

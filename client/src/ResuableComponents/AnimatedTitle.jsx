@@ -14,7 +14,10 @@ const AnimatedTitle = ({ title }) => {
 
   return (
     <div ref={ref} className="mb-10 mt-15">
-      <h2 className="text-4xl md:text-5xl font-extrabold text-[#5e3d2c] text-left flex flex-wrap gap-1">
+      <h2
+        className="!text-[35px] md:text-5xl !font-bold text-[#5e3d2c] text-left flex flex-wrap gap-1"
+        style={{ fontFamily: "'Urbanist', sans-serif" }}
+      >
         {title.split("").map((char, index) => (
           <motion.span
             key={index}

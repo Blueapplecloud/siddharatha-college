@@ -55,7 +55,7 @@ const PlacementHighlights = () => {
       id="placement-highlights"
     >
       <div className="text-left mb-12 max-w-4xl">
-        <h2 className="text-3xl md:text-5xl font-black text-gray-800 leading-tight">
+        <h2 className="!text-[42px] md:text-5xl !font-bold text-gray-800 leading-tight" style={{ fontFamily: "'Urbanist', sans-serif" }}>
           Key Placement Highlights
         </h2>
         <p className="text-gray-600">

@@ -35,7 +35,15 @@ import CSD from "./pages/AcademicsComponents/BachelorPrograms/CSD";
 import EEE from "./pages/AcademicsComponents/BachelorPrograms/EEE";
 import MBA from "./pages/AcademicsComponents/BachelorPrograms/MBA";
 import IncubationHeader from "./pages/IncubationCell/IncubationCell";
+
 import Accreditations from "./pages/AboutPageComponents/Accreditations";
+
+import AnnualReports from "./pages/AnnualReports/AnnualReports";
+import MandatoryDisclosures from "./pages/MandatoryDisclosures/MandatoryDisclosures";
+import Policies from "./pages/PoliciesComponent/Policies";
+
+
+
 
 export default function App() {
   return (
@@ -58,6 +66,8 @@ export default function App() {
             <Route path="/alumni" element={<AlumniHeader />} />
             <Route path="/strategic" element={<Strategicplan />} />
             <Route path="/Awards" element={<AwardsandRecognitions />} />
+            <Route path="/annual-reports" element={<AnnualReports />} />
+            <Route path="/mandatory-disclosures" element={<MandatoryDisclosures />}/>
             {/* Routes for Departments Section */}
             <Route path="/ComputerScience&Engg" element={<CSE />} />
             <Route path="/ComputerScience&Engg(AI & ML)" element={<CSAIML />} />
@@ -88,10 +98,16 @@ export default function App() {
             {/* Add more routes as needed */}
 
             {/* Admission policy route */}
+
             <Route
               path="/Admissions/Admission Policy"
               element={<AdmissionPolicy />}
             />
+
+            <Route path="/Admissions/Admission Policy" element={<AdmissionPolicy />} />
+            {/* About Policy Route */}
+            <Route path="/Policies" element={<Policies/>}/>
+
           </Routes>
         </main>
         <Footer />
