@@ -43,7 +43,7 @@ const NavBarComponent = () => {
                 <NavDropdown.Item href="/Awards">
                   Awards & Recognitions
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#accreditations">
+                <NavDropdown.Item href="/accreditations">
                   Accreditations
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#why">Why Sidharatha</NavDropdown.Item>

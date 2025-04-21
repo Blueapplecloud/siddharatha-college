@@ -35,8 +35,7 @@ import CSD from "./pages/AcademicsComponents/BachelorPrograms/CSD";
 import EEE from "./pages/AcademicsComponents/BachelorPrograms/EEE";
 import MBA from "./pages/AcademicsComponents/BachelorPrograms/MBA";
 import IncubationHeader from "./pages/IncubationCell/IncubationCell";
-
-
+import Accreditations from "./pages/AboutPageComponents/Accreditations";
 
 export default function App() {
   return (
@@ -53,6 +52,7 @@ export default function App() {
               element={<LegacyAndGovernance />}
             />
             <Route path="/organogram" element={<Organogram />} />
+            <Route path="/accreditations" element={<Accreditations />} />
             <Route path="/about" element={<ScrollFeatureStrip />} />
             {/* Route for View All Alumni Section */}
             <Route path="/alumni" element={<AlumniHeader />} />
@@ -74,19 +74,24 @@ export default function App() {
             {/* Placements route */}
             <Route path="/Placements" element={<Placements />} />
             {/* Routes for Campus Life at siddharatha */}
-            <Route path="/ExamCell" element={<TimeTableExam/>}/>
+            <Route path="/ExamCell" element={<TimeTableExam />} />
             <Route path="/IncubationCell" element={<IncubationHeader />} />
             {/* Routes for Research */}
             <Route path="/overview" element={<Overview />} />
-            <Route path="/funded-research-projects" element={<FundedResearchProjects />} />
+            <Route
+              path="/funded-research-projects"
+              element={<FundedResearchProjects />}
+            />
             {/* Route for academics how to apply */}
             <Route path="/how-to-apply" element={<HowToApply />} />
 
             {/* Add more routes as needed */}
 
             {/* Admission policy route */}
-            <Route path="/Admissions/Admission Policy" element={<AdmissionPolicy />} />
-            
+            <Route
+              path="/Admissions/Admission Policy"
+              element={<AdmissionPolicy />}
+            />
           </Routes>
         </main>
         <Footer />
