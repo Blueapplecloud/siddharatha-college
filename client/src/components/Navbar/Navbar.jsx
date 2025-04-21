@@ -48,10 +48,10 @@ const NavBarComponent = () => {
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#why">Why Sidharatha</NavDropdown.Item>
                 <NavDropdown title="Governance" drop="end">
-                  <NavDropdown.Item href="/governance">
+                  <NavDropdown.Item href="#council">
                     Governing Council Members
                   </NavDropdown.Item>
-                  <NavDropdown.Item href="/governance">
+                  <NavDropdown.Item href="#academic-council">
                     College Academic Council
                   </NavDropdown.Item>
                 </NavDropdown>
@@ -60,7 +60,7 @@ const NavBarComponent = () => {
                   Annual Reports
                 </NavDropdown.Item>
                 <NavDropdown title="Audit Reports" drop="end">
-                  <NavDropdown.Item href="/welfare">
+                  <NavDropdown.Item href="#welfare">
                     Welfare Measures
                   </NavDropdown.Item>
                 </NavDropdown>
@@ -141,7 +141,7 @@ const NavBarComponent = () => {
                   </NavDropdown.Item>
                 </NavDropdown>
 
-                <NavDropdown.Item>Academic Timetables</NavDropdown.Item>
+                <NavDropdown.Item href="/academic-timetables">Academic Timetables</NavDropdown.Item>
                 <NavDropdown title="Extended Learning" drop="end">
                   <NavDropdown.Item>Student Chapters</NavDropdown.Item>
                   <NavDropdown.Item>
