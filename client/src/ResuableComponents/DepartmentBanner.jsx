@@ -10,7 +10,8 @@ const DepartmentBanner = ({ backgroundImage, text }) => {
     <div
       ref={ref}
       className="relative w-full h-[350px] flex items-center justify-center bg-cover bg-center"
-      style={{ backgroundImage: `url(${backgroundImage})` }}
+      
+      style={{ backgroundImage: `url(${backgroundImage})`,fontFamily: "'Urbanist', sans-serif" }}
     >
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-black opacity-50 z-0" />
@@ -18,7 +19,7 @@ const DepartmentBanner = ({ backgroundImage, text }) => {
       {/* Animated Text */}
       {isInView && (
         <div className="z-10 px-4 text-center">
-          <h1 className="text-white text-3xl md:text-5xl font-bold">
+          <h1 className="text-white !text-[42px] md:text-5xl !font-bold">
             {words.map((word, index) => (
               <motion.span
                 key={index}

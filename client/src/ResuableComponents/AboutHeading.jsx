@@ -27,9 +27,16 @@ const AboutHeader = ({ title, image }) => {
       <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-black/80"></div>
 
       {isInView && (
-        <div className="relative z-10 text-white px-6 md:px-16 w-full">
+        <div
+          className="relative z-10 text-white"
+          style={{
+            paddingLeft: "clamp(24px, 10%, 10%)",
+            paddingRight: "16px",
+            fontFamily: "'Urbanist', sans-serif"
+          }}
+        >
           <motion.h1
-            className="text-3xl md:text-4xl font-bold mt-4 pt-2 border-t border-amber-400 inline-block"
+            className="!text-[45px] md:text-4xl font-extrabold mt-4 pt-2 border-t border-amber-400 inline-block"
             variants={fadeIn}
             initial="hidden"
             animate="visible"
@@ -39,36 +46,35 @@ const AboutHeader = ({ title, image }) => {
           </motion.h1>
 
           <motion.div
-            className="text-sm md:text-base mt-2"
+            className="!text-xl md:text-base mt-2"
             variants={fadeIn}
             initial="hidden"
             animate="visible"
             custom={2}
           >
-          <Link
-            to="/"
-            className="text-white hover:!text-yellow-300 underline"
-          >
-            Home
-          </Link>{" "}
-          /{" "}
-          {decodeURIComponent(location.pathname)
-            .slice(1)
-            .split("/")
-            .map((segment, index) => (
-              <span key={index} className="capitalize text-white">
-                {index > 0 && " / "}
-                {segment
-                  .split("-")
-                  .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-                  .join(" ")}
-              </span>
-            ))}
-        </motion.div>
-
-              </div>
-            )}
-          </div>
+            <Link
+              to="/"
+              className="text-white hover:!text-yellow-300 underline"
+            >
+              Home
+            </Link>{" "}
+            /{" "}
+            {decodeURIComponent(location.pathname)
+              .slice(1)
+              .split("/")
+              .map((segment, index) => (
+                <span key={index} className="capitalize text-white">
+                  {index > 0 && " / "}
+                  {segment
+                    .split("-")
+                    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+                    .join(" ")}
+                </span>
+              ))}
+          </motion.div>
+        </div>
+      )}
+    </div>
   );
 };
 

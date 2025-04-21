@@ -102,7 +102,7 @@ const PlacementsSuccessBar = () => {
       transition={{ duration: 0.6 }}
     >
       {/* Main Heading for Placements Statistics */}
-      <h2 className="text-3xl font-extrabold text-teal-900 mb-6">
+      <h2 className="!text-[42px] !font-bold text-teal-900 mb-6" style={{ fontFamily: "'Urbanist', sans-serif" }}>
         Placement Success Statistics
       </h2>
 <br />

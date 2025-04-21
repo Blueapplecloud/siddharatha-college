@@ -55,7 +55,7 @@ const NavBarComponent = () => {
                     College Academic Council
                   </NavDropdown.Item>
                 </NavDropdown>
-                <NavDropdown.Item href="#policies">Policies</NavDropdown.Item>
+                <NavDropdown.Item href="/Policies">Policies</NavDropdown.Item>
                 <NavDropdown.Item href="/annual-reports">
                   Annual Reports
                 </NavDropdown.Item>

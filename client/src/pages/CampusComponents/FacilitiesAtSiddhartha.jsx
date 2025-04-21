@@ -86,7 +86,10 @@ const FacilitiesAtSiddhartha = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, ease: "easeOut" }}
             >
-              <h2 className="text-4xl font-bold text-green-900 mb-4">
+              <h2
+                className="!text-[37px] !font-bold text-green-900 mb-4"
+                style={{ fontFamily: "'Urbanist', sans-serif" }}
+              >
                 Facilities at SIDDHARTHA
               </h2>
             </motion.div>
@@ -97,10 +100,10 @@ const FacilitiesAtSiddhartha = () => {
             transition={{ delay: 0.2, duration: 0.6 }}
             className="text-gray-700 mb-8"
           >
-            At SIDDHARTHA, research is a cornerstone of our academic
-            philosophy, driving innovation and technological advancements. Our
-            Research and Development (R&D) Cell is a dynamic hub that fosters a
-            strong research ecosystem, aligned with the goals of NEP 2020.
+            At SIDDHARTHA, research is a cornerstone of our academic philosophy,
+            driving innovation and technological advancements. Our Research and
+            Development (R&D) Cell is a dynamic hub that fosters a strong
+            research ecosystem, aligned with the goals of NEP 2020.
           </motion.p>
           <motion.div
             className="grid grid-cols-2 md:grid-cols-3 gap-6"

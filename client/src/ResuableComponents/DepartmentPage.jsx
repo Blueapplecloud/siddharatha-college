@@ -41,10 +41,12 @@ function DepartmentPage({
               initial={{ opacity: 0, y: 30 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.8, ease: "easeOut" }}
-              className="text-[41.6px] font-[Urbanist, sans-serif] text-[#003D3D] border-b pb-2"
+              className="!text-[35px] !font-bold text-[#003D3D] border-b pb-2"
+              style={{ fontFamily: "'Urbanist', sans-serif" }}
             >
               HOD'S MESSAGE
             </motion.h2>
+
             {hodMessage.map((para, idx) => (
               <p key={idx} className="mt-4 text-gray-600 leading-relaxed">
                 {para}
@@ -67,10 +69,12 @@ function DepartmentPage({
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              className="text-[41.6px] font-[Urbanist, sans-serif] text-[#003D3D] border-b-2 border-amber-300 pb-2"
+              className="!text-[35px] !font-bold text-[#003D3D] border-b-2 border-amber-300 pb-2"
+              style={{ fontFamily: "'Urbanist', sans-serif" }}
             >
               VISION OF THE DEPARTMENT
             </motion.h2>
+
             <p className="mt-4 text-gray-700 leading-relaxed">{vision}</p>
           </div>
           <div className="flex-1 p-6 transition duration-300 ease-in-out hover:bg-amber-300">
@@ -79,10 +83,12 @@ function DepartmentPage({
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="text-[41.6px] font-[Urbanist, sans-serif] text-[#003D3D] border-b-2 border-amber-300 pb-2"
+              className="!text-[35px] !font-bold text-[#003D3D] border-b-2 border-amber-300 pb-2"
+              style={{ fontFamily: "'Urbanist', sans-serif" }}
             >
               MISSION OF THE DEPARTMENT
             </motion.h2>
+
             <ul className="mt-4 text-gray-700 leading-relaxed list-disc pl-5 space-y-2">
               {missionList.map((item, idx) => (
                 <li key={idx}>{item}</li>
@@ -101,10 +107,12 @@ function DepartmentPage({
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              className="text-[41.6px] font-[Urbanist, sans-serif] text-[#003D3D] border-b-2 border-amber-300 pb-2"
+              className="!text-[35px] !font-bold text-[#003D3D] border-b-2 border-amber-300 pb-2"
+              style={{ fontFamily: "'Urbanist', sans-serif" }}
             >
               ABOUT THE DEPARTMENT
             </motion.h2>
+
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
@@ -123,10 +131,12 @@ function DepartmentPage({
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="text-[41.6px] font-[Urbanist, sans-serif] text-[#003D3D] border-b-2 border-amber-300 pb-2"
+              className="!text-[35px] !font-bold text-[#003D3D] border-b-2 border-amber-300 pb-2"
+              style={{ fontFamily: "'Urbanist', sans-serif" }}
             >
               COURSES OFFERED
             </motion.h2>
+
             <motion.table
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
@@ -144,9 +154,15 @@ function DepartmentPage({
               <tbody>
                 {coursesOffered.map((course, idx) => (
                   <tr key={idx}>
-                    <td className="border border-gray-300 p-2">{course.name}</td>
-                    <td className="border border-gray-300 p-2">{course.duration}</td>
-                    <td className="border border-gray-300 p-2">{course.intake}</td>
+                    <td className="border border-gray-300 p-2">
+                      {course.name}
+                    </td>
+                    <td className="border border-gray-300 p-2">
+                      {course.duration}
+                    </td>
+                    <td className="border border-gray-300 p-2">
+                      {course.intake}
+                    </td>
                   </tr>
                 ))}
               </tbody>

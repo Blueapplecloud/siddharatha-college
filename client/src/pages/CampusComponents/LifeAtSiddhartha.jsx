@@ -6,7 +6,6 @@ import AboutHeader from "../../ResuableComponents/AboutHeading";
 import FacilitiesAtSiddhartha from "./FacilitiesAtSiddhartha";
 import TransportRoutes from "./TransportRoutes";
 import StudentCorner from "./StudentCorner";
- 
 
 const LifeAtSiddhartha = () => {
   return (
@@ -19,10 +18,10 @@ const LifeAtSiddhartha = () => {
       <div className="px-4 md:px-10 py-10 bg-gray-100">
         <div className="bg-white rounded-2xl shadow-2xl p-6 md:p-10 flex flex-col md:flex-row justify-between items-center gap-10">
           {/* Content Section */}
-          {/* Content Section */}
           <div className="md:w-1/2">
             <motion.h2
-              className="text-3xl md:text-4xl font-bold mb-4 pt-2"
+              className="!text-[37px] !font-bold mb-4 pt-2"
+              style={{ fontFamily: "'Urbanist', sans-serif" }}
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, ease: "easeOut" }}
@@ -82,7 +81,6 @@ const LifeAtSiddhartha = () => {
       <FacilitiesAtSiddhartha />
       <TransportRoutes />
       <StudentCorner />
-
     </>
   );
 };

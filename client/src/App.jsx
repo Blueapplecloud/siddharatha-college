@@ -37,6 +37,7 @@ import MBA from "./pages/AcademicsComponents/BachelorPrograms/MBA";
 import IncubationHeader from "./pages/IncubationCell/IncubationCell";
 import AnnualReports from "./pages/AnnualReports/AnnualReports";
 import MandatoryDisclosures from "./pages/MandatoryDisclosures/MandatoryDisclosures";
+import Policies from "./pages/PoliciesComponent/Policies";
 
 
 
@@ -90,7 +91,8 @@ export default function App() {
 
             {/* Admission policy route */}
             <Route path="/Admissions/Admission Policy" element={<AdmissionPolicy />} />
-            
+            {/* About Policy Route */}
+            <Route path="/Policies" element={<Policies/>}/>
           </Routes>
         </main>
         <Footer />

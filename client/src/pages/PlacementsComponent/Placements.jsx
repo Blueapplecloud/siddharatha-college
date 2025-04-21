@@ -34,7 +34,8 @@ const Placements = () => {
       >
         {/* Text Section */}
         <div className="md:w-1/2 text-left">
-          <h2 className="text-5xl md:text-5xl font-black text-gray-800 leading-tight border-b-4 pb-2 border-amber-300">
+          <h2 className="!text-[42px] !font-bold md:text-5xl text-gray-800 leading-tight border-b-4 pb-2 border-amber-300"
+          style={{ fontFamily: "'Urbanist', sans-serif" }}>
             World-class Placements
           </h2>
           <p className="text-lg text-gray-700 mt-4">
@@ -78,7 +79,7 @@ const Placements = () => {
 
         {/* Text Section */}
         <div className="w-full md:w-1/2 text-left mr-10">
-          <h2 className="text-5xl md:text-5xl font-black text-gray-800 leading-tight border-b-4 pb-2 border-amber-300">
+          <h2 className="text-5xl md:text-5xl !font-bold text-gray-800 leading-tight border-b-4 pb-2 border-amber-300" style={{ fontFamily: "'Urbanist', sans-serif" }}>
             Top-Tier Recruiters and Competitive Offers
           </h2>
           <p className="text-base text-gray-700 mt-3 leading-relaxed">
