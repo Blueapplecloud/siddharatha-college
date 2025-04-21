@@ -35,6 +35,8 @@ import CSD from "./pages/AcademicsComponents/BachelorPrograms/CSD";
 import EEE from "./pages/AcademicsComponents/BachelorPrograms/EEE";
 import MBA from "./pages/AcademicsComponents/BachelorPrograms/MBA";
 import IncubationHeader from "./pages/IncubationCell/IncubationCell";
+import AnnualReports from "./pages/AnnualReports/AnnualReports";
+import MandatoryDisclosures from "./pages/MandatoryDisclosures/MandatoryDisclosures";
 
 
 
@@ -58,6 +60,8 @@ export default function App() {
             <Route path="/alumni" element={<AlumniHeader />} />
             <Route path="/strategic" element={<Strategicplan />} />
             <Route path="/Awards" element={<AwardsandRecognitions />} />
+            <Route path="/annual-reports" element={<AnnualReports />} />
+            <Route path="/mandatory-disclosures" element={<MandatoryDisclosures />}/>
             {/* Routes for Departments Section */}
             <Route path="/ComputerScience&Engg" element={<CSE />} />
             <Route path="/ComputerScience&Engg(AI & ML)" element={<CSAIML />} />
