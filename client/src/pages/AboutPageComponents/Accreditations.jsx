@@ -1,4 +1,5 @@
 import React from "react";
+import AboutHeader from "../../ResuableComponents/AboutHeading";
 
 function Accreditations() {
   const accreditationData = [
@@ -31,6 +32,7 @@ function Accreditations() {
   ];
   return (
     <div className="w-full px-4 py-8">
+      <AboutHeader title="Accreditations" image={"images/clgimg.jpeg"} />
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-start justify-between gap-10 md:px-15 sm:px-5 ">
         {/* Left Content */}
         <div className="flex-1">
