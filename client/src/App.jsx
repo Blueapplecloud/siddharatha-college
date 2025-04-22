@@ -45,6 +45,7 @@ import WelfareMeasures from "./pages/WelfareMeasures/WelfareMeasures";
 import Governance from "./pages/Governance/Governance";
 import AcademicTimetables from "./pages/AcademicsComponents/AcademicTimetables/AcademicTimetables";
 import StudentChapters from "./pages/AcademicsComponents/Extended Learning/StudentChapters Components/StudentChapter";
+import WhySITS from "./pages/AboutPageComponents/whySits";
 
 
 
@@ -117,6 +118,8 @@ export default function App() {
 
             {/* Student Chapters Route */}
             <Route path="/Student Chapters" element={<StudentChapters/>}/>
+            {/* Why SIDDHARTHA Route */}
+            <Route path="/Why SITS" element={<WhySITS/>}/>
           </Routes>
         </main>
         <Footer />

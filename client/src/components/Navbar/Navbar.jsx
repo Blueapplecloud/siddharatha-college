@@ -46,7 +46,7 @@ const NavBarComponent = () => {
                 <NavDropdown.Item href="/accreditations">
                   Accreditations
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#why">Why Sidharatha</NavDropdown.Item>
+                <NavDropdown.Item href="/Why SITS">Why Sidharatha</NavDropdown.Item>
                 <NavDropdown title="Governance" drop="end">
                   <NavDropdown.Item href="#council">
                     Governing Council Members
@@ -212,7 +212,7 @@ const NavBarComponent = () => {
               </NavDropdown>
 
               <Nav.Link href="/IncubationCell">INCUBATION CELL</Nav.Link>
-              <Nav.Link href="#more">EXAM CELL</Nav.Link>
+              <Nav.Link href="/ExamCell">EXAM CELL</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
