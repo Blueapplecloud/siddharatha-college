@@ -11,7 +11,7 @@ const MandatoryDisclosures = () => {
 
   return (
     <>
-      <AboutHeading title="Annual Reports" image="images/clgimg2.jpeg" />
+      <AboutHeading title="Mandatory Disclosures" image="images/clgimg2.jpeg" />
 
       <section className="p-10 md:px-16 px-7">
         <div className="flex flex-wrap gap-3">
