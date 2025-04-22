@@ -48,10 +48,10 @@ const NavBarComponent = () => {
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#why">Why Sidharatha</NavDropdown.Item>
                 <NavDropdown title="Governance" drop="end">
-                  <NavDropdown.Item href="#council">
+                  <NavDropdown.Item href="/governance">
                     Governing Council Members
                   </NavDropdown.Item>
-                  <NavDropdown.Item href="#academic-council">
+                  <NavDropdown.Item href="/governance">
                     College Academic Council
                   </NavDropdown.Item>
                 </NavDropdown>
