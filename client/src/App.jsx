@@ -44,6 +44,7 @@ import Policies from "./pages/PoliciesComponent/Policies";
 import WelfareMeasures from "./pages/WelfareMeasures/WelfareMeasures";
 import Governance from "./pages/Governance/Governance";
 import AcademicTimetables from "./pages/AcademicsComponents/AcademicTimetables/AcademicTimetables";
+import StudentChapters from "./pages/AcademicsComponents/Extended Learning/StudentChapters Components/StudentChapter";
 
 
 
@@ -114,6 +115,8 @@ export default function App() {
             {/* About Policy Route */}
             <Route path="/Policies" element={<Policies/>}/>
 
+            {/* Student Chapters Route */}
+            <Route path="/Student Chapters" element={<StudentChapters/>}/>
           </Routes>
         </main>
         <Footer />
