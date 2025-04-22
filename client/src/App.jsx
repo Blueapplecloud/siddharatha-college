@@ -38,6 +38,7 @@ import IncubationHeader from "./pages/IncubationCell/IncubationCell";
 import AnnualReports from "./pages/AnnualReports/AnnualReports";
 import MandatoryDisclosures from "./pages/MandatoryDisclosures/MandatoryDisclosures";
 import Policies from "./pages/PoliciesComponent/Policies";
+import StudentChapters from "./pages/AcademicsComponents/Extended Learning/StudentChapters Components/StudentChapter";
 
 
 
@@ -93,6 +94,9 @@ export default function App() {
             <Route path="/Admissions/Admission Policy" element={<AdmissionPolicy />} />
             {/* About Policy Route */}
             <Route path="/Policies" element={<Policies/>}/>
+
+            {/* Student Chapters Route */}
+            <Route path="/Student Chapters" element={<StudentChapters/>}/>
           </Routes>
         </main>
         <Footer />

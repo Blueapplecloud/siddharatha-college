@@ -143,7 +143,7 @@ const NavBarComponent = () => {
 
                 <NavDropdown.Item>Academic Timetables</NavDropdown.Item>
                 <NavDropdown title="Extended Learning" drop="end">
-                  <NavDropdown.Item>Student Chapters</NavDropdown.Item>
+                  <NavDropdown.Item href="/Student Chapters">Student Chapters</NavDropdown.Item>
                   <NavDropdown.Item>
                     Non-Formal Sanskrit Education (NFSE)
                   </NavDropdown.Item>
