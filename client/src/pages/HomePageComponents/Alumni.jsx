@@ -89,7 +89,8 @@ const Alumni = () => {
 
         <Link
           to="/alumni"
-          className="mt-8 inline-flex bg-[#D6820B] text-white px-6 py-4 text-base font-semibold rounded-none items-center gap-2 hover:bg-[#bb6f07] transition"
+          className="mt-8 inline-flex bg-[#D6820B] text-white px-6 py-4 text-base font-semibold rounded-none items-center gap-2 hover:bg-[#bb6f07] transition w-fit h-5"
+          style={{ textDecoration: 'none' }}
         >
           View All Alumni
           <ArrowUpRight className="w-5 h-5" />

@@ -46,12 +46,12 @@ const NavBarComponent = () => {
                 <NavDropdown.Item href="/accreditations">
                   Accreditations
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#why">Why Sidharatha</NavDropdown.Item>
+                <NavDropdown.Item href="/Why SITS">Why Sidharatha</NavDropdown.Item>
                 <NavDropdown title="Governance" drop="end">
-                  <NavDropdown.Item href="#council">
+                  <NavDropdown.Item href="/governance">
                     Governing Council Members
                   </NavDropdown.Item>
-                  <NavDropdown.Item href="#academic-council">
+                  <NavDropdown.Item href="/governance">
                     College Academic Council
                   </NavDropdown.Item>
                 </NavDropdown>
@@ -141,9 +141,9 @@ const NavBarComponent = () => {
                   </NavDropdown.Item>
                 </NavDropdown>
 
-                <NavDropdown.Item>Academic Timetables</NavDropdown.Item>
+                <NavDropdown.Item href="/academic-timetables">Academic Timetables</NavDropdown.Item>
                 <NavDropdown title="Extended Learning" drop="end">
-                  <NavDropdown.Item>Student Chapters</NavDropdown.Item>
+                  <NavDropdown.Item href="/Student Chapters">Student Chapters</NavDropdown.Item>
                   <NavDropdown.Item>
                     Non-Formal Sanskrit Education (NFSE)
                   </NavDropdown.Item>
@@ -212,7 +212,7 @@ const NavBarComponent = () => {
               </NavDropdown>
 
               <Nav.Link href="/IncubationCell">INCUBATION CELL</Nav.Link>
-              <Nav.Link href="#more">EXAM CELL</Nav.Link>
+              <Nav.Link href="/ExamCell">EXAM CELL</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
