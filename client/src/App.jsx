@@ -35,15 +35,15 @@ import CSD from "./pages/AcademicsComponents/BachelorPrograms/CSD";
 import EEE from "./pages/AcademicsComponents/BachelorPrograms/EEE";
 import MBA from "./pages/AcademicsComponents/BachelorPrograms/MBA";
 import IncubationHeader from "./pages/IncubationCell/IncubationCell";
-
 import Accreditations from "./pages/AboutPageComponents/Accreditations";
-
 import AnnualReports from "./pages/AnnualReports/AnnualReports";
 import MandatoryDisclosures from "./pages/MandatoryDisclosures/MandatoryDisclosures";
 import Policies from "./pages/PoliciesComponent/Policies";
-
-
-
+import CSEPG from "./pages/Masters/CSEPG";
+import CNISPG from "./pages/Masters/CNISPG";
+import DECEPG from "./pages/Masters/DECEPG";
+import PE_ED from "./pages/Masters/PE_ED";
+import WMC from "./pages/Masters/WMC";
 
 export default function App() {
   return (
@@ -67,7 +67,10 @@ export default function App() {
             <Route path="/strategic" element={<Strategicplan />} />
             <Route path="/Awards" element={<AwardsandRecognitions />} />
             <Route path="/annual-reports" element={<AnnualReports />} />
-            <Route path="/mandatory-disclosures" element={<MandatoryDisclosures />}/>
+            <Route
+              path="/mandatory-disclosures"
+              element={<MandatoryDisclosures />}
+            />
             {/* Routes for Departments Section */}
             <Route path="/ComputerScience&Engg" element={<CSE />} />
             <Route path="/ComputerScience&Engg(AI & ML)" element={<CSAIML />} />
@@ -104,10 +107,19 @@ export default function App() {
               element={<AdmissionPolicy />}
             />
 
-            <Route path="/Admissions/Admission Policy" element={<AdmissionPolicy />} />
+            <Route
+              path="/Admissions/Admission Policy"
+              element={<AdmissionPolicy />}
+            />
             {/* About Policy Route */}
-            <Route path="/Policies" element={<Policies/>}/>
+            <Route path="/Policies" element={<Policies />} />
 
+            {/* masters pg programs routes */}
+            <Route path="/academics/masters/cse" element={<CSEPG />} />
+            <Route path="/academics/masters/cnis" element={<CNISPG />} />
+            <Route path="/academics/masters/dece" element={<DECEPG />} />
+            <Route path="/academics/masters/pe-ed" element={<PE_ED />} />
+            <Route path="/academics/masters/wmc" element={<WMC />} />
           </Routes>
         </main>
         <Footer />

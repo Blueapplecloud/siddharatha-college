@@ -124,19 +124,19 @@ const NavBarComponent = () => {
                 <NavDropdown.Item>Syllabus ( UG & PG )</NavDropdown.Item>
 
                 <NavDropdown title="Masters (PG) Programs" drop="end">
-                  <NavDropdown.Item>
+                  <NavDropdown.Item href="academics/masters/cse">
                     Computer Science and Engineering
                   </NavDropdown.Item>
-                  <NavDropdown.Item>
+                  <NavDropdown.Item href="/academics/masters/cnis">
                     Computer Networks and Information Security
                   </NavDropdown.Item>
-                  <NavDropdown.Item>
+                  <NavDropdown.Item href="/academics/masters/dece">
                     Digital Electronics and Communication Engineering
                   </NavDropdown.Item>
-                  <NavDropdown.Item>
+                  <NavDropdown.Item href="/academics/masters/pe-ed">
                     Power Electronics & Electrical Drives
                   </NavDropdown.Item>
-                  <NavDropdown.Item>
+                  <NavDropdown.Item href="/academics/masters/wmc">
                     Wireless and Mobile Communication
                   </NavDropdown.Item>
                 </NavDropdown>
