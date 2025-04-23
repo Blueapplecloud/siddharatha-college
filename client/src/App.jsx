@@ -51,6 +51,7 @@ import Governance from "./pages/Governance/Governance";
 import AcademicTimetables from "./pages/AcademicsComponents/AcademicTimetables/AcademicTimetables";
 import StudentChapters from "./pages/AcademicsComponents/Extended Learning/StudentChapters Components/StudentChapter";
 import WhySITS from "./pages/AboutPageComponents/whySits";
+import Syllabus from "./pages/AcademicsComponents/Syllabus/Syllabus";
 
 
 
@@ -96,7 +97,7 @@ export default function App() {
                 <Route path="/EEE" element={<EEE />} />
                 <Route path="/MBA" element={<MBA />} />
                 {/* Routes for Syllabus (UG & PG) */}
-
+                <Route path="/Syllabus (UG & PG)" element={<Syllabus/>}/>
                 {/* Routes for Masters (PG) Programs */}
                 <Route path="/academics/masters/cse" element={<CSEPG />} />
                 <Route path="/academics/masters/cnis" element={<CNISPG />} />
