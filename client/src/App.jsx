@@ -35,17 +35,25 @@ import CSD from "./pages/AcademicsComponents/BachelorPrograms/CSD";
 import EEE from "./pages/AcademicsComponents/BachelorPrograms/EEE";
 import MBA from "./pages/AcademicsComponents/BachelorPrograms/MBA";
 import IncubationHeader from "./pages/IncubationCell/IncubationCell";
-
 import Accreditations from "./pages/AboutPageComponents/Accreditations";
-
 import AnnualReports from "./pages/AnnualReports/AnnualReports";
 import MandatoryDisclosures from "./pages/MandatoryDisclosures/MandatoryDisclosures";
 import Policies from "./pages/PoliciesComponent/Policies";
+
+import CSEPG from "./pages/Masters/CSEPG";
+import CNISPG from "./pages/Masters/CNISPG";
+import DECEPG from "./pages/Masters/DECEPG";
+import PE_ED from "./pages/Masters/PE_ED";
+import WMC from "./pages/Masters/WMC";
+
 import WelfareMeasures from "./pages/WelfareMeasures/WelfareMeasures";
 import Governance from "./pages/Governance/Governance";
 import AcademicTimetables from "./pages/AcademicsComponents/AcademicTimetables/AcademicTimetables";
 import StudentChapters from "./pages/AcademicsComponents/Extended Learning/StudentChapters Components/StudentChapter";
 import WhySITS from "./pages/AboutPageComponents/whySits";
+
+
+
 
 export default function App() {
   return (
@@ -90,7 +98,11 @@ export default function App() {
                 {/* Routes for Syllabus (UG & PG) */}
 
                 {/* Routes for Masters (PG) Programs */}
-
+                <Route path="/academics/masters/cse" element={<CSEPG />} />
+                <Route path="/academics/masters/cnis" element={<CNISPG />} />
+                <Route path="/academics/masters/dece" element={<DECEPG />} />
+                <Route path="/academics/masters/pe-ed" element={<PE_ED />} />
+                <Route path="/academics/masters/wmc" element={<WMC />} />
                 {/* Route for Academic TimeTable */}
                 <Route path="/academic-timetables" element={<AcademicTimetables />}/>
                 {/* Routes for Extended Learning */}
