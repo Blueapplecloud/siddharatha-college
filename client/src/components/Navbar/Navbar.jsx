@@ -46,7 +46,9 @@ const NavBarComponent = () => {
                 <NavDropdown.Item href="/accreditations">
                   Accreditations
                 </NavDropdown.Item>
-                <NavDropdown.Item href="/Why SITS">Why Sidharatha</NavDropdown.Item>
+                <NavDropdown.Item href="/Why SITS">
+                  Why Sidharatha
+                </NavDropdown.Item>
                 <NavDropdown title="Governance" drop="end">
                   <NavDropdown.Item href="/governance">
                     Governing Council Members
@@ -111,7 +113,7 @@ const NavBarComponent = () => {
                   <NavDropdown.Item href="/MBA">MBA</NavDropdown.Item>
                 </NavDropdown>
 
-                <NavDropdown title="Auxiliary Departments" drop="end">
+                {/* <NavDropdown title="Auxiliary Departments" drop="end">
                   <NavDropdown.Item>
                     Humanities and Mathematics
                   </NavDropdown.Item>
@@ -119,16 +121,20 @@ const NavBarComponent = () => {
                   <NavDropdown.Item>Mechanical</NavDropdown.Item>
                   <NavDropdown.Item>Civil</NavDropdown.Item>
                   <NavDropdown.Item>Administration</NavDropdown.Item>
-                </NavDropdown>
+                </NavDropdown> */}
 
                 <NavDropdown.Item>Syllabus ( UG & PG )</NavDropdown.Item>
 
                 <NavDropdown title="Masters (PG) Programs" drop="end">
-                  <NavDropdown.Item href="academics/masters/cse">
-                    Computer Science and Engineering
+                  <NavDropdown.Item>
+                    <Link to={"/academics/masters/cse"} className="link-tag">
+                      Computer Science and Engineering
+                    </Link>
                   </NavDropdown.Item>
-                  <NavDropdown.Item href="/academics/masters/cnis">
-                    Computer Networks and Information Security
+                  <NavDropdown.Item>
+                    <Link to={"/academics/masters/cnis"} className="link-tag">
+                      Computer Networks and Information Security
+                    </Link>
                   </NavDropdown.Item>
                   <NavDropdown.Item href="/academics/masters/dece">
                     Digital Electronics and Communication Engineering
@@ -141,16 +147,24 @@ const NavBarComponent = () => {
                   </NavDropdown.Item>
                 </NavDropdown>
 
-                <NavDropdown.Item href="/academic-timetables">Academic Timetables</NavDropdown.Item>
+                <NavDropdown.Item href="/academic-timetables">
+                  Academic Timetables
+                </NavDropdown.Item>
                 <NavDropdown title="Extended Learning" drop="end">
-                  <NavDropdown.Item href="/Student Chapters">Student Chapters</NavDropdown.Item>
+                  <NavDropdown.Item href="/Student Chapters">
+                    Student Chapters
+                  </NavDropdown.Item>
                   <NavDropdown.Item>
                     Non-Formal Sanskrit Education (NFSE)
                   </NavDropdown.Item>
                   <NavDropdown.Item>NPTEL</NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown.Item>Academic Calendar</NavDropdown.Item>
-                <NavDropdown.Item>Staff Directory</NavDropdown.Item>
+                <NavDropdown.Item>
+                  <Link to={"/academics/out-team"} className="link-tag">
+                    Staff Directory
+                  </Link>
+                </NavDropdown.Item>
               </NavDropdown>
               <NavDropdown
                 title="CAMPUS"
