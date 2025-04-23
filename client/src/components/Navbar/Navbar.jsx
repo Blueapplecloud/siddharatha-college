@@ -149,7 +149,7 @@ const NavBarComponent = () => {
                   </NavDropdown.Item>
                   <NavDropdown.Item>NPTEL</NavDropdown.Item>
                 </NavDropdown>
-                <NavDropdown.Item>Academic Calendar</NavDropdown.Item>
+                <NavDropdown.Item href="/academic-calendar">Academic Calendar</NavDropdown.Item>
                 <NavDropdown.Item>Staff Directory</NavDropdown.Item>
               </NavDropdown>
               <NavDropdown
