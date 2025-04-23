@@ -51,7 +51,11 @@ import Governance from "./pages/Governance/Governance";
 import AcademicTimetables from "./pages/AcademicsComponents/AcademicTimetables/AcademicTimetables";
 import StudentChapters from "./pages/AcademicsComponents/Extended Learning/StudentChapters Components/StudentChapter";
 import WhySITS from "./pages/AboutPageComponents/whySits";
+
+import OurTeam from "./pages/AcademicsComponents/staff_directory/OurTeam";
+
 import Syllabus from "./pages/AcademicsComponents/Syllabus/Syllabus";
+
 
 
 
@@ -66,6 +70,98 @@ export default function App() {
           <Routes>
             {/* Home page Route */}
             <Route path="/" element={<Home />} />
+
+            <Route path="/legacy" element={<Legacy />} />
+            <Route
+              path="/leadership-and-governance"
+              element={<LegacyAndGovernance />}
+            />
+            <Route path="/organogram" element={<Organogram />} />
+            <Route path="/accreditations" element={<Accreditations />} />
+            <Route path="/about" element={<ScrollFeatureStrip />} />
+            {/* Route for View All Alumni Section */}
+            <Route path="/alumni" element={<AlumniHeader />} />
+            <Route path="/strategic" element={<Strategicplan />} />
+            <Route path="/Awards" element={<AwardsandRecognitions />} />
+            <Route path="/annual-reports" element={<AnnualReports />} />
+
+            <Route
+              path="/mandatory-disclosures"
+              element={<MandatoryDisclosures />}
+            />
+
+            <Route path="/welfare" element={<WelfareMeasures />} />
+            <Route path="/governance" element={<Governance />} />
+            {/* <Route path="/welfare" element={<WelfareMeasures />}/> */}
+            <Route
+              path="/mandatory-disclosures"
+              element={<MandatoryDisclosures />}
+            />
+
+            {/* Routes for Departments Section */}
+            <Route path="/ComputerScience&Engg" element={<CSE />} />
+            <Route path="/ComputerScience&Engg(AI & ML)" element={<CSAIML />} />
+            <Route path="/ECE" element={<ECE />} />
+            <Route path="/MechanicalEngg" element={<Mech />} />
+
+            <Route path="/Civil" element={<Civil />} />
+            <Route path="/CSD" element={<CSD />} />
+            <Route path="/EEE" element={<EEE />} />
+            <Route path="/MBA" element={<MBA />} />
+            <Route
+              path="/academic-timetables"
+              element={<AcademicTimetables />}
+            />
+            {/* Routes for Campus Life at siddhartha */}
+            <Route path="/CampusLife" element={<LifeAtSiddhartha />} />
+
+            {/* Placements route */}
+            <Route path="/Placements" element={<Placements />} />
+            {/* Routes for Campus Life at siddharatha */}
+            <Route path="/ExamCell" element={<TimeTableExam />} />
+            <Route path="/IncubationCell" element={<IncubationHeader />} />
+            {/* Routes for Research */}
+            <Route path="/overview" element={<Overview />} />
+            <Route
+              path="/funded-research-projects"
+              element={<FundedResearchProjects />}
+            />
+            {/* Route for academics how to apply */}
+            <Route path="/how-to-apply" element={<HowToApply />} />
+
+            {/* Add more routes as needed */}
+
+            {/* Admission policy route */}
+
+            <Route
+              path="/Admissions/Admission Policy"
+              element={<AdmissionPolicy />}
+            />
+
+            <Route
+              path="/Admissions/Admission Policy"
+              element={<AdmissionPolicy />}
+            />
+            {/* About Policy Route */}
+
+            <Route path="/Policies" element={<Policies />} />
+
+            {/* masters pg programs routes */}
+            <Route path="/academics/masters/cse" element={<CSEPG />} />
+            <Route path="/academics/masters/cnis" element={<CNISPG />} />
+            <Route path="/academics/masters/dece" element={<DECEPG />} />
+            <Route path="/academics/masters/pe-ed" element={<PE_ED />} />
+            <Route path="/academics/masters/wmc" element={<WMC />} />
+            {/* Routes for the Staff Directory Page */}
+            <Route path="/academics/out-team" element={<OurTeam />} />
+
+            <Route path="/Policies" element={<Policies />} />
+
+            {/* Student Chapters Route */}
+            <Route path="/Student Chapters" element={<StudentChapters />} />
+            {/* Why SIDDHARTHA Route */}
+            <Route path="/Why SITS" element={<WhySITS />} />
+
             {/* About Section Routes */}
               <Route path="/about" element={<ScrollFeatureStrip />} />
               <Route path="/legacy" element={<Legacy />} />
@@ -150,6 +246,7 @@ export default function App() {
                 
             {/* Additional Routes */}
                 <Route path="/alumni" element={<AlumniHeader />} />
+
 
           </Routes>
         </main>

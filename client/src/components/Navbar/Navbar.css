@@ -1,10 +1,6 @@
-/* Navbar.css */
-
 /* TOP NAVBAR BACKGROUND */
 .custom-navbar {
-  /* background-color: rgba(3, 70, 59, 0.99) !important; */
   background-color: white !important;
-  c
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
 }
@@ -13,11 +9,11 @@
 .nav-brand {
   font-weight: bold;
   color: white !important;
-  font-size: 1.2rem; /* reduced */
+  font-size: 1.2rem;
 }
 .nav-brand img {
-  width: 250px; /* reduced */
-  height: 55px; /* reduced */
+  width: 250px;
+  height: 55px;
   object-fit: cover;
 }
 
@@ -26,7 +22,7 @@
 .custom-navbar .navbar-nav .dropdown-toggle {
   color: black !important;
   font-weight: 500;
-  font-size: 0.8rem; /* reduced */
+  font-size: 0.8rem;
 }
 
 /* DROPDOWN MENU BACKGROUND */
@@ -38,25 +34,16 @@
   color: white;
 }
 
-/* FIRST-LEVEL DROPDOWN ITEMS */
-.custom-dropdown .dropdown-menu .dropdown-item {
-  color: white !important;
-  font-size: 0.75rem; /* reduced */
-  padding: 0.5rem 1rem;
-  min-width: 220px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/* NESTED DROPDOWN TOGGLES (second-level) */
+/* DROPDOWN ITEMS */
+.custom-dropdown .dropdown-menu .dropdown-item,
 .custom-dropdown .dropdown-menu .dropdown-toggle {
   color: white !important;
-  font-size: 0.75rem; /* reduced */
+  font-size: 0.75rem;
   padding: 0.5rem 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  min-width: 220px;
 }
 
 .dropdown-links {
@@ -67,10 +54,9 @@
   background-color: transparent !important;
   color: white !important;
 }
-.dropdown-links:
 
-/* NESTED DROPDOWN MENU (third-level) */ .dropdown-menu
-  .dropdown-menu {
+/* NESTED DROPDOWN MENU (third-level) */
+.dropdown-menu .dropdown-menu {
   background-color: rgba(0, 0, 0, 0.85) !important;
   left: 100% !important;
   top: 0 !important;
@@ -79,12 +65,12 @@
 
 .dropdown-menu .dropdown-menu .dropdown-item {
   color: white !important;
-  font-size: 0.75rem; /* reduced */
+  font-size: 0.75rem;
   padding: 0.5rem 1rem;
-  min-width: 220px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  min-width: 220px;
 }
 
 /* HOVER EFFECTS */
@@ -110,20 +96,18 @@
   box-shadow: none !important;
 }
 
-/* SUB NAVBAR (BOTTOM NAV) */
+/* SUB NAVBAR */
 .sub-navbar {
   background-color: #e2f4e5 !important;
   border-top: 1px solid #ccc;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
 }
-
 .sub-navbar .nav-link {
   color: black !important;
   font-weight: 500;
-  font-size: 0.8rem; /* reduced */
+  font-size: 0.8rem;
 }
-
 .sub-navbar .nav-link:hover {
   color: orange !important;
 }
@@ -143,10 +127,10 @@
 .small-text .nav-link,
 .small-text .dropdown-item,
 .small-text .dropdown-toggle {
-  font-size: 0.65rem; /* reduced */
+  font-size: 0.65rem;
 }
 
-/* RESPONSIVE MENU BACKGROUND */
+/* RESPONSIVE MENU STYLES */
 @media (max-width: 991px) {
   .navbar-collapse {
     position: fixed;
@@ -154,12 +138,12 @@
     right: 0;
     height: 100%;
     width: 300px;
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(0, 0, 0, 0.95) !important;
     padding: 1rem;
-    text-align: right;
     z-index: 999;
-    transition: transform 0.3s ease-in-out;
+    overflow-y: auto;
     transform: translateX(0);
+    transition: transform 0.3s ease-in-out;
   }
 
   .navbar-collapse.collapsing,
@@ -167,10 +151,11 @@
     display: block !important;
   }
 
-  .navbar-collapse .nav-link,
+  .navbar-collapse .navbar-nav .nav-link,
   .navbar-collapse .dropdown-item,
   .navbar-collapse .dropdown-toggle {
     color: white !important;
+    font-weight: 500;
     text-align: right;
     display: flex;
     justify-content: space-between;
@@ -179,6 +164,10 @@
 
   .dropdown-menu {
     background-color: rgba(0, 0, 0, 0.85) !important;
+    color: white !important;
+  }
+
+  .dropdown-menu .dropdown-item {
     color: white !important;
   }
 }
@@ -193,4 +182,34 @@
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+/* Prevent white background on NavDropdown link click */
+/* Custom style to override Bootstrap's active and focus background */
+.link-tag {
+  display: block;
+  width: 100%;
+  color: white !important;
+  text-decoration: none;
+  background-color: transparent !important;
+}
+
+.link-tag:hover,
+.link-tag:focus,
+.link-tag:active,
+.link-tag:focus-visible {
+  color: orange !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* Specifically target Bootstrap's dropdown-item active style */
+.dropdown-item:active,
+.dropdown-item:focus,
+.dropdown-item:focus-visible {
+  background-color: transparent !important;
+  color: orange !important;
+  box-shadow: none !important;
+  outline: none !important;
 }

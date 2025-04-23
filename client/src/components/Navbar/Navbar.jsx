@@ -23,6 +23,38 @@ const NavBarComponent = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto align-right small-text">
+
+              <NavDropdown
+                title="ABOUT"
+                id="about-dropdown"
+                className="custom-dropdown white-text"
+              >
+                <NavDropdown.Item as={Link} to="/about">
+                  About
+                </NavDropdown.Item>
+                <NavDropdown.Item href="/legacy">Legacy</NavDropdown.Item>
+                <NavDropdown.Item href="/leadership-and-governance">
+                  Leadership and Governance
+                </NavDropdown.Item>
+                <NavDropdown.Item href="/strategic">
+                  Strategic Plan
+                </NavDropdown.Item>
+                <NavDropdown.Item href="/organogram">
+                  Organogram
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#committees">
+                  Academic & Administrative Committees
+                </NavDropdown.Item>
+                <NavDropdown.Item href="/Awards">
+                  Awards & Recognitions
+                </NavDropdown.Item>
+                <NavDropdown.Item href="/accreditations">
+                  Accreditations
+                </NavDropdown.Item>
+                <NavDropdown.Item href="/Why SITS">
+                  Why Sidharatha
+                </NavDropdown.Item>
+
               
               {/* ABOUT Section */}
               <NavDropdown title="ABOUT" id="about-dropdown" className="custom-dropdown white-text">
@@ -37,6 +69,7 @@ const NavBarComponent = () => {
                 <NavDropdown.Item as={Link} to="/Why SITS">Why Sidharatha</NavDropdown.Item>
 
                 {/* Nested Governance Dropdown */}
+
                 <NavDropdown title="Governance" drop="end">
                   <NavDropdown.Item as={Link} to="/governance">Governing Council Members</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/governance">College Academic Council</NavDropdown.Item>
@@ -65,6 +98,41 @@ const NavBarComponent = () => {
 
                 {/* Nested Bachelors Programs Dropdown */}
                 <NavDropdown title="Bachelors Programs" drop="end">
+
+                  <NavDropdown.Item href="/ComputerScience&Engg">
+                    Computer Science Engineering
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="/ComputerScience&Engg(AI & ML)">
+                    Computer Science & Engineering (AI & ML)
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="/MechanicalEngg">
+                    Mechanical Engineering
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="/ECE">
+                    Electronics and Communication Engineering
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="/Civil">
+                    Civil Engineering
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="/CSD">
+                    Computer Science – Data science
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="/EEE">
+                    Electrical and Electronics Engineering
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="/MBA">MBA</NavDropdown.Item>
+                </NavDropdown>
+
+                {/* <NavDropdown title="Auxiliary Departments" drop="end">
+                  <NavDropdown.Item>
+                    Humanities and Mathematics
+                  </NavDropdown.Item>
+                  <NavDropdown.Item>Basic Sciences Department</NavDropdown.Item>
+                  <NavDropdown.Item>Mechanical</NavDropdown.Item>
+                  <NavDropdown.Item>Civil</NavDropdown.Item>
+                  <NavDropdown.Item>Administration</NavDropdown.Item>
+                </NavDropdown> */}
+
                   <NavDropdown.Item as={Link} to="/ComputerScience&Engg">Computer Science Engineering</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/ComputerScience&Engg(AI & ML)">CSE (AI & ML)</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/MechanicalEngg">Mechanical Engineering</NavDropdown.Item>
@@ -75,10 +143,44 @@ const NavBarComponent = () => {
                   <NavDropdown.Item as={Link} to="/MBA">MBA</NavDropdown.Item>
                 </NavDropdown>
 
+
                 <NavDropdown.Item as={Link} to="/Syllabus (UG & PG)">Syllabus (UG & PG)</NavDropdown.Item>
 
                 {/* Nested Masters Programs Dropdown */}
                 <NavDropdown title="Masters (PG) Programs" drop="end">
+
+                  <NavDropdown.Item>
+                    <Link to={"/academics/masters/cse"} className="link-tag">
+                      Computer Science and Engineering
+                    </Link>
+                  </NavDropdown.Item>
+                  <NavDropdown.Item>
+                    <Link to={"/academics/masters/cnis"} className="link-tag">
+                      Computer Networks and Information Security
+                    </Link>
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="/academics/masters/dece">
+                    Digital Electronics and Communication Engineering
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="/academics/masters/pe-ed">
+                    Power Electronics & Electrical Drives
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="/academics/masters/wmc">
+                    Wireless and Mobile Communication
+                  </NavDropdown.Item>
+                </NavDropdown>
+
+                <NavDropdown.Item href="/academic-timetables">
+                  Academic Timetables
+                </NavDropdown.Item>
+                <NavDropdown title="Extended Learning" drop="end">
+                  <NavDropdown.Item href="/Student Chapters">
+                    Student Chapters
+                  </NavDropdown.Item>
+                  <NavDropdown.Item>
+                    Non-Formal Sanskrit Education (NFSE)
+                  </NavDropdown.Item>
+
                   <NavDropdown.Item as={Link} to="/academics/masters/cse">CSE</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/academics/masters/cnis">CNIS</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/academics/masters/dece">Digital Electronics and Communication</NavDropdown.Item>
@@ -92,11 +194,16 @@ const NavBarComponent = () => {
                 <NavDropdown title="Extended Learning" drop="end">
                   <NavDropdown.Item as={Link} to="/Student Chapters">Student Chapters</NavDropdown.Item>
                   <NavDropdown.Item>Non-Formal Sanskrit Education (NFSE)</NavDropdown.Item>
+
                   <NavDropdown.Item>NPTEL</NavDropdown.Item>
                 </NavDropdown>
 
                 <NavDropdown.Item>Academic Calendar</NavDropdown.Item>
-                <NavDropdown.Item>Staff Directory</NavDropdown.Item>
+                <NavDropdown.Item>
+                  <Link to={"/academics/out-team"} className="link-tag">
+                    Staff Directory
+                  </Link>
+                </NavDropdown.Item>
               </NavDropdown>
 
               {/* CAMPUS Section */}
