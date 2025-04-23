@@ -47,8 +47,6 @@ import AcademicTimetables from "./pages/AcademicsComponents/AcademicTimetables/A
 import StudentChapters from "./pages/AcademicsComponents/Extended Learning/StudentChapters Components/StudentChapter";
 import WhySITS from "./pages/AboutPageComponents/whySits";
 
-
-
 export default function App() {
   return (
     <Router>
@@ -57,69 +55,89 @@ export default function App() {
 
         <main className="flex-grow">
           <Routes>
+            {/* Home page Route */}
             <Route path="/" element={<Home />} />
-            <Route path="/legacy" element={<Legacy />} />
-            <Route
-              path="/leadership-and-governance"
-              element={<LegacyAndGovernance />}
-            />
-            <Route path="/organogram" element={<Organogram />} />
-            <Route path="/accreditations" element={<Accreditations />} />
-            <Route path="/about" element={<ScrollFeatureStrip />} />
-            {/* Route for View All Alumni Section */}
-            <Route path="/alumni" element={<AlumniHeader />} />
-            <Route path="/strategic" element={<Strategicplan />} />
-            <Route path="/Awards" element={<AwardsandRecognitions />} />
-            <Route path="/annual-reports" element={<AnnualReports />} />
-            <Route path="/welfare" element={<WelfareMeasures />}/>
-            <Route path="/governance" element={<Governance />}/>
-            {/* <Route path="/welfare" element={<WelfareMeasures />}/> */}
-            <Route path="/mandatory-disclosures" element={<MandatoryDisclosures />}/>
-            {/* Routes for Departments Section */}
-            <Route path="/ComputerScience&Engg" element={<CSE />} />
-            <Route path="/ComputerScience&Engg(AI & ML)" element={<CSAIML />} />
-            <Route path="/ECE" element={<ECE />} />
-            <Route path="/MechanicalEngg" element={<Mech />} />
+            {/* About Section Routes */}
+              <Route path="/about" element={<ScrollFeatureStrip />} />
+              <Route path="/legacy" element={<Legacy />} />
+              <Route path="/leadership-and-governance" element={<LegacyAndGovernance />}/>
+              <Route path="/strategic" element={<Strategicplan />} />
+              <Route path="/organogram" element={<Organogram />} />
+              <Route path="/Awards" element={<AwardsandRecognitions />} />
+              <Route path="/accreditations" element={<Accreditations />} />
+              <Route path="/Why SITS" element={<WhySITS />} />
+              <Route path="/governance" element={<Governance />} />
+              <Route path="/Policies" element={<Policies />} />
+              <Route path="/annual-reports" element={<AnnualReports />} />
+              <Route path="/welfare" element={<WelfareMeasures />} />
+              <Route path="/mandatory-disclosures" element={<MandatoryDisclosures />}/>
+            {/* Route for Academics Section*/}
+                {/* Routes for Admissions Section */}
+                <Route path="/how-to-apply" element={<HowToApply />} />
+                <Route
+                path="/Admissions/Admission Policy"
+                element={<AdmissionPolicy />}
+                />
+                {/* Routes for Bachelors Program Section */}
+                <Route path="/ComputerScience&Engg" element={<CSE />} />
+                <Route path="/ComputerScience&Engg(AI & ML)" element={<CSAIML />} />
+                <Route path="/ECE" element={<ECE />} />
+                <Route path="/MechanicalEngg" element={<Mech />} />
+                <Route path="/Civil" element={<Civil />} />
+                <Route path="/CSD" element={<CSD />} />
+                <Route path="/EEE" element={<EEE />} />
+                <Route path="/MBA" element={<MBA />} />
+                {/* Routes for Syllabus (UG & PG) */}
 
-            <Route path="/Civil" element={<Civil />} />
-            <Route path="/CSD" element={<CSD />} />
-            <Route path="/EEE" element={<EEE />} />
-            <Route path="/MBA" element={<MBA />} />
-            <Route path="/academic-timetables" element={<AcademicTimetables />} />
-            {/* Routes for Campus Life at siddhartha */}
-            <Route path="/CampusLife" element={<LifeAtSiddhartha />} />
+                {/* Routes for Masters (PG) Programs */}
 
-            {/* Placements route */}
-            <Route path="/Placements" element={<Placements />} />
-            {/* Routes for Campus Life at siddharatha */}
-            <Route path="/ExamCell" element={<TimeTableExam />} />
-            <Route path="/IncubationCell" element={<IncubationHeader />} />
-            {/* Routes for Research */}
-            <Route path="/overview" element={<Overview />} />
-            <Route
-              path="/funded-research-projects"
-              element={<FundedResearchProjects />}
-            />
-            {/* Route for academics how to apply */}
-            <Route path="/how-to-apply" element={<HowToApply />} />
+                {/* Route for Academic TimeTable */}
+                <Route path="/academic-timetables" element={<AcademicTimetables />}/>
+                {/* Routes for Extended Learning */}
+                <Route path="/Student Chapters" element={<StudentChapters />} />
+                
+                {/* Route for Academic Calender */}
 
-            {/* Add more routes as needed */}
+                {/* Route for Staff Directory */}
 
-            {/* Admission policy route */}
 
-            <Route
-              path="/Admissions/Admission Policy"
-              element={<AdmissionPolicy />}
-            />
+            {/* Routes for Campus Section */}
+                {/* Route for Life at SITS */}
+                <Route path="/CampusLife" element={<LifeAtSiddhartha />} />
+                {/* Routes for Facilities */}
 
-            <Route path="/Admissions/Admission Policy" element={<AdmissionPolicy />} />
-            {/* About Policy Route */}
-            <Route path="/Policies" element={<Policies/>}/>
 
-            {/* Student Chapters Route */}
-            <Route path="/Student Chapters" element={<StudentChapters/>}/>
-            {/* Why SIDDHARTHA Route */}
-            <Route path="/Why SITS" element={<WhySITS/>}/>
+            {/* Routes for Research Section */}
+                {/* Route for Overview Section  */}
+                <Route path="/overview" element={<Overview />} />
+                {/* Route for Academic Research */}
+
+                {/* Route for Funded-Research-Projects */}
+                <Route
+                  path="/funded-research-projects"
+                  element={<FundedResearchProjects />}
+                />
+                {/* Route for Research Centers */}
+
+                {/* Route for Policies */}
+
+
+            {/* Route for Placements Section */}
+              <Route path="/Placements" element={<Placements />} />
+
+            {/* Routes for Student Corner Section  */}
+                {/* Route for Timetable Section */}
+                <Route path="/ExamCell" element={<TimeTableExam />} />
+
+            {/* Routes for Incubation Cell */}
+              <Route path="/IncubationCell" element={<IncubationHeader />} />
+
+            {/* Routes for Exam Cell */}
+              <Route path="/ExamCell" element={<TimeTableExam />} />
+                
+            {/* Additional Routes */}
+                <Route path="/alumni" element={<AlumniHeader />} />
+
           </Routes>
         </main>
         <Footer />

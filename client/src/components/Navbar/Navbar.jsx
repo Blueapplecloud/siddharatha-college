@@ -60,7 +60,7 @@ const NavBarComponent = () => {
                   Annual Reports
                 </NavDropdown.Item>
                 <NavDropdown title="Audit Reports" drop="end">
-                  <NavDropdown.Item href="#welfare">
+                  <NavDropdown.Item href="/welfare">
                     Welfare Measures
                   </NavDropdown.Item>
                 </NavDropdown>
