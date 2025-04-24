@@ -1,5 +1,6 @@
 import React from "react";
-import AboutHeader from "../../ResuableComponents/AboutHeading";
+import AboutHeader from "../../../ResuableComponents/AboutHeading";
+
 import CourseOverview from "./CourseOverview";
 import WhyChoseSITS from "./WhyChoseSITS";
 import {
@@ -19,19 +20,19 @@ import Accordion from "./Accordions";
 import WhatsNext from "./WhatsNext";
 import CareerPath from "./CareerPath";
 
-function WMC() {
+function PE_ED() {
   const courseOverview = {
     title: "Course Overview",
     text1:
-      "The M.Tech in Wireless and Mobile Communication at GNITS is designed to equip students with in-depth knowledge of wireless communication technologies, mobile networks, and signal processing. The program combines advanced theoretical concepts with practical skills, preparing students to address the challenges of rapidly evolving communication systems. With a focus on modern wireless technologies such as 4G/5G, IoT, and mobile communication protocols, students gain the expertise needed to innovate and lead in this dynamic field.",
+      "The Master’s program in Power Electronics and Electrical Devices at Siddhartha is tailored for students eager to deepen their expertise in electrical systems. Offering a strong foundation in both theory and application, this program prepares you for a successful career in industry, research, or academia. Through a blend of rigorous coursework and practical experience, you’ll gain the skills needed to excel in the ever-evolving field of power electronics and electrical engineering.",
     text2:
-      "Graduates are well-prepared for careers in telecommunications, mobile network design, and wireless system development. The curriculum also provides a strong foundation for those interested in research and advanced studies in wireless communication technologies.",
+      "This program is not just about learning—it’s about transforming the way electrical systems are understood and applied. Siddhartha is committed to producing graduates who can innovate and lead in a rapidly changing technological landscape. By focusing on the latest advancements in power electronics, renewable energy, and smart grid technologies, the program ensures that you are equipped to address the pressing energy challenges of today and tomorrow. Whether you aspire to push the boundaries of research or drive innovation in industry, this program provides the comprehensive education and practical experience needed to make a lasting impact in the field.",
     img: "/images/overview_peed.jpg",
   };
 
   const whyChoseSITS = {
     heading: "Why Choose Siddhartha for Your Master’s?",
-    text: "GNITS provides a cutting-edge learning environment with a curriculum focused on the latest wireless technologies, supported by industry partnerships and advanced labs, ensuring students are equipped to excel in the field.",
+    text: "Siddhartha provides a rigorous, industry-focused Master’s program in Power Electronics and Electrical Devices. With cutting-edge labs, experienced faculty, and strong industry ties, Siddhartha equips you with the skills and knowledge to excel in your career and drive innovation in the field.",
     image: "/images/overview_peed.jpg",
   };
   const features = [
@@ -65,18 +66,17 @@ function WMC() {
     },
   ];
   const careerPaths = [
-    "Wireless Communication Engineer",
-    "Mobile Network Designer",
-    "Signal Processing Specialist",
-    "RF Engineer",
-    "IOT Systems Developer",
-    "Telecommunications Consultant",
-    "Research Scientist in Wireless Technologies",
+    "Power Electronics Engineer",
+    "Electrical Design Engineer",
+    "Smart Grid Specialist",
+    "Renewable Energy Consultant",
+    "Electrical Vehicle Engineer",
+    "Research and Development Engineer",
   ];
   return (
     <div className="w-full  border-1">
       <AboutHeader
-        title="Wireless and Mobile Communication"
+        title="Power Electronics and Electrical Drives"
         image="/images/clgimg.jpeg"
       />
       <CourseOverview
@@ -105,4 +105,4 @@ function WMC() {
   );
 }
 
-export default WMC;
+export default PE_ED;

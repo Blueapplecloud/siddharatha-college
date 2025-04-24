@@ -40,11 +40,11 @@ import AnnualReports from "./pages/AnnualReports/AnnualReports";
 import MandatoryDisclosures from "./pages/MandatoryDisclosures/MandatoryDisclosures";
 import Policies from "./pages/PoliciesComponent/Policies";
 
-import CSEPG from "./pages/Masters/CSEPG";
-import CNISPG from "./pages/Masters/CNISPG";
-import DECEPG from "./pages/Masters/DECEPG";
-import PE_ED from "./pages/Masters/PE_ED";
-import WMC from "./pages/Masters/WMC";
+import CSEPG from "./pages/AcademicsComponents/Masters/CSEPG";
+import CNISPG from "./pages/AcademicsComponents/Masters/CNISPG";
+import DECEPG from "./pages/AcademicsComponents/Masters/DECEPG";
+import PE_ED from "./pages/AcademicsComponents/Masters/PE_ED";
+import WMC from "./pages/AcademicsComponents/Masters/WMC";
 
 import WelfareMeasures from "./pages/WelfareMeasures/WelfareMeasures";
 import Governance from "./pages/Governance/Governance";

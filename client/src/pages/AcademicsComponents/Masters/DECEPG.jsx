@@ -1,5 +1,5 @@
 import React from "react";
-import AboutHeader from "../../ResuableComponents/AboutHeading";
+import AboutHeader from "../../../ResuableComponents/AboutHeading";
 import CourseOverview from "./CourseOverview";
 import WhyChoseSITS from "./WhyChoseSITS";
 import {
@@ -19,65 +19,64 @@ import Accordion from "./Accordions";
 import WhatsNext from "./WhatsNext";
 import CareerPath from "./CareerPath";
 
-function CNISPG() {
+function DECEPG() {
   const courseOverview = {
     title: "Course Overview",
     text1:
-      "The M.Tech in Computer Networks and Information Security at Siddhartha is a specialized program focused on building expertise in designing secure network architectures, managing cyber threats, and implementing advanced security protocols. The program covers key areas such as network security, cryptography, ethical hacking, and cloud security, ensuring that students gain the skills needed to protect and manage complex information systems.",
+      "The M.Tech in Digital Electronics and Communication Engineering at Siddhartha is designed to equip students with deep expertise in digital communication, VLSI design, signal processing, and embedded systems. The program combines rigorous theoretical learning with hands-on experience, enabling students to master complex technologies and solve real-world challenges in digital electronics and communication.",
     text2:
-      "Graduates are prepared for roles in network administration, cybersecurity analysis, and information security management. The curriculum also provides a strong foundation for those interested in advanced research in cybersecurity.",
-    img: "/images/overview_cnis.jpg",
+      "Graduates of this program are prepared for leadership roles in industries such as telecommunications, semiconductor design, and embedded systems. The curriculum also lays a strong foundation for those interested in pursuing advanced research or academic careers.",
+    img: "/images/overview_dece.jpg",
   };
 
   const whyChoseSITS = {
     heading: "Why Choose Siddhartha for Your Master’s?",
-    text: "SiddharthaS provides a cutting-edge curriculum, expert faculty, and hands-on experience in the latest technologies, ensuring students are ready to excel in the dynamic field of computer science.",
-    image: "/images/overview_cnis.jpg",
+    text: "Siddhartha offers a dynamic learning environment where students gain both theoretical and practical expertise in digital electronics and communication. With state-of-the-art facilities, strong industry connections, and a curriculum designed to meet modern industry needs, Siddhartha ensures that students are well-equipped to excel in advanced technical roles and research.",
+    image: "/images/overview_peed.jpg",
   };
   const features = [
     {
       icon: <FaBrain size={40} />,
-      title: "AI and Data Science Labs",
+      title: "State-of-the-Art Labs",
       description:
-        "Engage in hands-on projects using cutting-edge tools for artificial intelligence, machine learning, and big data analytics.",
-      img: "/images/overview_cnis.jpg",
+        "Gain hands-on experience in cutting-edge VLSI, Embedded Systems, and Signal Processing labs equipped with the latest technology.",
+      img: "/images/overview_peed.jpg",
     },
     {
       icon: <FaNetworkWired size={40} />,
       title: "Tech-Driven Curriculum",
       description:
         "Stay ahead with a curriculum that emphasizes emerging technologies like blockchain, cybersecurity, and cloud computing.",
-      img: "/images/overview_cnis.jpg",
+      img: "/images/overview_dece.jpg",
     },
     {
       icon: <FaChalkboardTeacher size={40} />,
       title: "Mentored by Experts",
       description:
         "Learn from faculty who bring real-world experience and research excellence to guide your academic journey.",
-      img: "/images/overview_cnis.jpg",
+      img: "/images/overview_dece.jpg",
     },
     {
       icon: <FaAward size={40} />,
       title: "Versatile Career Options",
       description:
         "Equip yourself for diverse roles in software engineering, AI development, data science, and tech leadership across industries.",
-      img: "/images/overview_cnis.jpg",
+      img: "/images/overview_dece.jpg",
     },
   ];
   const careerPaths = [
-    "Network Security Engineer",
-    "Cybersecurity Analyst",
-    "Network Architect",
-    "Information Security Manager",
-    "Cloud Security Specialist",
-    "Penetration Tester",
-    "Security Consultant",
-    "And more...",
+    "Digital Design Engineer",
+    "Embedded Systems Engineer",
+    "VLSI Design Engineer",
+    "Signal Processing Engineer",
+    "Telecommunications Engineer",
+    "Telecom Network Engineer",
+    "FPGA Developer",
   ];
   return (
     <div className="w-full  border-1">
       <AboutHeader
-        title="Computer Networks and Information Security"
+        title="Digital Electronics and Communication Engineering "
         image="/images/clgimg.jpeg"
       />
       <CourseOverview
@@ -106,4 +105,4 @@ function CNISPG() {
   );
 }
 
-export default CNISPG;
+export default DECEPG;
