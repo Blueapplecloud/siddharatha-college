@@ -91,8 +91,8 @@ const NavBarComponent = () => {
                 {/* Nested Extended Learning Dropdown */}
                 <NavDropdown title="Extended Learning" drop="end">
                   <NavDropdown.Item as={Link} to="/Student Chapters">Student Chapters</NavDropdown.Item>
-                  <NavDropdown.Item>Non-Formal Sanskrit Education (NFSE)</NavDropdown.Item>
-                  <NavDropdown.Item>NPTEL</NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/Non-Formal Sanskrit Education (NFSE)">Non-Formal Sanskrit Education (NFSE)</NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/NPTEL">NPTEL</NavDropdown.Item>
                 </NavDropdown>
 
                 <NavDropdown.Item as={Link} to="/Academic-Calendar">Academic Calendar</NavDropdown.Item>
