@@ -52,6 +52,8 @@ import AcademicTimetables from "./pages/AcademicsComponents/AcademicTimetables/A
 import StudentChapters from "./pages/AcademicsComponents/Extended Learning/StudentChapters Components/StudentChapter";
 import WhySITS from "./pages/AboutPageComponents/whySits";
 import Syllabus from "./pages/AcademicsComponents/Syllabus/Syllabus";
+import NfseSanskrit from "./pages/AcademicsComponents/Extended Learning/NFSE";
+import Nptel from "./pages/AcademicsComponents/Extended Learning/NPTEL";
 
 
 
@@ -108,7 +110,8 @@ export default function App() {
                 <Route path="/academic-timetables" element={<AcademicTimetables />}/>
                 {/* Routes for Extended Learning */}
                 <Route path="/Student Chapters" element={<StudentChapters />} />
-                
+                <Route path="/Non-Formal Sanskrit Education (NFSE)" element={<NfseSanskrit />} />
+                <Route path="/NPTEL" element={<Nptel />} />
                 {/* Route for Academic Calender */}
 
                 {/* Route for Staff Directory */}
