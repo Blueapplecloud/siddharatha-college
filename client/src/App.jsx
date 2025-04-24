@@ -208,7 +208,7 @@ export default function App() {
                 {/* Route for Academic Calender */}
 
                 {/* Route for Staff Directory */}
-
+                <Route path="/Staff Directory" element={< OurTeam/>} />
 
             {/* Routes for Campus Section */}
                 {/* Route for Life at SITS */}
