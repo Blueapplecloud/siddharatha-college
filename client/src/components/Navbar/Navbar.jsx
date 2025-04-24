@@ -7,25 +7,40 @@ import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
-
+import {
+  FaInfoCircle,
+  FaGraduationCap,
+  FaBuilding,
+  FaBriefcase,
+  FaResearchgate,
+  FaUserGraduate,
+  FaSchool,
+  FaFileAlt,
+  FaPhoneAlt,
+} from "react-icons/fa";
 const NavBarComponent = () => {
   return (
     <>
       {/* Main Top Navigation Bar */}
-      <Navbar expand="lg" className="custom-navbar">
+      <Navbar expand="lg" className="custom-navbar ">
         <Container>
           {/* Brand/Logo */}
-          <Navbar.Brand as={Link} to="/" className="nav-brand">
+          {/* <Navbar.Brand as={Link} to="/" className="nav-brand">
             <img src="/logos/logomain.png" alt="logo" />
-          </Navbar.Brand>
+          </Navbar.Brand> */}
 
           {/* Responsive Toggle Button */}
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto align-right small-text">
+            <Nav className="mx-auto align-right small-text gap-3">
               {/* ABOUT Section */}
               <NavDropdown
-                title="ABOUT"
+                title={
+                  <span className="d-flex align-items-center gap-1">
+                    <FaInfoCircle />
+                    ABOUT
+                  </span>
+                }
                 id="about-dropdown"
                 className="custom-dropdown white-text"
               >
@@ -88,7 +103,12 @@ const NavBarComponent = () => {
 
               {/* ACADEMICS Section */}
               <NavDropdown
-                title="ACADEMICS"
+                title={
+                  <span className="d-flex align-items-center gap-1">
+                    <FaGraduationCap />
+                    ACADEMICS
+                  </span>
+                }
                 id="academics-dropdown"
                 className="custom-dropdown"
               >
@@ -184,7 +204,12 @@ const NavBarComponent = () => {
 
               {/* CAMPUS Section */}
               <NavDropdown
-                title="CAMPUS"
+                title={
+                  <span className="d-flex align-items-center gap-1">
+                    <FaBuilding />
+                    CAMPUS
+                  </span>
+                }
                 id="academics-dropdown"
                 className="custom-dropdown"
               >
@@ -223,7 +248,12 @@ const NavBarComponent = () => {
 
               {/* RESEARCH Section */}
               <NavDropdown
-                title="RESEARCH"
+                title={
+                  <span className="d-flex align-items-center gap-1">
+                    <FaResearchgate />
+                    RESEARCH
+                  </span>
+                }
                 id="academics-dropdown"
                 className="custom-dropdown"
               >
@@ -246,12 +276,20 @@ const NavBarComponent = () => {
 
               {/* PLACEMENTS Link */}
               <Nav.Link as={Link} to="/Placements">
-                PLACEMENTS
+                <span className="d-flex align-items-center gap-1">
+                  <FaBriefcase />
+                  PLACEMENTS
+                </span>
               </Nav.Link>
 
               {/* STUDENT CORNER Section */}
               <NavDropdown
-                title="STUDENT CORNER"
+                title={
+                  <span className="d-flex align-items-center gap-1">
+                    <FaUserGraduate />
+                    STUDENT CORNER
+                  </span>
+                }
                 id="STUDENT-dropdown"
                 className="custom-dropdown white-text"
               >
@@ -262,10 +300,16 @@ const NavBarComponent = () => {
 
               {/* Additional Navigation Links */}
               <Nav.Link as={Link} to="/IncubationCell">
-                INCUBATION CELL
+                <span className="d-flex align-items-center gap-1">
+                  <FaSchool />
+                  INCUBATION CELL
+                </span>
               </Nav.Link>
               <Nav.Link as={Link} to="/ExamCell">
-                EXAM CELL
+                <span className="d-flex align-items-center gap-1">
+                  <FaFileAlt />
+                  EXAM CELL
+                </span>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

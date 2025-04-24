@@ -57,11 +57,13 @@ import OurTeam from "./pages/AcademicsComponents/staff_directory/OurTeam";
 
 import Syllabus from "./pages/AcademicsComponents/Syllabus/Syllabus";
 import Events from "./pages/CampusComponents/Events";
+import AuthButton from "./AuthButton";
 
 export default function App() {
   return (
     <Router>
       <div className="flex flex-col min-h-screen">
+        <AuthButton />
         <Navbar />
 
         <main className="flex-grow">

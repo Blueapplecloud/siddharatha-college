@@ -3,6 +3,8 @@
   background-color: white !important;
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
+  display: flex; /* Make it a flex container */
+  justify-content: center;
 }
 
 /* BRAND LOGO */
@@ -22,18 +24,33 @@
 .custom-navbar .navbar-nav .dropdown-toggle {
   color: black !important;
   font-weight: 500;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
+
+  margin: auto; /* Center the nav links within the navbar */
 }
 
 /* DROPDOWN MENU BACKGROUND */
 .dropdown-menu {
   background-color: rgba(0, 0, 0, 0.85) !important;
   border: none;
-  min-width: 220px;
+  min-width: 250px;
   animation: dropdownFade 0.3s ease-in-out;
   color: white;
 }
-
+.custom-dropdown {
+  min-width: 100px; /* Adjust width as needed */
+  /* border: 1px solid rgba(0, 0, 0, 0.85) !important; */
+  /* border-radius: 0.25rem; */
+}
+.custom-dropdown .dropdown-toggle::after {
+  margin-left: 5px; /* Add spacing between the text and the arrow */
+  align-self: center; /* Ensure the arrow aligns with the text and icon */
+}
+.custom-dropdown .dropdown-toggle {
+  display: flex; /* Use flexbox to align items horizontally */
+  align-items: center; /* Vertically center the items */
+  gap: 5px; /* Add spacing between the icon, text, and arrow */
+}
 /* DROPDOWN ITEMS */
 .custom-dropdown .dropdown-menu .dropdown-item,
 .custom-dropdown .dropdown-menu .dropdown-toggle {
