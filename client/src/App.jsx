@@ -56,6 +56,7 @@ import AcademicCalendar from "./pages/AcademicsComponents/AcademicCalendar/Acade
 import OurTeam from "./pages/AcademicsComponents/staff_directory/OurTeam";
 
 import Syllabus from "./pages/AcademicsComponents/Syllabus/Syllabus";
+import Events from "./pages/CampusComponents/Events";
 
 export default function App() {
   return (
@@ -111,6 +112,7 @@ export default function App() {
             />
             {/* Routes for Campus Life at siddhartha */}
             <Route path="/CampusLife" element={<LifeAtSiddhartha />} />
+            <Route path="/campus/events" element={<Events />} />
 
             {/* Placements route */}
             <Route path="/Placements" element={<Placements />} />
