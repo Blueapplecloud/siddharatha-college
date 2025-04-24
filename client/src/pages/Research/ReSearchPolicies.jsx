@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FaArrowCircleRight } from "react-icons/fa";
 
 const ResearchPolicies = () => {
@@ -11,7 +11,7 @@ const ResearchPolicies = () => {
   ];
 
   return (
-    <div className="bg-blue-50 p-8">
+    <div className="bg-blue-50 p-8" id="research-policies">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
         {/* Left Section */}
         <div className="flex flex-col space-y-6">

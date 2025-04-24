@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { LiaCertificateSolid } from "react-icons/lia";
 import { HighlightCard } from "./RDHighlightsAd";
 
@@ -46,7 +46,7 @@ const ReasearchObjective = () => {
   ];
 
   return (
-    <div className="bg-white py-10 ">
+    <div className="bg-white py-10 " id="research-objectives">
       <div className=" px-4 flex flex-row justify-center items-center">
         <div className=" mr-10 w-full">
           <h2

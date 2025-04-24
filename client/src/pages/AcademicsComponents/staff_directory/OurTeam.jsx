@@ -14,7 +14,11 @@ import {
 const OurTeam = () => {
   return (
     <section className="w-full py-10">
-      <AboutHeader />
+      <AboutHeader
+        title="Our Team"
+        subtitle="Faculty Directory"
+        image={"/images/clgimg.jpeg"}
+      />
       <div className="px-3 py-5 text-justify">
         {/* Animated Heading */}
         <motion.h2

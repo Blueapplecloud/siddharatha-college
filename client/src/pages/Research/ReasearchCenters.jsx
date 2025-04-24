@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FiArrowUpRight } from "react-icons/fi";
 
 const ResearchCenters = () => {
@@ -17,7 +17,7 @@ const ResearchCenters = () => {
   ];
 
   return (
-    <div className="bg-white px-4 py-8 md:px-16 md:py-12">
+    <div className="bg-white px-4 py-8 md:px-16 md:py-12" id="research-centers">
       <div className=" mb-8">
         <h1
           className="text-4xl md:text-4xl font-bold  mb-4"
