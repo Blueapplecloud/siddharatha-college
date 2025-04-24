@@ -93,7 +93,6 @@ export default function App() {
 
             <Route path="/welfare" element={<WelfareMeasures />} />
             <Route path="/governance" element={<Governance />} />
-            {/* <Route path="/welfare" element={<WelfareMeasures />}/> */}
             <Route
               path="/mandatory-disclosures"
               element={<MandatoryDisclosures />}
@@ -109,6 +108,7 @@ export default function App() {
             <Route path="/CSD" element={<CSD />} />
             <Route path="/EEE" element={<EEE />} />
             <Route path="/MBA" element={<MBA />} />
+            <Route path="/Academic-Calendar" element={<AcademicCalendar />}/>
             <Route
               path="/academic-timetables"
               element={<AcademicTimetables />}
