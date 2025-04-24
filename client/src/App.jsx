@@ -51,6 +51,7 @@ import Governance from "./pages/Governance/Governance";
 import AcademicTimetables from "./pages/AcademicsComponents/AcademicTimetables/AcademicTimetables";
 import StudentChapters from "./pages/AcademicsComponents/Extended Learning/StudentChapters Components/StudentChapter";
 import WhySITS from "./pages/AboutPageComponents/whySits";
+import AcademicCalendar from "./pages/AcademicsComponents/AcademicCalendar/AcademicCalendar";
 
 import OurTeam from "./pages/AcademicsComponents/staff_directory/OurTeam";
 
@@ -179,11 +180,9 @@ export default function App() {
             {/* Route for Academics Section*/}
                 {/* Routes for Admissions Section */}
                 <Route path="/how-to-apply" element={<HowToApply />} />
-                <Route
-                path="/Admissions/Admission Policy"
-                element={<AdmissionPolicy />}
-                />
-                {/* Routes for Bachelors Program Section */}
+                <Route path="/Admissions/Admission Policy" element={<AdmissionPolicy />}/>
+                
+               {/* Routes for Bachelors Program Section */}
                 <Route path="/ComputerScience&Engg" element={<CSE />} />
                 <Route path="/ComputerScience&Engg(AI & ML)" element={<CSAIML />} />
                 <Route path="/ECE" element={<ECE />} />
@@ -206,6 +205,7 @@ export default function App() {
                 <Route path="/Student Chapters" element={<StudentChapters />} />
                 
                 {/* Route for Academic Calender */}
+                <Route path="/academic-calendar" element={<AcademicCalendar />}/>
 
                 {/* Route for Staff Directory */}
                 <Route path="/Staff Directory" element={< OurTeam/>} />
